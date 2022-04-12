@@ -1,0 +1,3 @@
+﻿Public Class XRLaporanPenerimaanBarangLangganan
+
+End Class

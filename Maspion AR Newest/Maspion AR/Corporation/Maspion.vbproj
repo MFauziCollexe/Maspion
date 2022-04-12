@@ -1,0 +1,1942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C240E30A-FA37-4A6D-AD55-615FBF1F0F00}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Maspion.My.MyApplication</StartupObject>
+    <RootNamespace>Maspion</RootNamespace>
+    <AssemblyName>Maspion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Maspion.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Maspion.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EC3EAC5B03F2823FED04F6CA6E024D039B69F2E0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Gsmart IT Solution.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Maspion_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>http://gsmart-it.net</ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Maspion.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Maspion.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Charts.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Export">
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.UI">
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI">
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard">
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions">
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1">
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1">
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="FrmPerusahaan.Designer.vb">
+      <DependentUpon>FrmPerusahaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPerusahaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMDI.Designer.vb">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGroupUser.Designer.vb">
+      <DependentUpon>FrmGroupUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGroupUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPostingPeriode.Designer.vb">
+      <DependentUpon>FrmPostingPeriode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPostingPeriode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmIntro.Designer.vb">
+      <DependentUpon>FrmIntro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmIntro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmKoneksi.Designer.vb">
+      <DependentUpon>FrmKoneksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmKoneksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmEditOTP.Designer.vb">
+      <DependentUpon>FrmEditOTP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmEditOTP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pencarian\FrmPencarian2.Designer.vb">
+      <DependentUpon>FrmPencarian2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pencarian\FrmPencarian2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjualan\FrmDebitKreditNote.Designer.vb">
+      <DependentUpon>FrmDebitKreditNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Penjualan\FrmDebitKreditNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retur\FrmReturPusat.Designer.vb">
+      <DependentUpon>FrmReturPusat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Retur\FrmReturPusat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiKekuranganCustomer.Designer.vb">
+      <DependentUpon>CetakanBuktiKekuranganCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiKekuranganCustomer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiPengembalianCustomer.Designer.vb">
+      <DependentUpon>CetakanBuktiPengembalianCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiPengembalianCustomer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiKekuranganCustomer_Menyamping.Designer.vb">
+      <DependentUpon>CetakanBuktiKekuranganCustomer_Menyamping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiKekuranganCustomer_Menyamping.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiPengembalianCustomer_Menyamping.Designer.vb">
+      <DependentUpon>CetakanBuktiPengembalianCustomer_Menyamping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\CetakanBuktiPengembalianCustomer_Menyamping.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\DataSetBuktiKekurangan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBuktiKekurangan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\DataSetBuktiKekuranganDOKontan_menyamping.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBuktiKekuranganDOKontan_menyamping.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\DataSetBuktiPengembalianDOKontan_menyamping.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBuktiPengembalianDOKontan_menyamping.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Cetakan\DataSetCetakanBuktiPengembalianDOKontan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCetakanBuktiPengembalianDOKontan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmBuktiPenerimaanKekuranganDOKontan.Designer.vb">
+      <DependentUpon>FrmBuktiPenerimaanKekuranganDOKontan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmBuktiPenerimaanKekuranganDOKontan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmBuktiPengembalianUangDOKontan.Designer.vb">
+      <DependentUpon>FrmBuktiPengembalianUangDOKontan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmBuktiPengembalianUangDOKontan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmCreateDSRPembelian.Designer.vb">
+      <DependentUpon>FrmCreateDSRPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmCreateDSRPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmCutOffDOKontan.Designer.vb">
+      <DependentUpon>FrmCutOffDOKontan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmCutOffDOKontan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmMasterListBank.Designer.vb">
+      <DependentUpon>FrmMasterListBank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmMasterListBank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmNotaDiskon.Designer.vb">
+      <DependentUpon>FrmNotaDiskon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmNotaDiskon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmPelunasanRetur.Designer.vb">
+      <DependentUpon>FrmPelunasanRetur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmPelunasanRetur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmPembayaranKontan.Designer.vb">
+      <DependentUpon>FrmPembayaranKontan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmPembayaranKontan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmPembayaranKontanDetail.Designer.vb">
+      <DependentUpon>FrmPembayaranKontanDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmPembayaranKontanDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmRincianPembayaran.Designer.vb">
+      <DependentUpon>FrmRincianPembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmRincianPembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmTandaTerima.Designer.vb">
+      <DependentUpon>FrmTandaTerima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmTandaTerima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmValidasiDSRPembelian.Designer.vb">
+      <DependentUpon>FrmValidasiDSRPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmValidasiDSRPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanKartuPiutang.Designer.vb">
+      <DependentUpon>CetakanKartuPiutang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanKartuPiutang.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanAdjusmentStokDetail.Designer.vb">
+      <DependentUpon>XRLaporanAdjusmentStokDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanAdjusmentStokDetail.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanNotaSJ.Designer.vb">
+      <DependentUpon>XRLaporanNotaSJ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanNotaSJ.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPembelianDetail.Designer.vb">
+      <DependentUpon>XRLaporanPembelianDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPembelianDetail.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenjualanEksport.Designer.vb">
+      <DependentUpon>XRLaporanPenjualanEksport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenjualanEksport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenjualanNew.Designer.vb">
+      <DependentUpon>XRLaporanPenjualanNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenjualanNew.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanSelisihPenjualan.Designer.vb">
+      <DependentUpon>XRLaporanSelisihPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanSelisihPenjualan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRDaftarSelisihStok.Designer.vb">
+      <DependentUpon>XRDaftarSelisihStok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRDaftarSelisihStok.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanRekapReturPenjualan.Designer.vb">
+      <DependentUpon>XRLaporanRekapReturPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanRekapReturPenjualan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDetailLPBH.Designer.vb">
+      <DependentUpon>XRLaporanDetailLPBH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDetailLPBH.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDODiskonQty.Designer.vb">
+      <DependentUpon>XRLaporanDODiskonQty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDODiskonQty.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanRekapPenjualan.Designer.vb">
+      <DependentUpon>XRLaporanRekapPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanRekapPenjualan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRSlowMoving.Designer.vb">
+      <DependentUpon>XRSlowMoving.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRSlowMoving.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanReturPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanAdjusmentStok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanAdjusment.Designer.vb">
+      <DependentUpon>XRLaporanAdjusment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanAdjusment.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanControlSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRControlSummary.Designer.vb">
+      <DependentUpon>XRControlSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRControlSummary.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRSummaryDivisi.Designer.vb">
+      <DependentUpon>XRSummaryDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRSummaryDivisi.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRSummaryTahunan.Designer.vb">
+      <DependentUpon>XRSummaryTahunan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRSummaryTahunan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\DataSetLaporanBaru.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLaporanBaru.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\LaporanSummaryFinishGoods.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanBonPesanan.Designer.vb">
+      <DependentUpon>XRLaporanBonPesanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanBonPesanan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanTransferGudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDetailBarangDO.Designer.vb">
+      <DependentUpon>XRLaporanDetailBarangDO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDetailBarangDO.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanLPBH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanLPBL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenerimaanBarangLangganan.Designer.vb">
+      <DependentUpon>XRLaporanPenerimaanBarangLangganan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenerimaanBarangLangganan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenjualan.Designer.vb">
+      <DependentUpon>XRLaporanPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPenjualan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanTransferGudang.Designer.vb">
+      <DependentUpon>XRLaporanTransferGudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanTransferGudang.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRSummaryBulanan.Designer.vb">
+      <DependentUpon>XRSummaryBulanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRSummaryBulanan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XStockRAgeing.Designer.vb">
+      <DependentUpon>XStockRAgeing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XStockRAgeing.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Master\FrmHargaPromo.Designer.vb">
+      <DependentUpon>FrmHargaPromo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmHargaPromo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMonClosing.Designer.vb">
+      <DependentUpon>FrmMonClosing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMonClosing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMultiselect.Designer.vb">
+      <DependentUpon>FrmMultiselect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMultiselect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmReleaseInfo.Designer.vb">
+      <DependentUpon>FrmReleaseInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmReleaseInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmSwitchPeriode.Designer.vb">
+      <DependentUpon>FrmSwitchPeriode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmSwitchPeriode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\FrmWaitingLoadForm.Designer.vb">
+      <DependentUpon>FrmWaitingLoadForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\FrmWaitingLoadForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro\UbahPassword.Designer.vb">
+      <DependentUpon>UbahPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro\UbahPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanPriceList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanNotaSJ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanDO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\New folder\LaporanRekaptulasi.Designer.vb">
+      <DependentUpon>LaporanRekaptulasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\New folder\LaporanRekaptulasi.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\New folder\perincianpenerimaan.Designer.vb">
+      <DependentUpon>perincianpenerimaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\New folder\perincianpenerimaan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\New folder\RekaptuasiPBarang.Designer.vb">
+      <DependentUpon>RekaptuasiPBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\New folder\RekaptuasiPBarang.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\New folder\XRPenerimaanpengirimanbarang.Designer.vb">
+      <DependentUpon>XRPenerimaanpengirimanbarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\New folder\XRPenerimaanpengirimanbarang.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\New folder\XRRekappersediaanbarang.Designer.vb">
+      <DependentUpon>XRRekappersediaanbarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\New folder\XRRekappersediaanbarang.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRSaldoStok.Designer.vb">
+      <DependentUpon>XRSaldoStok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRSaldoStok.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\New folder\XRTotalSales.Designer.vb">
+      <DependentUpon>XRTotalSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\New folder\XRTotalSales.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRPriceListvb.Designer.vb">
+      <DependentUpon>XRPriceListvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRPriceListvb.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDetailDO.Designer.vb">
+      <DependentUpon>XRLaporanDetailDO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDetailDO.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDO.Designer.vb">
+      <DependentUpon>XRLaporanDO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanDO.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\LaporanPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPembelian.Designer.vb">
+      <DependentUpon>XRLaporanPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRLaporanPembelian.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\DSLaporan.vb">
+      <DependentUpon>DSLaporan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\KartuStok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\DSLaporan.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSLaporan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLaporanBase.Designer.vb">
+      <DependentUpon>FrmLaporanBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\FrmLaporanBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\DailySalesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRDailySalesReport.Designer.vb">
+      <DependentUpon>XRDailySalesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRDailySalesReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laporan\XRKartuStok.Designer.vb">
+      <DependentUpon>XRKartuStok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\XRKartuStok.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmPromo.Designer.vb">
+      <DependentUpon>FrmPromo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmPromo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmPT.Designer.vb">
+      <DependentUpon>FrmPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmDepartemen.Designer.vb">
+      <DependentUpon>FrmDepartemen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmDepartemen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmEkspedisi.Designer.vb">
+      <DependentUpon>FrmEkspedisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmEkspedisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmCorporation.Designer.vb">
+      <DependentUpon>FrmCorporation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmCorporation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmSatuan.Designer.vb">
+      <DependentUpon>FrmSatuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmSatuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmGrupBarang.Designer.vb">
+      <DependentUpon>FrmGrupBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmGrupBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmJabatan.Designer.vb">
+      <DependentUpon>FrmJabatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmJabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmBarang.Designer.vb">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmCustomer.Designer.vb">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmGudang.Designer.vb">
+      <DependentUpon>FrmGudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmGudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmSBU.Designer.vb">
+      <DependentUpon>FrmSBU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmSBU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmPropinsi.Designer.vb">
+      <DependentUpon>FrmPropinsi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Extensions\FrmPropinsi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmDivisi.Designer.vb">
+      <DependentUpon>FrmDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmDivisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FrmKaryawan.Designer.vb">
+      <DependentUpon>FrmKaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FrmKaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\ClassKoneksi.vb" />
+    <Compile Include="ModuleClass\FrmCloseTransactionBase.Designer.vb">
+      <DependentUpon>FrmCloseTransactionBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmCloseTransactionBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMenu.Designer.vb">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMenuDetail.Designer.vb">
+      <DependentUpon>FrmMenuDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmMenuDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\Module1.vb" />
+    <Compile Include="Monitoring\FrmMonitoringDOOutstanding.Designer.vb">
+      <DependentUpon>FrmMonitoringDOOutstanding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\FrmMonitoringDOOutstanding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring\FrmMonitoringStok.Designer.vb">
+      <DependentUpon>FrmMonitoringStok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\FrmMonitoringStok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring\FrmMonitoringCustomer.Designer.vb">
+      <DependentUpon>FrmMonitoringCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\FrmMonitoringCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SistemAR\FrmKodeBatasan.Designer.vb">
+      <DependentUpon>FrmKodeBatasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmKodeBatasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmMasterBank.Designer.vb">
+      <DependentUpon>FrmMasterBank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmMasterBank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmSetoranPerPT.Designer.vb">
+      <DependentUpon>FrmSetoranPerPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmSetoranPerPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmUangTitipan.Designer.vb">
+      <DependentUpon>FrmUangTitipan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmUangTitipan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmPengembalianNota.Designer.vb">
+      <DependentUpon>FrmPengembalianNota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmPengembalianNota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmKonfirmasiDibuatkanFakturPajak.Designer.vb">
+      <DependentUpon>FrmKonfirmasiDibuatkanFakturPajak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmKonfirmasiDibuatkanFakturPajak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmPermintaanDibuatkanFakturPajak.Designer.vb">
+      <DependentUpon>FrmPermintaanDibuatkanFakturPajak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmPermintaanDibuatkanFakturPajak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmSetupAkuntansi.Designer.vb">
+      <DependentUpon>FrmSetupAkuntansi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmSetupAkuntansi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmKas.Designer.vb">
+      <DependentUpon>FrmKas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmKas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmKodePerkiraan.Designer.vb">
+      <DependentUpon>FrmKodePerkiraan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmKodePerkiraan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmJurnal.Designer.vb">
+      <DependentUpon>FrmJurnal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmJurnal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmPenyerahanNota.Designer.vb">
+      <DependentUpon>FrmPenyerahanNota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmPenyerahanNota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmProsesJurnal.Designer.vb">
+      <DependentUpon>FrmProsesJurnal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmProsesJurnal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmValidasiDSR.Designer.vb">
+      <DependentUpon>FrmValidasiDSR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmValidasiDSR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\FrmCreateDSR.Designer.vb">
+      <DependentUpon>FrmCreateDSR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\FrmCreateDSR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanKartuRetur.Designer.vb">
+      <DependentUpon>CetakanKartuRetur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanKartuRetur.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanJurnal.Designer.vb">
+      <DependentUpon>CetakanLaporanJurnal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanJurnal.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanJurnalAR.Designer.vb">
+      <DependentUpon>CetakanLaporanJurnalAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanJurnalAR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanRekapJurnalAR.Designer.vb">
+      <DependentUpon>CetakanLaporanRekapJurnalAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanRekapJurnalAR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanSaldoUM.Designer.vb">
+      <DependentUpon>CetakanLaporanSaldoUM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanSaldoUM.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanSalesPerDO.Designer.vb">
+      <DependentUpon>CetakanLaporanSalesPerDO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanLaporanSalesPerDO.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranCorporate.Designer.vb">
+      <DependentUpon>CetakanRekapOmsetPembayaranCorporate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranCorporate.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranCustomer.Designer.vb">
+      <DependentUpon>CetakanRekapOmsetPembayaranCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranCustomer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranPerDivisi.Designer.vb">
+      <DependentUpon>CetakanRekapOmsetPembayaranPerDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranPerDivisi.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapSaldoPerDivisi.Designer.vb">
+      <DependentUpon>CetakanRekapSaldoPerDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanRekapSaldoPerDivisi.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanSubLaporanRekapJurnalAR.Designer.vb">
+      <DependentUpon>CetakanSubLaporanRekapJurnalAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\CetakanSubLaporanRekapJurnalAR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetKartuPiutang.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetKartuPiutang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetlaporanjurnalar.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetlaporanjurnalar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetLaporanSaldoUM.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLaporanSaldoUM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetLaporanSalesPerDO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLaporanSalesPerDO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranCustomer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRekapOmsetPembayaranCustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranPerDivisi.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRekapOmsetPembayaranPerDivisi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetRekapPembayaranCorporate.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRekapPembayaranCorporate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSetRekapSaldoPerDivisi.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRekapSaldoPerDivisi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSet_rekapjurnalar.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_rekapjurnalar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\DataSet_rekapjurnalar.vb">
+      <DependentUpon>DataSet_rekapjurnalar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\FrmLaporanJurnal.Designer.vb">
+      <DependentUpon>FrmLaporanJurnal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\FrmLaporanJurnal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanJurnal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanJurnalAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanKartuPiutang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanKartuRetur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanRekapOmsetPembayaranCorporate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanRekapOmsetPembayaranPerDivisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanRekapOmstePembayaranCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanRekapSaldoPerDivisi.Designer.vb">
+      <DependentUpon>LaporanRekapSaldoPerDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanRekapSaldoPerDivisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanSalesPerDO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Laporan\LaporanSalesUM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemAR\ModuleAR.vb" />
+    <Compile Include="ModuleClass\FrmTransaksi.Designer.vb">
+      <DependentUpon>FrmTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pencarian\FrmPencarianTransaksi.Designer.vb">
+      <DependentUpon>FrmPencarianTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pencarian\FrmPencarianTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleClass\FrmLoading.Designer.vb">
+      <DependentUpon>FrmLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleClass\FrmLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pencarian\FrmPencarian.Designer.vb">
+      <DependentUpon>FrmPencarian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pencarian\FrmPencarian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmSettingPrint.Designer.vb">
+      <DependentUpon>FrmSettingPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmSettingPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportPreview.Designer.vb">
+      <DependentUpon>ReportPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="WaitForm1.Designer.vb">
+      <DependentUpon>WaitForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmPerusahaan.resx">
+      <DependentUpon>FrmPerusahaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMDI.id.resx">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMDI.resx">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGroupUser.resx">
+      <DependentUpon>FrmGroupUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPostingPeriode.resx">
+      <DependentUpon>FrmPostingPeriode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmIntro.resx">
+      <DependentUpon>FrmIntro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmKoneksi.resx">
+      <DependentUpon>FrmKoneksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmEditOTP.resx">
+      <DependentUpon>FrmEditOTP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pencarian\FrmPencarian2.resx">
+      <DependentUpon>FrmPencarian2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjualan\FrmDebitKreditNote.resx">
+      <DependentUpon>FrmDebitKreditNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retur\FrmReturPusat.resx">
+      <DependentUpon>FrmReturPusat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Cetakan\CetakanBuktiKekuranganCustomer.resx">
+      <DependentUpon>CetakanBuktiKekuranganCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Cetakan\CetakanBuktiPengembalianCustomer.resx">
+      <DependentUpon>CetakanBuktiPengembalianCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Cetakan\CetakanBuktiKekuranganCustomer_Menyamping.resx">
+      <DependentUpon>CetakanBuktiKekuranganCustomer_Menyamping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Cetakan\CetakanBuktiPengembalianCustomer_Menyamping.resx">
+      <DependentUpon>CetakanBuktiPengembalianCustomer_Menyamping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmBuktiPenerimaanKekuranganDOKontan.resx">
+      <DependentUpon>FrmBuktiPenerimaanKekuranganDOKontan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmBuktiPengembalianUangDOKontan.resx">
+      <DependentUpon>FrmBuktiPengembalianUangDOKontan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmCreateDSRPembelian.resx">
+      <DependentUpon>FrmCreateDSRPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmCutOffDOKontan.resx">
+      <DependentUpon>FrmCutOffDOKontan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmMasterListBank.resx">
+      <DependentUpon>FrmMasterListBank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmNotaDiskon.resx">
+      <DependentUpon>FrmNotaDiskon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmPelunasanRetur.resx">
+      <DependentUpon>FrmPelunasanRetur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmPembayaranKontan.resx">
+      <DependentUpon>FrmPembayaranKontan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmPembayaranKontanDetail.resx">
+      <DependentUpon>FrmPembayaranKontanDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmRincianPembayaran.resx">
+      <DependentUpon>FrmRincianPembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmTandaTerima.resx">
+      <DependentUpon>FrmTandaTerima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmValidasiDSRPembelian.resx">
+      <DependentUpon>FrmValidasiDSRPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanKartuPiutang.resx">
+      <DependentUpon>CetakanKartuPiutang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanAdjusmentStokDetail.resx">
+      <DependentUpon>XRLaporanAdjusmentStokDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanNotaSJ.resx">
+      <DependentUpon>XRLaporanNotaSJ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanPembelianDetail.resx">
+      <DependentUpon>XRLaporanPembelianDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanPenjualanEksport.resx">
+      <DependentUpon>XRLaporanPenjualanEksport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanPenjualanNew.resx">
+      <DependentUpon>XRLaporanPenjualanNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanSelisihPenjualan.resx">
+      <DependentUpon>XRLaporanSelisihPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRDaftarSelisihStok.resx">
+      <DependentUpon>XRDaftarSelisihStok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanRekapReturPenjualan.resx">
+      <DependentUpon>XRLaporanRekapReturPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanDetailLPBH.resx">
+      <DependentUpon>XRLaporanDetailLPBH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanDODiskonQty.resx">
+      <DependentUpon>XRLaporanDODiskonQty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanRekapPenjualan.resx">
+      <DependentUpon>XRLaporanRekapPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRSlowMoving.resx">
+      <DependentUpon>XRSlowMoving.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanReturPenjualan.resx">
+      <DependentUpon>LaporanReturPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanAdjusmentStok.resx">
+      <DependentUpon>LaporanAdjusmentStok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanAdjusment.resx">
+      <DependentUpon>XRLaporanAdjusment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanControlSummary.resx">
+      <DependentUpon>LaporanControlSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRControlSummary.resx">
+      <DependentUpon>XRControlSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRSummaryDivisi.resx">
+      <DependentUpon>XRSummaryDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRSummaryTahunan.resx">
+      <DependentUpon>XRSummaryTahunan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanSummaryFinishGoods.resx">
+      <DependentUpon>LaporanSummaryFinishGoods.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanBonPesanan.resx">
+      <DependentUpon>XRLaporanBonPesanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanTransferGudang.resx">
+      <DependentUpon>LaporanTransferGudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanDetailBarangDO.resx">
+      <DependentUpon>XRLaporanDetailBarangDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanLPBH.resx">
+      <DependentUpon>LaporanLPBH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanLPBL.resx">
+      <DependentUpon>LaporanLPBL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanPenjualan.resx">
+      <DependentUpon>LaporanPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanPenerimaanBarangLangganan.resx">
+      <DependentUpon>XRLaporanPenerimaanBarangLangganan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanPenjualan.resx">
+      <DependentUpon>XRLaporanPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanTransferGudang.resx">
+      <DependentUpon>XRLaporanTransferGudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRSummaryBulanan.resx">
+      <DependentUpon>XRSummaryBulanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XStockRAgeing.resx">
+      <DependentUpon>XStockRAgeing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmHargaPromo.resx">
+      <DependentUpon>FrmHargaPromo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmMonClosing.resx">
+      <DependentUpon>FrmMonClosing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmMultiselect.resx">
+      <DependentUpon>FrmMultiselect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmReleaseInfo.resx">
+      <DependentUpon>FrmReleaseInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmSwitchPeriode.resx">
+      <DependentUpon>FrmSwitchPeriode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\FrmWaitingLoadForm.resx">
+      <DependentUpon>FrmWaitingLoadForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro\UbahPassword.resx">
+      <DependentUpon>UbahPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanPriceList.resx">
+      <DependentUpon>LaporanPriceList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanNotaSJ.resx">
+      <DependentUpon>LaporanNotaSJ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanDO.resx">
+      <DependentUpon>LaporanDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\New folder\LaporanRekaptulasi.resx">
+      <DependentUpon>LaporanRekaptulasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\New folder\perincianpenerimaan.resx">
+      <DependentUpon>perincianpenerimaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\New folder\RekaptuasiPBarang.resx">
+      <DependentUpon>RekaptuasiPBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\New folder\XRPenerimaanpengirimanbarang.resx">
+      <DependentUpon>XRPenerimaanpengirimanbarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\New folder\XRRekappersediaanbarang.resx">
+      <DependentUpon>XRRekappersediaanbarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRSaldoStok.resx">
+      <DependentUpon>XRSaldoStok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\New folder\XRTotalSales.resx">
+      <DependentUpon>XRTotalSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRPriceListvb.resx">
+      <DependentUpon>XRPriceListvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanDetailDO.resx">
+      <DependentUpon>XRLaporanDetailDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanDO.resx">
+      <DependentUpon>XRLaporanDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\LaporanPembelian.resx">
+      <DependentUpon>LaporanPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRLaporanPembelian.resx">
+      <DependentUpon>XRLaporanPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\KartuStok.resx">
+      <DependentUpon>KartuStok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\FrmLaporanBase.resx">
+      <DependentUpon>FrmLaporanBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\DailySalesReport.resx">
+      <DependentUpon>DailySalesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRDailySalesReport.resx">
+      <DependentUpon>XRDailySalesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\XRKartuStok.resx">
+      <DependentUpon>XRKartuStok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Extensions\FrmPromo.resx">
+      <DependentUpon>FrmPromo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmPT.resx">
+      <DependentUpon>FrmPT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Extensions\FrmDepartemen.resx">
+      <DependentUpon>FrmDepartemen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmEkspedisi.resx">
+      <DependentUpon>FrmEkspedisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmCorporation.resx">
+      <DependentUpon>FrmCorporation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Extensions\FrmSatuan.resx">
+      <DependentUpon>FrmSatuan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Extensions\FrmGrupBarang.resx">
+      <DependentUpon>FrmGrupBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Extensions\FrmJabatan.resx">
+      <DependentUpon>FrmJabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmBarang.resx">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmGudang.resx">
+      <DependentUpon>FrmGudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmSBU.resx">
+      <DependentUpon>FrmSBU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Extensions\FrmPropinsi.resx">
+      <DependentUpon>FrmPropinsi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmDivisi.resx">
+      <DependentUpon>FrmDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FrmKaryawan.resx">
+      <DependentUpon>FrmKaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmCloseTransactionBase.resx">
+      <DependentUpon>FrmCloseTransactionBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmMenu.resx">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmMenuDetail.resx">
+      <DependentUpon>FrmMenuDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\FrmMonitoringDOOutstanding.resx">
+      <DependentUpon>FrmMonitoringDOOutstanding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\FrmMonitoringStok.resx">
+      <DependentUpon>FrmMonitoringStok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring\FrmMonitoringCustomer.resx">
+      <DependentUpon>FrmMonitoringCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmKodeBatasan.resx">
+      <DependentUpon>FrmKodeBatasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmMasterBank.resx">
+      <DependentUpon>FrmMasterBank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmSetoranPerPT.resx">
+      <DependentUpon>FrmSetoranPerPT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmUangTitipan.resx">
+      <DependentUpon>FrmUangTitipan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmPengembalianNota.resx">
+      <DependentUpon>FrmPengembalianNota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmKonfirmasiDibuatkanFakturPajak.resx">
+      <DependentUpon>FrmKonfirmasiDibuatkanFakturPajak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmPermintaanDibuatkanFakturPajak.resx">
+      <DependentUpon>FrmPermintaanDibuatkanFakturPajak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmSetupAkuntansi.resx">
+      <DependentUpon>FrmSetupAkuntansi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmKas.resx">
+      <DependentUpon>FrmKas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmKodePerkiraan.resx">
+      <DependentUpon>FrmKodePerkiraan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmJurnal.resx">
+      <DependentUpon>FrmJurnal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmPenyerahanNota.resx">
+      <DependentUpon>FrmPenyerahanNota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmProsesJurnal.resx">
+      <DependentUpon>FrmProsesJurnal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmValidasiDSR.resx">
+      <DependentUpon>FrmValidasiDSR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\FrmCreateDSR.resx">
+      <DependentUpon>FrmCreateDSR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmTransaksi.resx">
+      <DependentUpon>FrmTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pencarian\FrmPencarianTransaksi.resx">
+      <DependentUpon>FrmPencarianTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleClass\FrmLoading.resx">
+      <DependentUpon>FrmLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pencarian\FrmPencarian.resx">
+      <DependentUpon>FrmPencarian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmSettingPrint.resx">
+      <DependentUpon>FrmSettingPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportPreview.resx">
+      <DependentUpon>ReportPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanKartuRetur.resx">
+      <DependentUpon>CetakanKartuRetur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanLaporanJurnal.resx">
+      <DependentUpon>CetakanLaporanJurnal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanLaporanJurnalAR.resx">
+      <DependentUpon>CetakanLaporanJurnalAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanLaporanRekapJurnalAR.resx">
+      <DependentUpon>CetakanLaporanRekapJurnalAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanLaporanSaldoUM.resx">
+      <DependentUpon>CetakanLaporanSaldoUM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanLaporanSalesPerDO.resx">
+      <DependentUpon>CetakanLaporanSalesPerDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranCorporate.resx">
+      <DependentUpon>CetakanRekapOmsetPembayaranCorporate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranCustomer.resx">
+      <DependentUpon>CetakanRekapOmsetPembayaranCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanRekapOmsetPembayaranPerDivisi.resx">
+      <DependentUpon>CetakanRekapOmsetPembayaranPerDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanRekapSaldoPerDivisi.resx">
+      <DependentUpon>CetakanRekapSaldoPerDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\CetakanSubLaporanRekapJurnalAR.resx">
+      <DependentUpon>CetakanSubLaporanRekapJurnalAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanJurnal.resx">
+      <DependentUpon>LaporanJurnal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanJurnalAR.resx">
+      <DependentUpon>LaporanJurnalAR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanKartuPiutang.resx">
+      <DependentUpon>LaporanKartuPiutang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanKartuRetur.resx">
+      <DependentUpon>LaporanKartuRetur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanRekapOmsetPembayaranCorporate.resx">
+      <DependentUpon>LaporanRekapOmsetPembayaranCorporate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanRekapOmsetPembayaranPerDivisi.resx">
+      <DependentUpon>LaporanRekapOmsetPembayaranPerDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanRekapOmstePembayaranCustomer.resx">
+      <DependentUpon>LaporanRekapOmstePembayaranCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanRekapSaldoPerDivisi.resx">
+      <DependentUpon>LaporanRekapSaldoPerDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanSalesPerDO.resx">
+      <DependentUpon>LaporanSalesPerDO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SistemAR\Laporan\LaporanSalesUM.resx">
+      <DependentUpon>LaporanSalesUM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Gsmart IT Solution.pfx" />
+    <None Include="Laporan\DataSetLaporanBaru.xsc">
+      <DependentUpon>DataSetLaporanBaru.xsd</DependentUpon>
+    </None>
+    <None Include="Laporan\DataSetLaporanBaru.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLaporanBaru.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Laporan\DataSetLaporanBaru.xss">
+      <DependentUpon>DataSetLaporanBaru.xsd</DependentUpon>
+    </None>
+    <None Include="Laporan\DSLaporan.xsc">
+      <DependentUpon>DSLaporan.xsd</DependentUpon>
+    </None>
+    <None Include="Laporan\DSLaporan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSLaporan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Laporan\DSLaporan.xss">
+      <DependentUpon>DSLaporan.xsd</DependentUpon>
+    </None>
+    <None Include="Maspion_1_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiKekurangan.xsc">
+      <DependentUpon>DataSetBuktiKekurangan.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiKekurangan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBuktiKekurangan.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiKekurangan.xss">
+      <DependentUpon>DataSetBuktiKekurangan.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiKekuranganDOKontan_menyamping.xsc">
+      <DependentUpon>DataSetBuktiKekuranganDOKontan_menyamping.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiKekuranganDOKontan_menyamping.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBuktiKekuranganDOKontan_menyamping.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiKekuranganDOKontan_menyamping.xss">
+      <DependentUpon>DataSetBuktiKekuranganDOKontan_menyamping.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiPengembalianDOKontan_menyamping.xsc">
+      <DependentUpon>DataSetBuktiPengembalianDOKontan_menyamping.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiPengembalianDOKontan_menyamping.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBuktiPengembalianDOKontan_menyamping.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetBuktiPengembalianDOKontan_menyamping.xss">
+      <DependentUpon>DataSetBuktiPengembalianDOKontan_menyamping.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetCetakanBuktiPengembalianDOKontan.xsc">
+      <DependentUpon>DataSetCetakanBuktiPengembalianDOKontan.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetCetakanBuktiPengembalianDOKontan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCetakanBuktiPengembalianDOKontan.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Cetakan\DataSetCetakanBuktiPengembalianDOKontan.xss">
+      <DependentUpon>DataSetCetakanBuktiPengembalianDOKontan.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetKartuPiutang.xsc">
+      <DependentUpon>DataSetKartuPiutang.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetKartuPiutang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetKartuPiutang.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetKartuPiutang.xss">
+      <DependentUpon>DataSetKartuPiutang.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetlaporanjurnalar.xsc">
+      <DependentUpon>DataSetlaporanjurnalar.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetlaporanjurnalar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetlaporanjurnalar.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetlaporanjurnalar.xss">
+      <DependentUpon>DataSetlaporanjurnalar.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetLaporanSaldoUM.xsc">
+      <DependentUpon>DataSetLaporanSaldoUM.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetLaporanSaldoUM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLaporanSaldoUM.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetLaporanSaldoUM.xss">
+      <DependentUpon>DataSetLaporanSaldoUM.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetLaporanSalesPerDO.xsc">
+      <DependentUpon>DataSetLaporanSalesPerDO.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetLaporanSalesPerDO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLaporanSalesPerDO.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetLaporanSalesPerDO.xss">
+      <DependentUpon>DataSetLaporanSalesPerDO.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranCustomer.xsc">
+      <DependentUpon>DataSetRekapOmsetPembayaranCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranCustomer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRekapOmsetPembayaranCustomer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranCustomer.xss">
+      <DependentUpon>DataSetRekapOmsetPembayaranCustomer.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranPerDivisi.xsc">
+      <DependentUpon>DataSetRekapOmsetPembayaranPerDivisi.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranPerDivisi.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRekapOmsetPembayaranPerDivisi.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapOmsetPembayaranPerDivisi.xss">
+      <DependentUpon>DataSetRekapOmsetPembayaranPerDivisi.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapPembayaranCorporate.xsc">
+      <DependentUpon>DataSetRekapPembayaranCorporate.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapPembayaranCorporate.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRekapPembayaranCorporate.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapPembayaranCorporate.xss">
+      <DependentUpon>DataSetRekapPembayaranCorporate.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapSaldoPerDivisi.xsc">
+      <DependentUpon>DataSetRekapSaldoPerDivisi.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapSaldoPerDivisi.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRekapSaldoPerDivisi.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSetRekapSaldoPerDivisi.xss">
+      <DependentUpon>DataSetRekapSaldoPerDivisi.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSet_rekapjurnalar.xsc">
+      <DependentUpon>DataSet_rekapjurnalar.xsd</DependentUpon>
+    </None>
+    <None Include="SistemAR\Laporan\DataSet_rekapjurnalar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_rekapjurnalar.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SistemAR\Laporan\DataSet_rekapjurnalar.xss">
+      <DependentUpon>DataSet_rekapjurnalar.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Icon\Mon DO.png" />
+    <None Include="Icon\mas-vaishal.png" />
+    <None Include="Resources\Background.jpg" />
+    <None Include="Icon\PembayaranKredit.png" />
+    <None Include="Icon\SuratJalanPenitipanBarang.png" />
+    <None Include="Icon\TitipBarang.png" />
+    <None Include="Icon\SuratJalan.png" />
+    <None Include="Icon\Maspion.jpg" />
+    <None Include="Icon\retur invoice.ico" />
+    <None Include="Icon\return-icon.png" />
+    <None Include="Icon\TTB.png" />
+    <None Include="Icon\Maspion copy.jpg" />
+    <None Include="Icon\Refund.png" />
+    <None Include="Icon\Price List.png" />
+    <None Include="Icon\PenerimaanBarang.png" />
+    <None Include="Resources\Suplier.png" />
+    <None Include="Resources\SPK.png" />
+    <None Include="Icon\Staffing.ico" />
+    <None Include="Icon\Monitoring Pyment Perwakilan.png" />
+    <None Include="Icon\Monitoring Payment.png" />
+    <None Include="Icon\Ordering.ico" />
+    <None Include="Icon\Untitled-10-512.png" />
+    <None Include="Icon\tn-entryform.png" />
+    <None Include="Icon\purchase-order-management.png" />
+    <None Include="Icon\Shopping_Cart_Arrow_Button-512.png" />
+    <None Include="Icon\Policy_Icon2.png" />
+    <None Include="Icon\purchase-order.png" />
+    <None Include="Icon\SBU.png" />
+    <None Include="Icon\Monitoring Stok.png" />
+    <None Include="Icon\Penyesuaian Bahan.png" />
+    <None Include="Icon\Invoice Penjualan.png" />
+    <None Include="Icon\Bahan Masuk.png" />
+    <None Include="Icon\Bahan Keluar.png" />
+    <None Include="Icon\Cost Center.png" />
+    <None Include="Icon\Divisi.png" />
+    <None Include="Icon\Claim.png" />
+    <None Include="Icon\Barang.ico" />
+    <None Include="Icon\Forms.png" />
+    <None Include="Icon\examwatch_icon.png" />
+    <None Include="Icon\form.png" />
+    <None Include="Icon\Icon-OMS.png" />
+    <None Include="Icon\invoice-512.png" />
+    <None Include="Icon\DO Titipan.png" />
+    <None Include="Icon\Delivery Order.png" />
+    <None Include="Icon\Delivery Order Perwakilan.png" />
+    <None Include="Icon\DO Penjualan.png" />
+    <None Include="Icon\company.png" />
+    <None Include="Icon\icon_truck.png" />
+    <None Include="Icon\debitnote.png" />
+    <None Include="Icon\credit-512.png" />
+    <None Include="Icon\icon_pt.png" />
+    <None Include="Icon\cash-inflow-512.png" />
+    <Content Include="Icon\main.xml" />
+    <None Include="Icon\Sales Order.png" />
+    <None Include="Icon\Pembayaran Supplier.jpg" />
+    <None Include="Icon\ReturPembelian.png" />
+    <None Include="Icon\Invoice Pembelian.png" />
+    <None Include="Icon\PO.png" />
+    <None Include="Icon\Gudang.png" />
+    <None Include="Icon\Karyawan.png" />
+    <None Include="Icon\Item.png" />
+    <None Include="Icon\Supplier.ico" />
+    <None Include="Icon\print.ico" />
+    <None Include="Icon\Pendaftaran Costumer.ico" />
+    <None Include="Icon\BukuJurnal.png" />
+    <None Include="Icon\MasterPerkiraan.png" />
+    <None Include="Icon\getImage.png" />
+    <None Include="Icon\Untitled.png" />
+    <None Include="Icon\Switch_Periode.png" />
+    <None Include="Icon\Exit.PNG" />
+    <None Include="Icon\UbahPassword.PNG" />
+    <None Include="Icon\LogOut.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

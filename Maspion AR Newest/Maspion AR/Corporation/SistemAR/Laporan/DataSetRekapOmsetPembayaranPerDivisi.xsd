@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRekapOmsetPembayaranPerDivisi" targetNamespace="http://tempuri.org/DataSetRekapOmsetPembayaranPerDivisi.xsd" xmlns:mstns="http://tempuri.org/DataSetRekapOmsetPembayaranPerDivisi.xsd" xmlns="http://tempuri.org/DataSetRekapOmsetPembayaranPerDivisi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaspionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaspionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.MaspionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select distinct A.DIVISI,C.NAMA NAMA_DIVISI,left(A.KODE_APPROVE,3) KODE_INISIAL,A.KODE_APPROVE,D.NAMA CUSTOMER,format((a.tgl),'MMM') BLN,0 TOTAL  from delivery_order a left join NOTA b with(nolock) on a.ID_TRANSAKSI = b.ID_DO join DIVISI C with(nolock) ON C.KODE = A.DIVISI left join customer d with(nolock) on d.kode_approve = a.kode_approve and a.kode_customer = d.ID where D.NAMA like 'LAUW%' and A.tgl between '2018-01-01' and '2018-01-31'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="NAMA_DIVISI" DataSetColumn="NAMA_DIVISI" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="CUSTOMER" DataSetColumn="CUSTOMER" />
+              <Mapping SourceColumn="BLN" DataSetColumn="BLN" />
+              <Mapping SourceColumn="TOTAL" DataSetColumn="TOTAL" />
+              <Mapping SourceColumn="KODE_INISIAL" DataSetColumn="KODE_INISIAL" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRekapOmsetPembayaranPerDivisi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetRekapOmsetPembayaranPerDivisi" msprop:Generator_UserDSName="DataSetRekapOmsetPembayaranPerDivisi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_DIVISI" msprop:Generator_ColumnVarNameInTable="columnNAMA_DIVISI" msprop:Generator_ColumnPropNameInRow="NAMA_DIVISI" msprop:Generator_ColumnPropNameInTable="NAMA_DIVISIColumn" msprop:Generator_UserColumnName="NAMA_DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER" msprop:Generator_ColumnPropNameInRow="CUSTOMER" msprop:Generator_ColumnPropNameInTable="CUSTOMERColumn" msprop:Generator_UserColumnName="CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BLN" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnBLN" msprop:Generator_ColumnPropNameInRow="BLN" msprop:Generator_ColumnPropNameInTable="BLNColumn" msprop:Generator_UserColumnName="BLN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="KODE_INISIAL" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnKODE_INISIAL" msprop:Generator_ColumnPropNameInRow="KODE_INISIAL" msprop:Generator_ColumnPropNameInTable="KODE_INISIALColumn" msprop:Generator_UserColumnName="KODE_INISIAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

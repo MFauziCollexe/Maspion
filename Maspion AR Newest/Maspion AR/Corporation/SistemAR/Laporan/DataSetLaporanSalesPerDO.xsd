@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetLaporanSalesPerDO" targetNamespace="http://tempuri.org/DataSetLaporanSalesPerDO.xsd" xmlns:mstns="http://tempuri.org/DataSetLaporanSalesPerDO.xsd" xmlns="http://tempuri.org/DataSetLaporanSalesPerDO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaspionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaspionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.MaspionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select A.NO_DO,a.KODE_APPROVE,d.NAMA customer,b.TGL,NULL TGL_PEMBAYARAN,right(B.NO_NOTA,6) NO_TRANSAKSI,b.DPP +B.PPN AS NILAI_NOTA,0 as NILAI_PEMBAYARAN,0 as NILAI_NOTA_USD,'PENJUALAN' JENIS,1 as URUT,0 COUNT_DO from DELIVERY_ORDER A left join nota b with(nolock)on b.ID_DO = a.ID_TRANSAKSI left join CUSTOMER d on d.ID = a.KODE_CUSTOMER  where PEMBAYARAN = 'KONTAN' and JENIS_DO = 'Ada Barang' 
+union all
+select A.NO_DO,a.KODE_APPROVE,d.NAMA customer,NULL TGL,E.TGL TGL_PEMBAYARAN,NULL NO_TRANSAKSI,0 AS NILAI_NOTA,e.TOTAL as NILAI_PEMBAYARAN,0 as NILAI_NOTA_USD,'PEMBAYARAN / KEKURANGAN DO' JENIS,2 as URUT,0 count_data from DELIVERY_ORDER A left join CUSTOMER d on d.ID = a.KODE_CUSTOMER left join AR_PEMBAYARAN_KONTAN e on e.ID_DO_KONTAN = a.ID_TRANSAKSI where PEMBAYARAN = 'KONTAN' and JENIS_DO = 'Ada Barang'   and e.TOTAL is not null
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NO_DO" DataSetColumn="NO_DO" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="customer" DataSetColumn="customer" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PEMBAYARAN" DataSetColumn="TGL_PEMBAYARAN" />
+              <Mapping SourceColumn="NO_TRANSAKSI" DataSetColumn="NO_TRANSAKSI" />
+              <Mapping SourceColumn="NILAI_NOTA" DataSetColumn="NILAI_NOTA" />
+              <Mapping SourceColumn="NILAI_PEMBAYARAN" DataSetColumn="NILAI_PEMBAYARAN" />
+              <Mapping SourceColumn="NILAI_NOTA_USD" DataSetColumn="NILAI_NOTA_USD" />
+              <Mapping SourceColumn="JENIS" DataSetColumn="JENIS" />
+              <Mapping SourceColumn="COUNT_DO" DataSetColumn="COUNT_DO" />
+              <Mapping SourceColumn="URUT" DataSetColumn="URUT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetLaporanSalesPerDO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetLaporanSalesPerDO" msprop:Generator_UserDSName="DataSetLaporanSalesPerDO">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NO_DO" msprop:Generator_ColumnVarNameInTable="columnNO_DO" msprop:Generator_ColumnPropNameInRow="NO_DO" msprop:Generator_ColumnPropNameInTable="NO_DOColumn" msprop:Generator_UserColumnName="NO_DO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="customer" msprop:Generator_ColumnVarNameInTable="columncustomer" msprop:Generator_ColumnPropNameInRow="customer" msprop:Generator_ColumnPropNameInTable="customerColumn" msprop:Generator_UserColumnName="customer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PEMBAYARAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PEMBAYARAN" msprop:Generator_ColumnPropNameInRow="TGL_PEMBAYARAN" msprop:Generator_ColumnPropNameInTable="TGL_PEMBAYARANColumn" msprop:Generator_UserColumnName="TGL_PEMBAYARAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NO_TRANSAKSI" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNO_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="NO_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="NO_TRANSAKSIColumn" msprop:Generator_UserColumnName="NO_TRANSAKSI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NILAI_NOTA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNILAI_NOTA" msprop:Generator_ColumnPropNameInRow="NILAI_NOTA" msprop:Generator_ColumnPropNameInTable="NILAI_NOTAColumn" msprop:Generator_UserColumnName="NILAI_NOTA" type="xs:double" minOccurs="0" />
+              <xs:element name="NILAI_PEMBAYARAN" msprop:Generator_ColumnVarNameInTable="columnNILAI_PEMBAYARAN" msprop:Generator_ColumnPropNameInRow="NILAI_PEMBAYARAN" msprop:Generator_ColumnPropNameInTable="NILAI_PEMBAYARANColumn" msprop:Generator_UserColumnName="NILAI_PEMBAYARAN" type="xs:double" minOccurs="0" />
+              <xs:element name="NILAI_NOTA_USD" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNILAI_NOTA_USD" msprop:Generator_ColumnPropNameInRow="NILAI_NOTA_USD" msprop:Generator_ColumnPropNameInTable="NILAI_NOTA_USDColumn" msprop:Generator_UserColumnName="NILAI_NOTA_USD" type="xs:int" minOccurs="0" />
+              <xs:element name="JENIS" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnJENIS" msprop:Generator_ColumnPropNameInRow="JENIS" msprop:Generator_ColumnPropNameInTable="JENISColumn" msprop:Generator_UserColumnName="JENIS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="26" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COUNT_DO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCOUNT_DO" msprop:Generator_ColumnPropNameInRow="COUNT_DO" msprop:Generator_ColumnPropNameInTable="COUNT_DOColumn" msprop:Generator_UserColumnName="COUNT_DO" type="xs:int" minOccurs="0" />
+              <xs:element name="URUT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnURUT" msprop:Generator_ColumnPropNameInRow="URUT" msprop:Generator_ColumnPropNameInTable="URUTColumn" msprop:Generator_UserColumnName="URUT" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

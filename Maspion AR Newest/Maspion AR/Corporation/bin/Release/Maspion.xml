@@ -1,0 +1,2216 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Maspion
+</name>
+</assembly>
+<members>
+<member name="T:Maspion.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Bahan_Keluar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Bahan_Masuk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Barang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Bon_Pesanan_Titipan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.BukuJurnal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.cash_inflow_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Claim">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.company">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.credit_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.debitnote">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Delivery_Order">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Delivery_Order_Perwakilan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Divisi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.DO_Penjualan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.DO_Titipan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.ExitIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.getImage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Gudang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.icon_pt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.icon_truck">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.invoice_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Invoice_Pembelian">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Invoice_Penjualan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Karyawan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.LogOut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.mas_vaishal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Maspion">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.MasterPerkiraan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Mon_DO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Monitoring_Payment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Monitoring_Pyment_Perwakilan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Monitoring_Stok">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Ordering">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Pembayaran_Supplier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.PembayaranKredit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Pendaftaran_Costumer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.PenerimaanBarang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Penyesuaian_Bahan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.PO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Price_List">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Refund">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.retur_invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.return_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.ReturPembelian">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Sales_Order">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.SBU">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.SPK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Staffing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Suplier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Supplier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.SuratJalan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.SuratJalanPenitipanBarang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Switch_Periode">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.TitipBarang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.TTB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.UbahPassword">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.My.Resources.Resources.Untitled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Maspion.FrmReturPusat.TxtNoTTB_ButtonClick(System.Object,DevExpress.XtraEditors.Controls.ButtonPressedEventArgs)">
+ <summary>
+ Cari TTB
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Maspion.DataSetBuktiKekurangan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekurangan.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekurangan.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekurangan.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekuranganTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetBuktiKekurangan,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetBuktiKekurangan,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetBuktiKekurangan,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetBuktiKekurangan)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiKekuranganTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyamping">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyamping.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyamping.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyamping.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetBuktiPengembalianDOKontan_menyamping,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetBuktiPengembalianDOKontan_menyamping,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetBuktiPengembalianDOKontan_menyamping,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetBuktiPengembalianDOKontan_menyamping)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetBuktiPengembalianDOKontan_menyampingTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontan.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontan.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontan.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetCetakanBuktiPengembalianDOKontan,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetCetakanBuktiPengembalianDOKontan,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetCetakanBuktiPengembalianDOKontan,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetCetakanBuktiPengembalianDOKontan)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetCetakanBuktiPengembalianDOKontanTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:Maspion.FrmPelunasanRetur.TxtNoTTB_ButtonClick(System.Object,DevExpress.XtraEditors.Controls.ButtonPressedEventArgs)">
+ <summary>
+ Cari TTB
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_SUMMARYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_TAHUNANDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_DIVISIDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_CONTROL_SUMMARYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.LAPORAN_ADJUSMENT_STOKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_AGEING_STOKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_SLOW_MOVINGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.REKAP_PENJUALANDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.DAFTAR_SELISIH_STOKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_SUMMARYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_TAHUNANRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_DIVISIRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_CONTROL_SUMMARYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.LAPORAN_ADJUSMENT_STOKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_AGEING_STOKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_SLOW_MOVINGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.REKAP_PENJUALANRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.DAFTAR_SELISIH_STOKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_SUMMARYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_TAHUNANRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_MONTHLY_DIVISIRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_CONTROL_SUMMARYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.LAPORAN_ADJUSMENT_STOKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_AGEING_STOKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.F_SLOW_MOVINGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.REKAP_PENJUALANRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaru.DAFTAR_SELISIH_STOKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.F_MONTHLY_SUMMARYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.F_MONTHLY_TAHUNANTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.F_MONTHLY_DIVISITableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.F_CONTROL_SUMMARYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.LAPORAN_ADJUSMENT_STOKTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.F_AGEING_STOKTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.F_SLOW_MOVINGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.REKAP_PENJUALANTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.DAFTAR_SELISIH_STOKTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetLaporanBaru,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetLaporanBaru,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetLaporanBaru,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetLaporanBaru)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanBaruTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:Maspion.LaporanTransferGudang.TxtDivisi_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cari Divisi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Maspion.LaporanLPBH.TxtDivisi_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cari Divisi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Maspion.LaporanLPBL.TxtDivisi_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cari Divisi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Maspion.LaporanNotaSJ.TxtDivisi_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cari Divisi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Maspion.LaporanDO.TxtDivisi_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cari Divisi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Maspion.DSLaporan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_PEMBELIANDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DETAIL_BARANG_DODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.DAILY_SALES_REPORTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.KARTU_STOKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DETAIL_DODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.PRICE_LISTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.PROC_SALDO_STOKDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_PENJUALANDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LPBLDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_TRANSFER_GUDANGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.DAILY_SALES_REPORTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.KARTU_STOKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_PEMBELIANRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DETAIL_DORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.PRICE_LISTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.PROC_SALDO_STOKRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_PENJUALANRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LPBLRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DETAIL_BARANG_DORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_TRANSFER_GUDANGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.DAILY_SALES_REPORTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.KARTU_STOKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_PEMBELIANRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DETAIL_DORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.PRICE_LISTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.PROC_SALDO_STOKRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_PENJUALANRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LPBLRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_DETAIL_BARANG_DORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DSLaporan.LAPORAN_TRANSFER_GUDANGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:Maspion.KartuStok.TxtDivisi_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cari Divisi
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.DAILY_SALES_REPORTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.KARTU_STOKTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LAPORAN_PEMBELIANTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LAPORAN_DOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LAPORAN_DETAIL_DOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.PRICE_LISTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.PROC_SALDO_STOKTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LAPORAN_PENJUALANTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LPBLTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LAPORAN_DETAIL_BARANG_DOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.LAPORAN_TRANSFER_GUDANGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DSLaporanTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DSLaporan,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DSLaporanTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DSLaporan,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DSLaporanTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DSLaporan,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DSLaporanTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DSLaporanTableAdapters.TableAdapterManager.UpdateAll(Maspion.DSLaporan)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DSLaporanTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutang.NOTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutang.NOTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutang.NOTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutangTableAdapters.NOTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetKartuPiutang,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetKartuPiutang,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetKartuPiutang,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetKartuPiutang)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetKartuPiutangTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalar">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalar.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalar.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalar.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalarTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetlaporanjurnalar,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetlaporanjurnalar,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetlaporanjurnalar,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetlaporanjurnalar)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetlaporanjurnalarTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUM">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUM.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUM.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUM.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUMTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetLaporanSaldoUM,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetLaporanSaldoUM,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetLaporanSaldoUM,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetLaporanSaldoUM)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSaldoUMTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDO">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDO.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDO.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDO.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDOTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetLaporanSalesPerDO,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetLaporanSalesPerDO,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetLaporanSalesPerDO,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetLaporanSalesPerDO)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetLaporanSalesPerDOTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomer">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomer.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomer.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomer.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetRekapOmsetPembayaranCustomer,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetRekapOmsetPembayaranCustomer,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetRekapOmsetPembayaranCustomer,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetRekapOmsetPembayaranCustomer)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranCustomerTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisi">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisi.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisi.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisi.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetRekapOmsetPembayaranPerDivisi,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetRekapOmsetPembayaranPerDivisi,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetRekapOmsetPembayaranPerDivisi,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetRekapOmsetPembayaranPerDivisi)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapOmsetPembayaranPerDivisiTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporate">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporate.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporate.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporate.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporateTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetRekapPembayaranCorporate,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetRekapPembayaranCorporate,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetRekapPembayaranCorporate,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetRekapPembayaranCorporate)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapPembayaranCorporateTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisi">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisi.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisi.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisi.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSetRekapSaldoPerDivisi,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSetRekapSaldoPerDivisi,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSetRekapSaldoPerDivisi,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSetRekapSaldoPerDivisi)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSetRekapSaldoPerDivisiTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalar">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalar.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalar.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalar.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalarTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.UpdateUpdatedRows(Maspion.DataSet_rekapjurnalar,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.UpdateInsertedRows(Maspion.DataSet_rekapjurnalar,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.UpdateDeletedRows(Maspion.DataSet_rekapjurnalar,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.UpdateAll(Maspion.DataSet_rekapjurnalar)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Maspion.DataSet_rekapjurnalarTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Maspion.ModuleAR.SetupAkun">
+ <summary>
+ Class Untuk Get Setup Akun
+ </summary>
+</member>
+<member name="T:Maspion.ModuleAR.ProsesJurnal">
+ <summary>
+ Class Untuk Insert Jurnal
+ </summary>
+</member>
+<member name="T:Maspion.PrintRibbonControllerResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Customize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Document">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMap">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportMht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportXls">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_FillBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_FindLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_HandTool">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Magnifier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePages">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageMargins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsModerate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNarrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNormal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsWide">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLandscape">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationPortrait">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PageSetupDialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Executive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Legal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Letter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Tabloid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperSize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Parameters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Pointer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetupLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Scale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendCsv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendMht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendPdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendRtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendTxt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendXls">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Watermark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_Zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ZoomIn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Maspion.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

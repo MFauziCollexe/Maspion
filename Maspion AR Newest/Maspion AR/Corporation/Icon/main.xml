@@ -1,0 +1,20 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="Empty" iskey="true" value="Empty">
+    <property name="BackColor">WhiteSmoke</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+  </property>
+  <property name="EvenRow" iskey="true" value="EvenRow">
+    <property name="BackColor">Gainsboro</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+  </property>
+  <property name="FocusedCell" iskey="true" value="FocusedCell">
+    <property name="BackColor">LightBlue</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+  </property>
+</XtraSerializer>

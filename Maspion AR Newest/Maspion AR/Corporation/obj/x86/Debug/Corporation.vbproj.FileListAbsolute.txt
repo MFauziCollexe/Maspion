@@ -1,0 +1,51 @@
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\bin\Debug\Corporation.exe
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\bin\Debug\Corporation.pdb
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\bin\Debug\Corporation.xml
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmMDI.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmIntro.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmKoneksi.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmLogin.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmSwitchPeriode.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.Resources.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmPencarian.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.exe.licenses
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.exe
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.xml
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.pdb
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.UbahPassword.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.DisplayReport.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmSettingPrint.resources
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\bin\Debug\Corporation.exe.config
+c:\users\imam\documents\visual studio 2010\Projects\Corporation\Corporation\obj\x86\Debug\Corporation.FrmSplashScreen.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\bin\Debug\AnakSakti.exe.config
+D:\Project Visual Studio 2010\Corporation\Corporation\bin\Debug\AnakSakti.exe
+D:\Project Visual Studio 2010\Corporation\Corporation\bin\Debug\AnakSakti.pdb
+D:\Project Visual Studio 2010\Corporation\Corporation\bin\Debug\AnakSakti.xml
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\Corporation.vbprojResolveAssemblyReference.cache
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmMDI.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmIntro.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmKoneksi.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmLogin.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmSwitchPeriode.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.SplashScreen1.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.UbahPassword.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.EditKaryawan.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmJabatan.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.InputKaryawan.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.MenuKaryawan.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.Resources.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmPencarianTransaksi.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmLoading.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmPencarian.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.PrintRibbonControllerResources.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.FrmSettingPrint.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.ReportPreview.resources
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\Corporation.vbproj.GenerateResource.Cache
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.exe.licenses
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.exe
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.xml
+D:\Project Visual Studio 2010\Corporation\Corporation\obj\x86\Debug\AnakSakti.pdb
+D:\Project Visual Studio 2010\Corporation\Corporation\bin\Debug\Maspion.exe.config

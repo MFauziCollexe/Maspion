@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetKartuPiutang" targetNamespace="http://tempuri.org/DataSetKartuPiutang.xsd" xmlns:mstns="http://tempuri.org/DataSetKartuPiutang.xsd" xmlns="http://tempuri.org/DataSetKartuPiutang.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaspionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaspionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.MaspionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="NOTATableAdapter" GeneratorDataComponentClassName="NOTATableAdapter" Name="NOTA" UserDataComponentName="NOTATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select top 100 A.*,B.NAMA CUSTOMER,B.ALAMAT_KANTOR,B.LIMIT_PIUTANG from (
+select top 1 'Saldo Awal' Keterangan, a.KODE_CUSTOMER,'' DIVISI,'' tgl,sum((A.DPP +A.PPN) - isnull(B.BAYAR,0)) as debet,0 as kredit,0 as SALDOAWAL,'Saldo Awal' Jenis,0 COUNT_NOTA from nota a with(nolock) left join MONITORING_PAYMENT b with(nolock) on a.KODE_CUSTOMER = b.ID_CUSTOMER and a.NO_NOTA = b.NO_TRANSAKSI group by a.KODE_CUSTOMER
+union all
+select top 10 a.NO_NOTA,a.KODE_CUSTOMER, B.NAMA DIVISI,format(tgl,'dd-MM') tgl,dpp+ppn as debet,0 as kredit,0 as saldo,'Penjualan' as Jenis,0 from NOTA A with(nolock) join DIVISI b with(nolock) on a.DIVISI = b.KODE
+union all
+select top 10 NO_TRANSAKSI,ID_CUSTOMER,'',format(TGL_PAYMENT,'dd-MM') TGL,0 as debet,bayar as kredit,0 as saldo,'Pembayaran' as jenis,0 from MONITORING_PAYMENT with(nolock))A  join CUSTOMER b with(nolock) on a.KODE_CUSTOMER=b.ID
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Keterangan" DataSetColumn="Keterangan" />
+              <Mapping SourceColumn="KODE_CUSTOMER" DataSetColumn="KODE_CUSTOMER" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="tgl" DataSetColumn="tgl" />
+              <Mapping SourceColumn="debet" DataSetColumn="debet" />
+              <Mapping SourceColumn="kredit" DataSetColumn="kredit" />
+              <Mapping SourceColumn="SALDOAWAL" DataSetColumn="SALDOAWAL" />
+              <Mapping SourceColumn="Jenis" DataSetColumn="Jenis" />
+              <Mapping SourceColumn="CUSTOMER" DataSetColumn="CUSTOMER" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="COUNT_NOTA" DataSetColumn="COUNT_NOTA" />
+              <Mapping SourceColumn="LIMIT_PIUTANG" DataSetColumn="LIMIT_PIUTANG" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetKartuPiutang" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetKartuPiutang" msprop:Generator_UserDSName="DataSetKartuPiutang">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NOTA" msprop:Generator_TableClassName="NOTADataTable" msprop:Generator_TableVarName="tableNOTA" msprop:Generator_TablePropName="NOTA" msprop:Generator_RowDeletingName="NOTARowDeleting" msprop:Generator_RowChangingName="NOTARowChanging" msprop:Generator_RowEvHandlerName="NOTARowChangeEventHandler" msprop:Generator_RowDeletedName="NOTARowDeleted" msprop:Generator_UserTableName="NOTA" msprop:Generator_RowChangedName="NOTARowChanged" msprop:Generator_RowEvArgName="NOTARowChangeEvent" msprop:Generator_RowClassName="NOTARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Keterangan" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnKeterangan" msprop:Generator_ColumnPropNameInRow="Keterangan" msprop:Generator_ColumnPropNameInTable="KeteranganColumn" msprop:Generator_UserColumnName="Keterangan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_CUSTOMER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnKODE_CUSTOMER" msprop:Generator_ColumnPropNameInRow="KODE_CUSTOMER" msprop:Generator_ColumnPropNameInTable="KODE_CUSTOMERColumn" msprop:Generator_UserColumnName="KODE_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DIVISI" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgl" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntgl" msprop:Generator_ColumnPropNameInRow="tgl" msprop:Generator_ColumnPropNameInTable="tglColumn" msprop:Generator_UserColumnName="tgl" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="debet" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndebet" msprop:Generator_ColumnPropNameInRow="debet" msprop:Generator_ColumnPropNameInTable="debetColumn" msprop:Generator_UserColumnName="debet" type="xs:double" minOccurs="0" />
+              <xs:element name="kredit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnkredit" msprop:Generator_ColumnPropNameInRow="kredit" msprop:Generator_ColumnPropNameInTable="kreditColumn" msprop:Generator_UserColumnName="kredit" type="xs:double" minOccurs="0" />
+              <xs:element name="SALDOAWAL" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSALDOAWAL" msprop:Generator_ColumnPropNameInRow="SALDOAWAL" msprop:Generator_ColumnPropNameInTable="SALDOAWALColumn" msprop:Generator_UserColumnName="SALDOAWAL" type="xs:int" minOccurs="0" />
+              <xs:element name="Jenis" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnJenis" msprop:Generator_ColumnPropNameInRow="Jenis" msprop:Generator_ColumnPropNameInTable="JenisColumn" msprop:Generator_UserColumnName="Jenis" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER" msprop:Generator_ColumnPropNameInRow="CUSTOMER" msprop:Generator_ColumnPropNameInTable="CUSTOMERColumn" msprop:Generator_UserColumnName="CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COUNT_NOTA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCOUNT_NOTA" msprop:Generator_ColumnPropNameInRow="COUNT_NOTA" msprop:Generator_ColumnPropNameInTable="COUNT_NOTAColumn" msprop:Generator_UserColumnName="COUNT_NOTA" type="xs:int" minOccurs="0" />
+              <xs:element name="LIMIT_PIUTANG" msprop:Generator_ColumnVarNameInTable="columnLIMIT_PIUTANG" msprop:Generator_ColumnPropNameInRow="LIMIT_PIUTANG" msprop:Generator_ColumnPropNameInTable="LIMIT_PIUTANGColumn" msprop:Generator_UserColumnName="LIMIT_PIUTANG" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetlaporanjurnalar" targetNamespace="http://tempuri.org/DataSetlaporanjurnalar.xsd" xmlns:mstns="http://tempuri.org/DataSetlaporanjurnalar.xsd" xmlns="http://tempuri.org/DataSetlaporanjurnalar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Maspion_032021ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Maspion_032021ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.Maspion_032021ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaspionConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaspionConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.MaspionConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaspionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaspionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.MaspionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select  '' PARAM_SR,A.JENIS_JURNAL,0 as urutanjurnal,0 as urutansort,0 as urutandsr,c.nama PT,A.TGL_PENGAKUAN,A.TGL_VALUTA,b.KODE_PERKIRAAN,B.KETERANGAN,B.DEBET,B.KREDIT,a.id_jurnal,'' as PROMO,0 as pagenum,0 as debet_per_page,0 as kredit_per_page,0 as prev_value_debet,0 as prev_value_kredit,'' as status_next from ar_jurnal a join ar_jurnal_detail b on a.ID_JURNAL = b.ID_JURNAL left join PT C ON C.KODE  = A.JENIS_JURNAL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="JENIS_JURNAL" DataSetColumn="JENIS_JURNAL" />
+              <Mapping SourceColumn="PT" DataSetColumn="PT" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="TGL_VALUTA" DataSetColumn="TGL_VALUTA" />
+              <Mapping SourceColumn="KODE_PERKIRAAN" DataSetColumn="KODE_PERKIRAAN" />
+              <Mapping SourceColumn="KETERANGAN" DataSetColumn="KETERANGAN" />
+              <Mapping SourceColumn="DEBET" DataSetColumn="DEBET" />
+              <Mapping SourceColumn="KREDIT" DataSetColumn="KREDIT" />
+              <Mapping SourceColumn="urutanjurnal" DataSetColumn="urutanjurnal" />
+              <Mapping SourceColumn="urutandsr" DataSetColumn="urutandsr" />
+              <Mapping SourceColumn="urutansort" DataSetColumn="urutansort" />
+              <Mapping SourceColumn="id_jurnal" DataSetColumn="id_jurnal" />
+              <Mapping SourceColumn="PROMO" DataSetColumn="PROMO" />
+              <Mapping SourceColumn="pagenum" DataSetColumn="pagenum" />
+              <Mapping SourceColumn="debet_per_page" DataSetColumn="debet_per_page" />
+              <Mapping SourceColumn="kredit_per_page" DataSetColumn="kredit_per_page" />
+              <Mapping SourceColumn="prev_value_debet" DataSetColumn="prev_value_debet" />
+              <Mapping SourceColumn="prev_value_kredit" DataSetColumn="prev_value_kredit" />
+              <Mapping SourceColumn="status_next" DataSetColumn="status_next" />
+              <Mapping SourceColumn="PARAM_SR" DataSetColumn="PARAM_SR" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetlaporanjurnalar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetlaporanjurnalar" msprop:Generator_UserDSName="DataSetlaporanjurnalar">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JENIS_JURNAL" msprop:Generator_ColumnVarNameInTable="columnJENIS_JURNAL" msprop:Generator_ColumnPropNameInRow="JENIS_JURNAL" msprop:Generator_ColumnPropNameInTable="JENIS_JURNALColumn" msprop:Generator_UserColumnName="JENIS_JURNAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PT" msprop:Generator_ColumnVarNameInTable="columnPT" msprop:Generator_ColumnPropNameInRow="PT" msprop:Generator_ColumnPropNameInTable="PTColumn" msprop:Generator_UserColumnName="PT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_VALUTA" msprop:Generator_ColumnVarNameInTable="columnTGL_VALUTA" msprop:Generator_ColumnPropNameInRow="TGL_VALUTA" msprop:Generator_ColumnPropNameInTable="TGL_VALUTAColumn" msprop:Generator_UserColumnName="TGL_VALUTA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="KODE_PERKIRAAN" msprop:Generator_ColumnVarNameInTable="columnKODE_PERKIRAAN" msprop:Generator_ColumnPropNameInRow="KODE_PERKIRAAN" msprop:Generator_ColumnPropNameInTable="KODE_PERKIRAANColumn" msprop:Generator_UserColumnName="KODE_PERKIRAAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN" msprop:Generator_ColumnPropNameInRow="KETERANGAN" msprop:Generator_ColumnPropNameInTable="KETERANGANColumn" msprop:Generator_UserColumnName="KETERANGAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEBET" msprop:Generator_ColumnVarNameInTable="columnDEBET" msprop:Generator_ColumnPropNameInRow="DEBET" msprop:Generator_ColumnPropNameInTable="DEBETColumn" msprop:Generator_UserColumnName="DEBET" type="xs:double" minOccurs="0" />
+              <xs:element name="KREDIT" msprop:Generator_ColumnVarNameInTable="columnKREDIT" msprop:Generator_ColumnPropNameInRow="KREDIT" msprop:Generator_ColumnPropNameInTable="KREDITColumn" msprop:Generator_UserColumnName="KREDIT" type="xs:double" minOccurs="0" />
+              <xs:element name="urutanjurnal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnurutanjurnal" msprop:Generator_ColumnPropNameInRow="urutanjurnal" msprop:Generator_ColumnPropNameInTable="urutanjurnalColumn" msprop:Generator_UserColumnName="urutanjurnal" type="xs:int" minOccurs="0" />
+              <xs:element name="urutandsr" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnurutandsr" msprop:Generator_ColumnPropNameInRow="urutandsr" msprop:Generator_ColumnPropNameInTable="urutandsrColumn" msprop:Generator_UserColumnName="urutandsr" type="xs:int" minOccurs="0" />
+              <xs:element name="urutansort" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnurutansort" msprop:Generator_ColumnPropNameInRow="urutansort" msprop:Generator_ColumnPropNameInTable="urutansortColumn" msprop:Generator_UserColumnName="urutansort" type="xs:int" minOccurs="0" />
+              <xs:element name="id_jurnal" msprop:Generator_ColumnVarNameInTable="columnid_jurnal" msprop:Generator_ColumnPropNameInRow="id_jurnal" msprop:Generator_ColumnPropNameInTable="id_jurnalColumn" msprop:Generator_UserColumnName="id_jurnal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROMO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPROMO" msprop:Generator_ColumnPropNameInRow="PROMO" msprop:Generator_ColumnPropNameInTable="PROMOColumn" msprop:Generator_UserColumnName="PROMO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pagenum" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnpagenum" msprop:Generator_ColumnPropNameInRow="pagenum" msprop:Generator_ColumnPropNameInTable="pagenumColumn" msprop:Generator_UserColumnName="pagenum" type="xs:int" minOccurs="0" />
+              <xs:element name="debet_per_page" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndebet_per_page" msprop:Generator_ColumnPropNameInRow="debet_per_page" msprop:Generator_ColumnPropNameInTable="debet_per_pageColumn" msprop:Generator_UserColumnName="debet_per_page" type="xs:int" minOccurs="0" />
+              <xs:element name="kredit_per_page" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnkredit_per_page" msprop:Generator_ColumnPropNameInRow="kredit_per_page" msprop:Generator_ColumnPropNameInTable="kredit_per_pageColumn" msprop:Generator_UserColumnName="kredit_per_page" type="xs:int" minOccurs="0" />
+              <xs:element name="prev_value_debet" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnprev_value_debet" msprop:Generator_ColumnPropNameInRow="prev_value_debet" msprop:Generator_ColumnPropNameInTable="prev_value_debetColumn" msprop:Generator_UserColumnName="prev_value_debet" type="xs:int" minOccurs="0" />
+              <xs:element name="prev_value_kredit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnprev_value_kredit" msprop:Generator_ColumnPropNameInRow="prev_value_kredit" msprop:Generator_ColumnPropNameInTable="prev_value_kreditColumn" msprop:Generator_UserColumnName="prev_value_kredit" type="xs:int" minOccurs="0" />
+              <xs:element name="status_next" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnstatus_next" msprop:Generator_ColumnPropNameInRow="status_next" msprop:Generator_ColumnPropNameInTable="status_nextColumn" msprop:Generator_UserColumnName="status_next" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARAM_SR" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPARAM_SR" msprop:Generator_ColumnPropNameInRow="PARAM_SR" msprop:Generator_ColumnPropNameInTable="PARAM_SRColumn" msprop:Generator_UserColumnName="PARAM_SR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:id_jurnal" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

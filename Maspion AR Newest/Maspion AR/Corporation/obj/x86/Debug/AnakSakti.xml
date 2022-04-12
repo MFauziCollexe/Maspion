@@ -1,0 +1,565 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AnakSakti
+</name>
+</assembly>
+<members>
+<member name="P:AnakSakti.PrintRibbonControllerResources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Customize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Document">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMap">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHF">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsv">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportFile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportFileLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportMht">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportXls">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_FillBackground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Find">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_FindLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_HandTool">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Magnifier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePages">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Open">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageMargins">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsModerate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNarrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNormal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsWide">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLandscape">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationPortrait">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PageSetupDialog">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Executive">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Legal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Letter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Tabloid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperSize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Parameters">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Pointer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetupLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Scale">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendCsv">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendFile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendFileLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendMht">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendPdf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendRtf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendTxt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendXls">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Watermark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_Zoom">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ZoomIn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:AnakSakti.PrintRibbonControllerResources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Bahan_Keluar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Bahan_Masuk">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.BukuJurnal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Cost_Center">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.ExitIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.getImage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Gudang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Invoice_Pembelian">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Invoice_Penjualan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Item">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Karyawan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.LogOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.MasterPerkiraan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Monitoring_Stok">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Pembayaran_Supplier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Pendaftaran_Costumer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Penyesuaian_Bahan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.PO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.ReturPembelian">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Sales_Order">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Supplier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Switch_Periode">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.UbahPassword">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:AnakSakti.My.Resources.Resources.Untitled">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:AnakSakti.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

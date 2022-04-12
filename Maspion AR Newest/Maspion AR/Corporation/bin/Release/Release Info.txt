@@ -1,0 +1,1579 @@
+﻿16.4.6.2
+
+- Nonaktifkan login gagal 3x close
+
+
+16.4.8.1
+
+- Hiden Password
+- Add Application Menu (Log Out, Exit, etc.)
+
+
+16.4.11.1
+
+- Bug Fixes Monitoring Customer
+- Add Column "Kode Approve" Menu Customer
+
+16.4.11.2
+
+- Bug Fixes Monitoring Customer
+
+16.4.12.1
+
+- Add Master PT
+- Add Column "PT" in Master Customer
+- Add Copy Feature Master Customer
+
+16.4.13.1
+
+- Allow Comma Koli Isi
+- Change Format Limit Piutang Customer
+
+16.4.14.1
+
+- Add Column PT Menu Customer
+- Add Column PT Monitoring Customer
+- Active Password Editor Otorisasi Master Karyawan
+- Enable Shortcut Monitoring Customer
+
+16.4.18.1
+
+- Bug Fixes
+- Revition Form Price List
+- Allow Type Detail Piutang Customer
+
+16.4.19.1
+
+- Bug Fixes
+- Disable Auto Scroll Toolbar Form Customer
+
+16.4.21.1
+
+- Bug Fixes
+- Revition And Add Feature Price List
+- Add Table Detail Price List Customer
+- Check Price List In Transaction
+
+16.4.22.1
+
+- Harga Beli supermarket => Harga Distributor
+- Cetakan DO fix
+- Layout DO fix
+
+
+Version 16.4.29.2
+
+- Bug Fixes
+- Perbaikan Cetakan DO
+- Diskon Sudah Bisa Terbaca di DO
+- Bisa Baris Baru DO
+- Peringatan Kredit sudah dibetulkan
+
+Version 16.5.2.1
+
+- Optimize cara input diskon
+- Diskon pindah kotak diskon lain pakai enter
+- Penetapan Diskon Reguler 15%
+- Bug fixes
+- Clear Form Setelah Input DO
+
+Version 16.5.2.2
+
+- Bug Fixes F7-Copy Customer
+- Pembenahan Cetakan Purchase Order
+- Perhitungan Koli Supermarket Acuan Dari Satuan Konversi Koli
+
+Versi 16.5.9.1
+
+- Bug Fixes Show autofilternya di tampilkan waktu klik 
+  headernya akan error.
+- Bug Fixes Show autofilternya di tampilkan waktu klik 
+  headernya akan error.
+- Bug Fixes Show autofilternya di tampilkan waktu klik 
+  headernya akan error.
+- Po Supermarket & Distributor tidak boleh tercampur.
+  yang saat ini list Po Supermaket & Distributor jd satu.
+- List Po di menu input po, harusnya per divisi
+    sesuai divisi yg di pegang admin marketing.
+    karena si admin akan kesulitan untuk mencari
+    data po milik mereka bila list Po nya sdh banyak.
+    show autofilternya di tampilkan waktu klik 
+    headernya akan error.
+- Pemilihan divisi untuk dibawah Po manual, untuk
+    user yang tersetting sesuai tanggung jawab divisi
+    harusnya user tsb tidak bisa pilih divisi lain, karena
+   sudah di tetapkan divisi yg mereka pegang.
+- Untuk kotak alamat kirim waktu input ga bisa di enter,
+    kalau di enter langsung pindah ke divisi.
+- Layout input Po, tolong disamakan dengan layout
+   input Do, untuk inputan item melebar kekanan
+   dan untuk header satuan, koli,kuantum,pieces,
+   harga satuan, disc%,disc satuan,subtotal bisakah
+   dibuat fix dgn judul headernya, jd ga ke hide
+   kolom disc & subtotal ga perlu selebar itu
+- untuk discount Regular tolong di buatkan seperti di do
+    sdh default 15%,  sama juga untuk nominalnya di buat
+    bisa diubah manual, tapi waktu di ubah manual disc 15%
+   jgn berubah ini untuk case alfa midi & lotte shoping.
+- DO Supermarket & Distributor tidak boleh tercampur.
+    yang saat ini list DO Supermaket & Distributor jd satu.
+- List DO di menu input DO, harusnya per divisi
+    sesuai divisi yg di pegang admin marketing.
+    karena si admin akan kesulitan untuk mencari
+    data po milik mereka bila list DO nya sdh banyak.
+- Pemilihan divisi untuk user yang tersetting sesuai
+     tanggung jawab divisi  harusnya user tsb tidak bisa pilih
+    divisi lain, karena sdh ditetapkan divisi yg mereka pegang.
+- Untuk kotak alamat kirim waktu input ga bisa di enter,
+    maksudnya setelah ketik 1 baris mau di enter untuk baris
+    ke dua.
+- Layout input DO, header satuan, koli,kuantum,pieces,
+   harga satuan, disc%,disc satuan,subtotal bisakah
+   dibuat fix dgn judul headernya, jd ga ke hide
+   kolom disc & subtotal ga perlu selebar itu
+- Discount Regular sdh default 15%, tapi tolong buatkan
+    untuk nominalnya agar waktu di ubah manual, disc 15% 
+   jgn berubah ini untuk case alfa midi & lotte shoping.
+
+
+Versi 16.5.9.361
+
+- Bug Fixes
+- More Detail in Email
+
+
+Versi 16.5.923.1
+- Bug Fixes
+- Show Data Price List per Year
+- Check Harga Barang yang kosong DO & PO
+
+Versi 16.5.930.1
+- Bug Fixes
+- More Info in Email
+
+Versi 16.6.1.1
+
+- Bug Fixes
+- Redesign Form Nota/SJ
+- Indicator Batal Transaksi
+
+Versi 16.6.208.1
+
+- Bug Fixes
+- More detail in email
+
+Versi 16.6.210.1
+
+- Bug Fixes
+- More detail in email
+
+Versi 16.6.529.1
+
+- Bug Fixes
+- Perbaikan Export Laporan Detail DO
+
+Versi 16.7.11.1
+
+- Bug Fixes
+- Adding Batal Monitoring Payment
+- Adding Batal Payment Kredit
+- Add Laporan Nota / SJ
+
+Versi 16.7.320.1
+
+- Bug Fixes
+- More Detail in Email
+
+Versi 16.7.321.1
+
+- Bug Fixes Daouble Item Edit Delivery Order
+
+Versi 16.7.321.2
+
+- Bug Fixes Daouble Item Edit Delivery Order
+- Bug Fixes Master Barang Promo
+
+Versi 16.7.321.3
+
+- Bug Fixes Daouble Item Edit Delivery Order
+- Bug Fixes Master Barang Promo
+- Subtotal DO
+
+Versi 16.7.325.1
+
+- Generate number DO & Nota/SJ disabled
+
+Versi 16.7.326.1
+
+- Generate number DO enabled
+
+Versi 16.7.327.1
+
+- Bug Fixes
+- More Detail in Email
+
+Versi 16.8.208.1
+
+- Layout Menu Barang
+- Laporan Kartu Stok
+- Laporan Saldo Stok
+- Pilih Harga pada PO
+- Minor Bug Fixes
+
+Versi 16.8.315.1
+
+- Bug Fixes
+- More detail in email
+
+Versi 16.8.318.1
+
+- Bug Fixes Perhitungan DO
+- Add Laporan Penjualan
+
+Versi 16.8.422.1
+
+- Bug Fixes 
+- More Detail in Email
+
+Versi 16.8.529.1
+
+- Bug Fixes 
+- More Detail in Email
+
+Versi 16.8.530.1
+
+- Bug Fixes 
+- More Detail in Email
+
+Versi 16.8.631.1
+
+- Bug Fixes
+- Check Double Data Barang
+
+Versi 16.8.631.2
+
+- Bug Fixes
+- Check Double Data Master Barang
+- Apply System Item and divisi
+
+Versi 16.9.105.1
+
+- Bug Fixes
+- More detail in email
+
+Versi 16.9.213.1
+
+- Bug Fixes
+- More detail in email
+
+Versi 16.9.216.1
+
+- Bug Fixes
+- Fix Cetakan DO Titipan
+- Fix Column Pencarian pada form Nota Pembelian
+- Fix Column Menu Delivery Order
+
+Versi 16.9.322.1
+
+- Perubahan Modul Retur
+- Activate Form Stok Awal Barang
+- Bug Fix in Email
+- Perbaikan DSR
+- Perbaikan Laporan Pembelian
+- Laporan Pembelian Per Tanggal
+- Form Menu Sort Focus row 1
+- Perbaikan Cetakan DO Titipan
+- Bug Fix Laporan Saldo Stok
+- Bug Fix Laporan Kartu Stok
+
+Versi 16.9.426.1
+
+- Bug Fixes
+
+Versi 16.9.429.1
+
+- Bug Fixes
+- Perubahan Modul Retur Pembelian
+- Pencarian TTB dari nomor Nota
+- Change Font Delivery Order
+- Add Print PKP Customer Option in Delivery Order Form
+- Add Print PKP Customer Option in Nota / SJ Form
+
+Versi 16.9.429.3
+
+- Bug Fixes
+- Add Transfer Barang Retur
+
+Versi 16.9.430.1
+
+- Bug Fixes
+- Add Transfer Barang Retur
+
+Versi 16.9.430.3
+
+- Bug Fixes
+- Add Tanggal Retur Cetakan DO
+
+Versi 16.9.53.1
+
+- Bug Fixes
+
+Versi 16.9.55.1
+
+- Bug Fixes
+- Kuantum Nota/SJ Pusat Bisa Lebih dari Kuantum DO
+- Cetakan Transfer Barang Retur
+
+Versi 16.9.56.1
+
+- Cetakan DO Kuantum bisa koma contoh (1,5)
+- Filter Laporan Penjualan
+- Bug Fix Perhitungan DO
+
+Versi 16.9.57.1
+
+- Bug Fixes
+
+Versi 16.9.58.1
+
+- Bug Fixes Based on Email
+
+Versi 16.9.59.1
+
+- Bug Fixes Based on Email
+
+Versi 16.9.59.2
+
+- Bug Fixes Based on Email
+
+Versi 16.9.60.1
+
+- Bug Fixes Based on Email
+
+Versi 16.9.60.2
+
+- Bug Fixes
+
+Versi 16.9.60.34
+
+- Bug Fixes
+
+Versi 16.9.60.37
+
+- Bug Fixes
+
+Versi 16.9.60.39
+
+- Bug Fixes
+
+Versi 16.9.60.41
+
+- Bug Fixes
+- Add Field Gudang in Delivery Order
+- Add Field Gudang in Bon Pesanan
+- Add Parameter Status Outstanding Laporan Delivery Order
+- View DO & Bon Pesanan Outstanding Per Gudang sesuai User
+- Cetakan Mark Revisi dan Copy
+- Add Field Status & No Nota/SJ in Retur Penjualan
+
+Versi 16.9.60.46
+
+- Bug Fixes
+
+Versi 16.9.60.48
+
+- Bug Fixes
+- Maximal Diskon 3 = 100 rupiah
+
+Versi 16.9.60.50
+
+- Bug Fixes
+
+Versi 16.9.60.51
+
+- Bug Fixes
+- Disabale pembulatan Subtotal Item
+- Pembulatan Total Netto
+- Active Diskon 3 di Form Nota/SJ
+
+Versi 16.9.60.52
+
+- Bug Fixing
+- Pembulatan Pada Setiap Perhitungan
+- Refund Pada Kartu Stok
+- Cetakan Claim Ubah Nomor DO jadi No Nota/SJ
+- Add Filter Laporan DSR
+
+Versi 16.9.60.53
+
+- Bug Fixing
+- Perbaikan Laporan Pembelian
+- Perbaikan diskon 3 pada nota
+- Penyesuaian Cetakan Retur Penjualan
+- Penyesuaian Cetakan Retur Pembelian
+
+Versi 16.9.60.54
+
+- Bug Fixes
+- Purchase Order Pilih DO
+
+Versi 16.9.60.55
+
+- Bug Fixes
+- Purchase Order Pilih DO Tambah Keterangan
+- Diskon hilangkan Rounding
+
+Versi 16.9.60.56
+
+- Bug Fixes
+
+Versi 16.9.60.57
+
+- Bug Fixes
+- Base on email
+
+Versi 16.9.60.58
+
+- Bug Fixes
+- More Detail in email
+
+Versi 16.9.60.59
+
+- Bug Fixes
+- More Detail in email
+
+Versi 16.9.60.60
+
+- Bug Fixes
+
+Versi 16.9.60.61
+
+- Bug Fixes
+
+Versi 16.9.60.62
+
+- Bug Fixes
+
+Versi 16.9.60.63
+
+- Bug Fixes
+- Base on Email
+
+Versi 16.9.60.64
+
+- Bug Fixes
+- Base on Email
+
+Versi 16.9.60.65
+
+- Bug Fixes
+- Base on Email
+
+Versi 16.9.60.66
+
+- Bug Fixes
+- Base on Email
+
+Versi 16.9.60.67
+
+- Bug Fixes
+- Harga Retur Penjualan Berdasarkan Price List Terakhir
+
+Versi 16.9.60.69
+
+- Bug Fixes
+- Print Beberapa TTB
+
+Versi 16.9.60.70
+
+- Bug Fixes
+- Base On Email
+
+Versi 16.9.60.72
+
+- Bug Fixes
+- Base On Email
+
+Versi 16.9.60.73
+
+- Bug Fixes
+- Base On Email
+
+Versi 16.9.60.74
+
+- Tampilkan nama pembuat transfer barang
+- Tambah Kolom isi dan satuan di Menu Master Barang
+- Laporan DO kolom PPN --> Diskon Qty
+
+Versi 16.9.60.75
+
+- Bug Fixes
+
+Versi 17.01.04.1
+
+- Bug Fixes
+
+Versi 17.01.09.1
+
+- Bug Fixes
+- Cetakan Retur Pembelian dan Transfer Barang Retur
+
+Versi 17.01.23.1
+
+- Bug Fixes
+
+Versi 17.02.01.1
+
+- Bug Fixes
+- Add Posting Periode (Adjusment Stok)
+
+Versi 17.02.02.1
+
+- Bug Fixes
+- Add Transaksi Penerimaan Transfer Gudang
+
+Versi 17.02.14.1
+
+- Bug Fixes base on Email
+
+Versi 17.02.20.1
+
+- Bug Fixes base on Email
+
+Versi 17.02.24.1
+
+- Bug Fixes base on Email
+
+Versi 17.03.01.1
+
+- Bug Fixes Lporan Kartu Stok dan Laporan DO
+
+Versi 17.03.08.1
+
+- Bug Fixes Base on Email
+
+Versi 17.03.20.1
+
+- Bug Fixes Base on Email Tanggal 10,15,17 Maret 2017
+
+Versi 17.03.21.1
+
+- Bug Fixes 
+
+Versi 17.03.30.1
+
+- Bug Fixes 
+
+Versi 17.04.05.1
+
+- Bug Fixes 
+
+Versi 17.04.21.1
+
+- Bug Fixes based on email
+
+Versi 17.05.05.1
+
+- Bug Fixes based on email
+
+Versi 17.05.17.1
+
+- Bug Fixes based on email
+
+Versi 17.05.24.1
+
+- Bug Fixes based on email
+[dbo].[PROC_KARTU_STOK_LAMA] 
+
+UPDATE SALDO_STOK SET GUDANG=(SELECT TOP 1 GUDANG_TUJUAN FROM PENERIMAAN_TRANSFER WHERE SALDO_STOK.ID_TRANSAKSI=PENERIMAAN_TRANSFER.ID_TRANSAKSI) WHERE NO_TRANSAKSI LIKE 'PT%'
+
+PRICE LIST ADD COLUMN CUSTOMER
+
+UPDATE PRICE_LIST SET CUSTOMER= (SELECT STUFF((SELECT '; ' + '(' + D.KODE_APPROVE + ') ' + CUSTOMER.NAMA FROM DETAIL_PRICE_LIST_CUSTOMER D LEFT JOIN CUSTOMER ON D.KODE_APPROVE=CUSTOMER.KODE_APPROVE WHERE D.ID_TRANSAKSI=PRICE_LIST.ID_TRANSAKSI ORDER BY NAMA FOR XML PATH('')), 1, 1, ''))
+
+F_D_DB_PERW_T_STUFF
+F_D_DB_PUSAT_T_NOTA
+
+
+Versi 17.05.31.1
+
+- Bug Fixes based on email
+
+Versi 17.06.07.1
+
+- Bug Fixes based on email
+
+Versi 17.06.14.1
+
+- Bug Fixes based on email
+
+Versi 17.06.19.1
+
+- Bug Fixes based on email
+
+Versi 17.06.20.1
+
+- Bug Fixes based on email
+
+Versi 17.07.05.1
+
+- Bug Fixes based on email
+
+Versi 17.07.18.1
+
+- Bug Fixes based on email
+
+Versi 17.07.21.1
+
+- Bug Fixes based on email
+
+Versi 17.08.02.1
+
+- Bug Fixes based on email
+
+Versi 17.08.14.1
+
+- Bug Fixes based on email
+ALTER TABLE DELIVERY_ORDER ADD BEBAS_PPN BIT DEFAULT 0
+ALTER TABLE BON_PESANAN ADD BEBAS_PPN BIT DEFAULT 0
+ALTER TABLE NOTA ADD BEBAS_PPN BIT DEFAULT 0
+ALTER TABLE REFUND ADD BEBAS_PPN BIT DEFAULT 0
+ALTER TABLE PURCHASE_ORDER ADD BEBAS_PPN BIT DEFAULT 0
+ALTER TABLE PEMBELIAN ADD BEBAS_PPN BIT DEFAULT 0
+ALTER TABLE RETUR_PENJUALAN ADD BEBAS_PPN BIT DEFAULT 0
+
+Versi 17.08.18.1
+
+- Bug Fixes based on email
+
+Versi 17.08.21.1
+
+- Bug Fixes based on email
+
+Versi 17.08.28.1
+
+- Bug Fixes based on ticket
+
+Versi 17.08.31.1
+
+- Bug Fixes based on ticket
+
+Versi 17.09.08.1
+
+- Bug Fixes based on ticket 910617, 166697, 401322, 483014
+
+Versi 17.09.12.1
+
+- Bug Fixes based on ticket.
+
+Versi 17.09.29.1
+
+- Bug Fixes based on ticket.
+
+Versi 17.10.04.1
+
+- Add Salesman Field Delivery Order
+
+Versi 17.10.09.1
+
+- Fix DO Titipan dan tambah kolom Salesman.
+
+Versi 17.10.16.1
+
+- Fix case by Ticket.
+
+Versi 17.10.23.1
+
+CASE 1: pak minta tolong buatkan laporan retur penjualan, karena perlu tau langganan / cust yg retur siapa, barang apa aj, jadi 
+              diskusi sm pak Sieping, akhirnya filternya sama seperti laporan penjualan, cuma kalau di laporan penjualan kan ada 
+              kredit kontan, promo & group barang, sy rasa ga perlu, sama jangan lupa pak nama cust yg muncul kalau yg ada centang
+              pkp pakai nama pkp.
+
+CASE 2 : ini case sy yg ada di ticket tgl 14 Sept, user minta tolong supaya alamat kirim ke di nota asli, waktu cek list di sjpb
+              lalu kasih no sjpb, tolong alamat kirim ke nya bisa ikut ke tarik ke sjpb. ( Penjualan Supermarket Perwakilan )
+
+CASE 3 : untuk tgl price list cetakan do, ada master barang yg baru di input, waktu do nya di cetak tgl pricelistnya 01/01/2016
+               apakah ini default? bisa tidak tgl price list yg tercetak tgl waktu input, karena ini barang baru, kalau barang lama, 
+               harga baru pasti di master pricelist, atau di buatkan tgl price list untuk input di master barang, ini sudah sy bahas jg
+               dengan pak Sieping.
+
+CASE 4 : akhir2 ini sering data yg sudah di input/edit di cetak munculnya spt dibawah ini, bisa do atau nota, tolong di cek prob ini
+
+
+Versi 17.11.06.1
+
+Ticket #102969 : Case 1 Cetakan alamat kirim di cetakan SJPB Supermarket
+Ticket #311758 : Case 2 untuk sjpb yg harusnya sjpb penjualan supermarket
+               bukan penjualan langganan, penjualan langganan ga ada masalah apa2, tapi sekarang jadinya keterangan cetakannya 
+               di input tapi waktu di cetak jd ga tampil.
+Ticket #998952 : Case 1 untuk penjualan langganan pusan ada bon pesanan (titipan) untuk cetakannya minta ada print pkp juga, karena perlu juga
+Ticket #322322 : laporan retur penjualannya minta qty nya di totalkan juga, begitu juga laporan penjualannya, soal ini sudah sy bicarakan
+				sm pak Sieping.
+Ticket #162145 : ADJUSMENT NEGATIF LAP KARTU STOCK
+Ticket #581932 : LAPORAN KARTU STOCK DESCRIPTION SALDO STOCK OPNAME
+
+Versi 17.11.17.1
+
+Ticket #499244 : Aktifkan Limit Piutang
+		 Lunaskan Piutang payment kredit di penjualan langganan super perwakilan dan langganan perwakilan mulai bulan oktober 2017 kebawah.
+
+Versi 17.11.28.1
+
+Ticket #310391
+1. beri warna hijau di list do ( perwakilan super & perwakilan langganan ) untuk do2 yg sudah jd stuffing penuh, kalau stuffingnya baru sebagian jgn di beri warna.
+2. di menu cetak beberapa do, baik itu perwakilan super & perwakilan langganan, tolong do2 yg sudah di batal jgn ditampilkan  di list cetak beberapa, begitu juga di yg cetak beberapa di form nota, baik itu nota perwakilan super dan perwakilan langganan.
+
+Ticket #238298
+1. ini inputan untuk nota pusat, bukannya pak Sieping bilang untuk nota pusat(pabrik) pengecualian ? ini kena limit jg !
+2. setelah limitnya jalan, anak2 gudang ga bisa cetak nota, semua kelimit, tp ke limitnya sptnya msh salah, soalnya contoh
+capturan di bawah ini cust supermarket limitnya limit gabungan 1,4m, bukan 336jt.
+3. pak, limit yg dilunaskan 31 Oktober 2107 kebawah, koq nota2 yang januari masih ada di kolom yg belum lunas? ga seperti di monitoring payment, klo sdh lunas dia ada di kolom yg sudah lunas.
+
+Ticket #413649
+1. MAU TANYA KENAPA DATA REFUND DI KARTU STOCK MUNCULNYA SEPERTI DIBAWAH, SOALNYA SETELAH DI 
+              CEK KE DATA REFUND YG DI REFUND JUSTRU BUKAN BARANG/ NILAI YG ITU .
+2. tolong buatkan filter laporan pembelian detail seperti filter di laporan nota contoh ke 2 di bawah, jadi user perlu mengetahui 
+              data detail barang2 pembelian dari pabrik.
+
+Versi 17.12.06.1
+
+Ticket #986098
+CASE 1: untuk adjustment mau tambah lebih dari 1 item tidak bisa, tapi kalau sudah di save trus edit baru bisa tambah item lagi
+harusnya ga perlu tunggu save dulu bisa tambah lebih dari 1 item.
+CASE 2 : untuk tombol cetak di payment kredit, penjualan langganan perwakilan+penjualan supermarket perwakilan, termasuk yang
+pusat, tolong tombol cetaknya di aktifkan supaya bisa di cetak dan di export ke excel.
+
+Ticket #958568
+CASE 1 : untuk case limit_piutang seperti wa pak Sieping yg di group kemaren pak, kalau sy ga salah nangkap
+untuk limit kontan per pt, klo kredit per pt dan sbu, jadi klo ada nota yg divisinya limit di sbunya ga ada harusnya 
+ga bisa buat, kata pak Sieping kemaren udh telp pak Imam, jadi nanti klo masih kurang paham bisa confirm ke pak
+Sieping.
+
+Ticket #487765
+CASE 1: untuk nomor nota tahun depan 2018 tolong dibuat autonumber karena sudah tidak cetak buku nota, jadi tidak ada nomor acuan lagi yg di input manual ke program, kalau bisa di akhir2 minggu updatenya, karena kalau di update januari takut pengiriman jadi kacau, kemarin setelah ngomong2 sm pak Sieping, katanya munculkan autonumbernya tapi bisa di edit, untuk peralihannya, nanti setelah januari baru ditutup ga bisa edit...misalnya setelah update nanti baca dari nomor terakhir dan munculkan nomor berikutnya,
+tapi setelah muncul nomor tsb bisa di edit sesuai nomor buku nota yg ada, dengan catetan nomor yg sama tidak bisa di save.
+
+Ticket #253069
+CASE 1: untuk masala transfer barang, setelah bicara sm pak Sieping, untuk pilihan gudang tujuan modelnya di tampilkan jadi
+user tinggal pilih, yg sekarang ini gudang tujuan bisa ditampilkan jika user di beri hak akses ke gudang tsb, klo cara sekarang ini
+kejadiannya jadi kacau waktu sales bikin ke gudang cibitung, admin gudang sunter bisa comot do tsb, karena kirimnya dari gudang 
+sunter, bukan cibitung, detailnya katanya pak Sieping mau telp pak Imam, atau kalau belum di telpm bisa confirm ke beliau.
+
+Versi 17.12.15.1
+
+Ticket #347031
+- cetak nota over limit
+
+Ticket #925053
+- Limit Piutang yang tidak cocok
+
+Ticket #600024
+CASE 1 :
+untuk hapus payment kredit yg sudah dilunaskan belum bisa, jadi setelah dihapus masih tetap ada di sudah lunas (belum
+pindah ke belum lunas) trus untu tgl payment di kolom yg sudah lunas harusnya di tampilkan tgl payment yg waktu di input
+di pelunasannya ( masalah tgl payment ini di monitoring payment do kontan yg sudah lunas jg masih blank).
+CASE 2:  untuk autonumber nota / surat jalan perwakilan sudah muncul, hanya saja problemnya, kalau notanya mau di edit, setelah
+edit mau rubah tgl pengakuan/ edit qty item barang, nomor notanya berubah ke nomor nota terakhir, harusnya jgn berubah. jadi masih bisa disave ke nomor yg sama kalau edit. 
+
+Ticket #954017
+CASE 1: waktu input saldo awal, dimana ada master barang dengan kode yg sama tapi beda divisi contoh kode barang CPAN35, jika user tau kodenya langsung input, kode barang yg masuk bisa kode barang divisi A-III, padahal sudah pilih divisi AA, kalau ga input kode barang langsung tapi pencarian dulu, itu benar keluar kode sesuai divisi, tapi problem ini di coba di form po, do, itu walau input kode barang langsung keluarnya langsung benar.
+CASE 2 : untuk monitoring stock mau tanya kenapa untuk kode barang MC3720,  tidak muncul di gudang cibitung & angke yg ada divisi LIS-II nya, untuk stock memang nol, tapi kenapa munculnya cuma di gudang retur?, padahal gudang retur juga nol 
+	- CASE 2 : Karena di gudang tersebut belum ada transaksi yang menggunakan barang tersebut sehingga tidak dimunculkan, untuk mempercepat kinerja program.
+	
+Ticket #907193
+CASE 1 : minta tolong untuk laporan do, tambahkan filter group barang, seperti filter di laporan penjualan.
+
+Versi 17.12.29.1
+
+- Auto Reset Generate DO
+- Auto Generate TTB
+- Auto Generate Retur Pembelian
+- Auto Generate Retur Pembelian Tanpa TTB
+
+Versi 18.01.02.1
+
+Ticket #630331
+CASE 1: minta tolong supaya ttb dibuat autonumber, karena 2017 masih cetak buku, makanya input manual di kotak no nota,
+kalau pakai autonumber no tranksaksi ga bisa, soalnya no nota jadi acuan waktu input retur penjualan, retur pembelian * transfer
+barang retur.
+
+Ticket #121051
+CASE 1: pak Sieping minta print pkp di delivery order, di do titipan, surat jalan perwakilan & pusat (langganan & supermarket) di ubah menjadi print npwp, 
+trus selama ini jika print pkp sdh tercentang di do, waktu tarik jadi nota/surat jalan, itu masih harus dicentang ulang, minta supaya waktu sudah tercentang di do, 
+spy otomatis di nota/surat jalan  sudah tercentang, karena kadang tertinggal oleh admin gudang untuk centang ulangnya.
+
+Versi 18.01.05.1
+
+Ticket #409694
+CASE 2: untuk no auto yg sudah jalan seperti nota / surat jalan asli langganan & supermarket, textbox nomornya di disable saja
+              (no edit) termasuk juga no auto ttb & retur pembelian yg baru bapak buat di disable sj (no edit).
+CASE 1: tolong berikan no auto pada sjpb lannganan & supermarket, untuk nomor mungkin sama 6 digit, 
+              untuk textboxnya di disable (no edit), untuk nomor antara langganan & supermarket berdiri sendiri, tidak gabung !
+
+Ticket #942815
+CASE 1 : tolong no retur pembelian di buat auto karena sudah ga cetak buku di 2018 !
+CASE 2 : untuk cetakan retur pembelian tolong buatkan garis kotaknya pak, karena 2018 sudah ga pakai buku.
+
+Ticket #926551
+CASE 1 : sifatnya minta tolong cek sj, koq proses posting periodenya lama sekali ga selesai2 & untuk laporan saldo stock
+               juga munculnya agak lama.
+CASE 2 : pak ada request dari user, bisa tidak warna latar (background) diberi warna yg tidak silau, mungkin karena putih+abu2 gitu
+               jadi agak silau, ini sih terserah pak Imam sj yg atur.
+
+Ticket #752570
+CASE 1: untuk retur pembelian yg sudah autonumber di ticket no #942815 sudah di buatkan, tapi ketinggalan cetakannya pak, 
+              cetakannya tolong buatkan kotak2 garisnya. !
+
+CASE 2 : tolong buatkan juga autonumber untuk transfer barang retur, penerimaan tranfer retur & retur pembelian tanpa ttb, 
+              nomornya sama pak seperti yg lain 6 digit, untuk nomor jadi 1 urut sj antar divisi, misal AA000001, B000002
+
+Versi 18.01.15.1
+
+Ticket #532995
+CASE 1 : minta tolong cutt off ulang untuk divisi2 & gudang2 yg dibawah!
+CASE 2 : minta tolong buatkan supaya waktu admin sales input do jika stock minus, admin terblok tidak bisa input dengan muncul warning message sisa stock terakhir, untuk penjualan langganan perwakilan & super perwakilan.
+
+Ticket #864003
+CASE 1: minta tolong closing semua do 2016 yg outstanding 
+
+Ticket #875834
+CASE 1 : minta tolong supaya no sjpb yg sudah di centang & di simpan, waktu user klik edit lagi no nota tsb, centangan no sjpbnya
+               di posisi disable jg, karena waktu sy test centangannya sy klik jd hilang, waktu sy centang lg nomornya sdh nomor berjalan
+               dan bisa di save.
+
+Ticket #519970
+CASE 1: Ticket #505415 batal y pak ga jadi di fix, gantinya case dibawah cetakan retur pembeliannya sudah ada garis 
+              tapi isinya ga sama dengan waktu yg belum buat garisnya, yg bener isinya yg waktu belum ada garisnya. ! 
+              contohnya gambar ke 2 yg dibawah
+
+Ticket #852546
+CASE 1 : tambahan note untuk cetakan retur pembelian tapi button yg cetakan beberapa itu, waktu cetak ke 2 posisi cetakannya 
+               sudah naik, otomatis cetakan ke 3 dst sdh tidak bisa. untuk ukuran kertas sama dengan cetakan ttb, untuk cetakan ttb
+               yg beberapa sudah benar & pas, tolong disamakan supaya cetakan beberapa retur pembelian bisa pas.
+
+Versi 18.01.30.1
+
+Penambahan Laporan Stok Ageing dan Stok Slow Moving di
+Menu : 
+Laporan -> Kartu Stok
+
+Versi 18.02.05.1
+
+Perubahan Laporan Stok Slow Moving di
+Menu : 
+Laporan -> Kartu Stok
+
+Versi 18.02.12.1
+
+Ticket #146950
+CASE 1 : untuk input do di blok sudah diminta di Ticket #532995, untuk stock marketing yg nol sdh ok, ga bisa input, tapi kalau
+               stock marketing = minus atau stock marketing ada stocknya 2, mau input 10 itu bisa ke input, jadi yg minus tambah
+                minus yg ada sisa stock jadi minus, jadi tolong buatkan supaya waktu input do kalau stock marketing tidak mencukupi
+                inputannya lgs di blok dan beri warning )
+
+Ticket #162371
+CASE 1 : tolong cek untuk qty saldo stocknya tidak cocok dengan kartu stock, untuk contoh item kartu stock sy ambil B S083, kartu 
+               stock nol, saldo stock -24
+
+Ticket #690852
+CASE 1: tolong buatkan laporan rekap penjualan di laporan penjualan, tambahkan di filter laporan penjualannya ada filter rekap seperti 
+              filter di laporan do dibawah yg sy tandain panah. tapi di laporan penjualan tambahinnya y, contoh di screenshootnya dibawah
+              jg.
+
+CASE 2 : minta tolong tampilkan divisi di laporan do dengan filter detail bruto & detail netto, untuk filter rekap & detail barang
+               sudah ada divisinya.
+
+
+Versi 18.03.12.1
+
+Ticket #795604
+CASE 1 : closing do pusat tolong beri warna juga sama seperti yg di perwakilan, lalu untuk do yg sudah diclosing masih muncul
+               di oustanding do, harusnya tidak muncul & juga di laporan do, untuk do yg sudah di closing masih muncul, atau muncul
+               boleh tapi beri warna sama seperti closing do & tidak di jumlah, seperti laporan lain2 yg batal ada warna tapi tidak
+               di jumlah.
+CASE 2 : tolong buatkan tambahan filter di laporan do, filter input nomor do, trus ada linknya ke nomor surat jalan !
+               ini permintaan pak Sukri & sudah di confirm dengan pak Sieping, fungsinya mau tau 1 nomor do sudah jadi di surat jalan
+               / nota nomornya berapa sj.
+			   
+Update 18.03.12.1
+CASE 1 :
+- Outstanding sudah dibetulkan,
+- Laporan harus tetep dihitung karena laporan Delivery Order, apabila mau tahu hasil yg fix silahkan dicek di laporan Nota/SJ
+- Di menu apabila closing dianggap sudah terpenuhi
+
+CASE 2 :
+Saya berikan opsi di Laporan Penjualan karena disana tercantum No. DO nya juga
+
+
+Ticket #783212
+CASE 1 : untuk di group user yg modul limit piutang, kalau sy beri akses lihat saja, tapi posisi di user tombol
+               proses pelunasannya muncul & bisa di klik proses tolong posisi tampilan lihat saja
+CASE 2 : untuk limit piutang tolong di cek lagi, karena sy bingung sm 1 case an Benny Hidayat, dimana surat jalan/ nota
+               yg mau di cetak divisi blg-a nilainya 18 jtan, limit untuk divisi blg-a 20jt, padahal ga ada outstanding untuk divisi blg & blg-a.
+
+Update 18.03.12.1
+CASE 1 :
+Untuk Form yang sifatnya monitoring dan hanya centang memang LIHAT termasuk aturan semua yg ada pada form tersebut.
+
+CASE 2:
+Coba dicek di Corporate nya, kalau ada corporatenya, customer tersebut ikut aturan corporate bukan master customer
+
+Ticket #200967
+CASE 1 : history testnya ada dibawah tiap screen cap ada notenya, jadi tolong di cek master custnya lagi pak !
+trus dicoba lagi dengan cek list kredit dihilangkan, tapi bekas sbu yg ke input tadi sdh disable, tapi kondisi begini input donya bisa,
+sperti screen cap dibawah . tapi kalau di cek list kreditnya trus isi sbunya tapi nominal limitnya = no, itu bisa input do, bukannya harusnya tidak bisa
+nanti bisa unlimitted buat donya, tapi kalau masih ke blok di surat jalan sih masih ga ke blalasan.
+tapi muncul error cust ini tidak bisa akses kedivisi ini, spt screen cap dibawah ini,bukannya kalau kontan itu bisa kesmua divisi ?
+ada cust baru, bagian master cust create dengan hak akses kontan saja spt screen cap dibawah ini :
+
+Fixed
+
+Versi 18.03.13.1
+
+Ticket #624587
+CASE 1 : laporan transfer gudang judul di reportnya salah pak ! 
+CASE 2 : tambahan note dari Ticket #795604, laporan do dengan tambahan filter nomor do, untuk melihat nomor do tsb sudah jadi 
+               nomor surat jalan berapa saja + lagi di laporannya kolom munculkan nama salesnya pak !
+			   
+Ticket #444594
+CASE 1 : lanjut dari ticket #146950, untuk kondisi stock marketing 4 koli 96 bj, kalau admin input donya 6 koli, harusnya kan
+               tidak bisa, karena stocknya 4 koli 96bj, tp ini bisa lewat, jadi dugaan karena sytemnya bloking berdasarkan pieces,
+              karena 5 itu di anggap masih dibawah 96 bj, kalau admin input di posisi pieces bener, tapi ini input di posisi koli.
+               jadi tolong blokingnya kalau inputnya melebihi koli dan biji maka di blok dan keluar warning .
+CASE 2 : untuk form pembelian langganan & supermarket, data yg ditarik kan dari nota pusat(srt jalan) baik langganan maupun  
+               supermarket. tapi kalau ada nota pembelian yg dibatal harusnya qty nota(srt jalan) kembali semula di nota(srt jalan) 
+               tapi kondisi skrg ini kalau ada pembelian yg dibatal, maka qty yg sdh terinput walaupun sdh dibatal tetap dianggap 
+               terpakai, harusnya bisa kembali ke nota(srt jalan) pusat, jadi semacam outstanding nota pusat. jadi tolong dibuatkan
+               kalau pembelian langganan & supermarket ada pembatalan jadinya qty balik ke posisi nota(srt jalan) pusat.
+
+Ticket #615646
+CASE 1 : untuk case ini tolong agar data pembelian, retur & adjusment stock jika ada pembatalan, supaya dihilangkan dari
+               kartu stock qtynya, yg saat ini hanya pembatalan nota(srt jalan) saja qty di kartu stocknya hilang itu juga kadang
+               masih suka nyantol, jadi kadang suka dibatal ulang, tapi untuk yg retur, adjustment, pembelian klo batal ulang
+               tetap aj masih nyantol muncul di kartu stock.
+
+Ticket #346106
+CASE 2 : untuk monitorin stock, tolong jika ada nota (srt jalan) yg dibatal supaya stocknya bisa kembali ke monitoring stock,
+               begitu juga dengan do yg dibatal, supaya stock marketingnya jg bisa balik.			   
+
+
+Versi 18.04.09.1
+
+Ticket #791629
+CASE 1 : ini di ticket #346106 yg kmrn pak Imam minta di open lagi, nanti export excelnya sy kirim via email. karena disini ga bisa 
+               insert excel sy lihat ( note di ticket # 346106 " tolong di cek lagi rekap penjualannya, karena laporan penjualan yg bruto & 
+                                               netto sudah cocok dengan data ar kita, tapi untuk data rekapnya ga cocok dengan laporan penjualan 
+                                               brutonya, sudah sy cek secara excel antara export data rekap dan brutto sy total dengan 
+                                               pivot,hasilnya yg sy highlight hijau nilainya ga cocok ! )
+CASE 2 : ini juga di ticket #615646 sudah minta spy proses batal di adjustment, di retur, di pembelian tolong spy di laporan
+               kartu stock di hilangkan karena skrg msh kondisi yg sama, bisa di lihat capture screen sy yg dibawah ini , dbawahnya
+               lagi tanda sudah di batal !											   
+			   
+Ticket #944013
+CASE 1 : ini juga di ticket #146950 sudah diminta apa ga paham maksud dari text sy kali, next di confirm aj pak kalau ketikan sy
+               ga jelas, jadi nota2 pembelian yg sudah di input di langganan maupun di supermarket, kan sumber datanya tarik dari 
+               nota pusat, nah kalau nota pembelian itu ada yg salah mau dibatal, trus revisi di nota pusat trus tarik ulang lagi kan
+               nah ini mau di panggil ulang lagi no nota pusatnya ga muncul di pencarian no notanya waktu mau input pembelian.
+               jadi nota2 pembelian yg dibatal harusnya muncul / tampilin lagi di pencarian notanya.
+CASE 2 :  untuk data yg sudah diclosing jangan ditampilkan di laporan do untuk semua opsi di filter status outstanding yg sy kotak
+                merah ke tiga2nya.
+
+Ticket #783326
+CASE 1 :  untuk masalah limit corp, info dari P Sieping, jika corp statusnya tidak aktif maka list2 customer di kotak yg
+                saya tanda panah kebawah itu kondisinya tidak aktif juga !
+CASE 2 :  jadi kondisi ini sy lihat selama stock fisik msh ada, maka marketing akan selalu bisa input do terus2an selama yg diinput
+                                gudang blm cetak nota stocknya kan msh ada terus, tapi kata P Sieping akhirnya minta P Imam blocking waktu di stuffing
+                jadi waktu do ke 2 sudah jadi nota kan stock fisik sudah nol, maka untuk do ke 3 waktu gudang bikin stuffing ada warning
+                stock sudah nol atau tidak ada, jadi ga bisa stuffing, tapi di posisi marketing waktu bikin do ke 3 kan posisi sudah nol
+                stock fisiknya walaupun gudang blm jadi nota misalnya, tolong diberi warning stock sudah nol order ke pabrik untuk 
+                restock, begitu infonya P Sieping.
+
+Ticket #229352
+CASE 1 : orang gudang minta tolong supaya desc di laporan kartu stock untuk data2 pembelianm, seperti dibawah ini ada data 
+               pembelian BLG001489, itu bisa ditambahkan tidak pembelian BLG001489 dari LOTTE misalnya, fungsinya untuk 
+               orang gudang ga perlu telusuri lagi kalau pembelian dgn nomor itu di order untuk customer dari lotte, bisa ga pak, 
+               kemaren sih sy jawab ga bisa karena waktu posisi buat po & do ke pabrik ga ada input nama cust, kan atas nama
+               Maspion Jakarta, nah kira2 pak Imam ada solusi ga spy bisa muncul di desc lapran kartu stocknya untuk data pembelian 
+CASE 1: Untuk transaksi pembelian memang sifatnya general artinya pembelian tidak ada sangkut pautnya sama penjualannya siapa. Nantinya jadi informasi yang membingungkan, contoh apabila ada pembelian total 100, 80 untuk LOTTE, sisanya untuk stok. Informasinya tidak valid jika diberikan desc LOTTE padahal tidak semuanya ke LOTTE. 
+Biasanya bisa di trace dari pembelian terus dilihat penjualan dibawahnya nanti ketahuan pembelian nya keluar ke siapa saja.
+
+Ticket #278375
+CASE 1, untuk case ini di Ticket #102969 case ke 2, belum di fix sampai sekarang, tolong pak soalnya itu penting banget
+              untuk orang bagian stock supaya bisa ngecek dan buat laporan ke ho (kantor pusat)
+Case ini dibahas olehPak Sieping dan Pak Eddy, masih belum ada keutusan. Karena permasalahan penggabungan nantinya Informasinya membingungkan karena ada adjusment nilai di akhir periode yang tidak bisa digabung begitu saja.			  
+
+
+Versi 18.05.11.1
+
+Ticket #156742
+CASE 1 : ada no do kontan bisa double, tolong di cek kenapa bisa spt ini, tapi untuk data yg berjalan sdh sy hapus salah satu,
+               bisa cek pakai database di trial .
+
+Ticket #717623
+CASE 1 : tolong di cetakan beberapa retur pembelian, untuk yg item barang yg nol jgn tercetak di notanya, tapi kalau cetaknya
+              di tombol cetak yg waktu input retur pembeliannya udh bener, yg item nol ga keluar, tinggal betulkan yg di cetak beberapa
+              juga sekalia cek yg cetak beberapa di transfer barang retur takutnya sama seperti case retur pembelian untuk problem
+              cetak beberapanya.
+CASE 2 : tahun di laporan kartu stock - saldo stock
+                                                        - slow moving
+                                                        - death stock
+                                                        - not used
+              tahunnya kurang lebar? trus seperti di Ticket #561988 minta tambahin info di laporannya pak untuk satuan packingannya
+              kalau mesti cek lg ke master barang butuh waktu lg & ga mungkin buka per item barang, kalau ud tampil di tiap baris 
+              laporan kan, waktu owner baca laporannya jumlah piece berapa dia bisa hitung langsung dari jumlah per dos nya.
+              ini udh sy info P Sieping koq, beliau yg minta sy bukain ticket.
+
+Ticket #669695
+CASE 1: minta tolong tambahin lagi warna do, jika kondisi do sudah di stuffing sebagian ( misal 1 do ada 5 item barang, baru stuffing 
+              sebagian ) ini beri tanda warna pink !
+CASE 2 : untuk laporan do, di Ticket #944013 sudah sy minta dan dijawab P Imam kan harus tampilkan datanya termasuk yg sudah
+               closing, masalahnya untuk P Sukri jadi butuh waktu lagi  pak untuk milah data yg sudah export ke excelnya karena 
+               musti cari tahu lagi do yg closing mana, atau bapak akalin data do closing yg muncul di laporan bpk beri warna hijau juga
+               jadi nanti waktu p Sukri export ke excel sy tinggal bilang yg warna hijau di delete aj ! gitu aj kali y pak ?
+
+
+Versi 18.05.28.1
+
+- Perbaikan Laporan Saldo Stok
+- Perbaikan Posting Stok
+
+Versi 18.06.26.1
+
+Ticket #683392
+CASE 1: 
+nomor surat jalan bisa double antara perwakilan dan langganan, kalau di cek dari database selisih waktunya lumayan jauh !
+sebelumnya di Ticket #156742 juga problem no do bisa double. tolong di cek karena membuat kacau laporan pak.
+CASE 2 : untuk cetakan do pusat, nama pt di atas pojok kiri atas bisa tidak sesesuai dengan PT mana yg di beli customer,
+               case ini kata P Sieping sudah call P Imam, karena ini juga permintaan P Sieping.
+			   
+			   
+Ticket #623431
+CASE 1 : Tahun di laporan saldo stock kurang lebar !
+CASE 2 : ITem barang yg sudah tidak aktif bisa ke input ? sepertinya inputnya bukan waktu pencarian barang,
+               tapi waktu user ketik manual salah kode barang, jadi blocking juga waktu input manual jika kode barang
+               user ingat tapi jika barang tsb tidak aktif harus tidak boleh terinput !
+			   
+			   
+Ticket #421437
+CASE 1 : Tolong garis cetakan retur pembelian, transfer barang retur & penerimaan tranfer barang retur
+              di hilangkan supaya printernya tidak berat buat garisnya.
+CASE 2 :  Versi terakhir 18.5.xx.xx loading program lama waktu mau cetak  & pencarian nomor do !
+                dibanding versi 18.4.xx.xx
+				
+Ticket #393991
+CASE 1 : untuk laporan kartu stock tolong untuk transaksi batal seperti nota batal, pembelian batal, adjustment batal, retur batal
+              semua transaksi batal, di kartu stocknya masih nyantol, kadang musti dibatal ulang atau dihapus, kalau seperti itu terus
+              repot pak, terutama pak Hardiman complain kerjaan dia jadi lama ! karena harus cek perbaris kartu stock, untuk data yg
+              di tampilkan not used & death stock jg keluarnya ga sesuai  range tgl,  maksudnya 3 bulan & 6 blnnya, msh ga sesuai 
+              tempo tsb ! tolong di cek detail lg.
+CASE 2 : Laporan do closing yg sudah dibuat belum berfungsi, centangan jgn tampil do closing sdh di centang
+              tapi datanya masih muncul !
+
+Versi 18.07.18.1
+
+Ticket #767800
+
+CASE 1 : tolong buatkan laporan do yg tampilkan nilai diskon qty, karena itu di input potongan bonus langganan !
+              jadi dari bu Aysiu ingin ambil data laporan do kontan dengan nilai tersebut, dengan catetan nilai diskon
+              qty itu keluar jika ada keterangan internalnya. jadi data yg muncul tampilkan juga keterangan internalnya
+              kalau case ini ga paham tolong di tanya/ di pastikan ke kami !
+
+Ticket #942157
+
+Menu Nota Retur Penjualan 
+pada tampilan kolom KETERANGAN INTERNAL mohon diganti KET.CETAKAN 
+tambahan lagi u kolom No.Nota diganti No.TTB
+
+Ticket #182100
+
+CASE 1: dari owner kita P Hartanto minta data laporan retur internal dari gudang jakarta ke pabrik surabaya, setelah diskusi sama
+              P Sieping bisa pakai laporan LPBH, tapi minta buatkan versi ada detail barang dari nomor ttbnya dan totalan per nomor ttb
+CASE 2 : Laporan adjusmentnya tolong tampilkan yg kata yg mana menambah yg mana mengurangi, lalu total per nomor  
+               adjustmentnya nilai nettonya jgn di jumlah tapi selisih dari menambah dan menguraginya.
+
+Ticket #563764
+
+CASE 1: case ini ticket yg pernah P Sieping open tp belum di fix, jd di retur tanpa ttb list yg ditampilkan keterangan internalnya
+              diganti keterangan cetak.
+CASE 2 :  dari laporan retur penjualan ini tolong buat versi rekapnya, jadi rekapnya di total per customer & per nomor nota,
+                jadi yg sudah ada sekarang versi detailnya ada detail barang, hanya dari user minta versi rekapnya.
+
+Ticket #124708
+
+CASE 1:  note 1:  nota yg sudah di batal kadang di kartu stock posisinya masih ada datanya jadi masih nyantol (data dari nota 
+                           tsb terhitung), harusnya kalau sudah dibatal kan di kartu stock tidak terhitung 
+               note 2: akhirnya untuk pastikan di search nota itu, ketika di search nomor nota itu waktu klik kanan tombol editnya
+                          masih aktif, jd bisa dibatal lg, begitu lg klo di search, bisa dibatal lg jd bisa dibatal berulang2.
+
+Ticket #939394
+
+CASE 1: untuk laporan kartu stock yg transfer barang, penempatannya masih salah posisi harusnya di pengeluaran, jadinya 
+             sisa stocknya masih salah.
+CASE 2 : untuk laporan transfer barang, maunya ditambahkan kolom lagi untuk total dari hasil qty transfer dengan harga satuan,
+              tapi jika tidak bisa lagi, kata Pak Hardiman, buatkan saja totalnya di baris akhir tapi nilai totalnya itu total dari nominal
+              hasil kali qty x harga satuan. ( kalau ga paham harap konfirmasi maksud note ini ! )
+
+Ticket #488717
+
+CASE 1 : untuk pilih harga waktu input do, dengan kondisi harga khusus/ customer khusus, waktu input item barang harga yg muncul
+               keluarnya sudah benar harga khusus tapi kalau ingin pilih harga lamanya muncul pilihannya bukan harga khusus aja yg
+               tampil, tapi harga umumnya ikut tampil, tolong hilangkan harga umumnya waktu muncul pilihan rubah harganya. tapi untuk
+               harga khusus / customer khusus aj y pak, jgn salah, jgn sampai yg harga normal tampilan pilhan harganya harga khusus !
+
+Versi 18.08.13.1
+
+Ticket #441800
+CASE 1 :  laporan kartu stock masih bisa tembus minus, ternyata setelah di cek di trial, seperti pic dibawah ini
+CASE 2 : pak Sukri ingin tambahkan filter untuk no 1 do, di laporan delivery order, jadi untuk melihat data untuk 1 nomor do seperti
+               di laporan penjualan tapi ini posisinya di laporan delivery order.
+
+Ticket #477281
+CASE 1 : untuk laporan LPBH yg sudah dibuat minta tolong di munculkan nama customer yg jika atas nama perwakilan jakarta,
+              karena laporan ini kan sumber datanya dari retur pembelian & retur pembelian tanpa ttb jadi ada data retur intern jakarta
+              ke pabrik, lalu tolong untuk user diganti dengan keterangan cetakan supaya tahu alasan returnya, karena user inputnya di 
+              keterangan cetakan, & data yang muncul di group total berdasarkan customer & divisi.
+CASE 2 : bisa tidak tolong tambahkan inputan tanggal di master barang, karena kendalanya ketika input barang baru & tanggal 
+               berlaku sudah lewat contoh hari ini tgl 3/8/2018, baru terima hardcopy data tgl berlaku tgl 31/7/2018, MAKA TGL YG  
+               DIBACA UNTUK BARANG YG BARU DI INPUT ADALAH TGL 3/8/2018 PADAHAL BARANG YG BARU DI INPUT INI 
+               BERLAKU HARGANYA BISA SAJA SUDAH LEWAT 31/7/2018 KARENA DISTRIBUSI HARDCOPY / INFO YG 
+               TERLAMBAT SAMPAI JAKARTA, SUDAH SY AKALI INPUT DI MASTER BARANG LALU INPUT LAGI DIMASTER 
+               PRICELIST TAPI JADI MUNCUL 2 HARGANYA & TENTUNYA WAKTU INPUT DO KELUARNYA HARGA TERBARU                           TANGGALNYA. jadi selama ini selalu di akali di crtime database barang sy ganti mundur tglnya tapi kadang resiko sekali.
+
+Ticket #282071
+CASE 1: untuk cetakan nota transfer barang retur masih belum pas dengan kertasnya, juga di cetak beberapa keluarnya masih  
+              melebihi ukuran kertasnya, tolong samakan saja settingan kertasnya dengan cetakan nota & cetakan beberapa retur 
+              pembelian karena di cetakan retur pembelian sudah benar & pas semua, ukuran kertasnya juga sama.
+CASE 2 :  untuk laporan transfer barang retur belum ada selama ini pakai di laporan transfer gudang , setau sy laporan transfer 
+                gudang sumber data dari persediaan transfer & penerimaan gudang, kalau memang bisa gabung di laporan ini tolong 
+                tambahkan kolom no ttb, karena P Hardiman mau tau untuk nota transfer barang retur dari no ttb yg mana. jadi kalau   
+                bisa gabung disini format laporan samakan saja cuma tambah no ttb, kalau tidak bisa gabung disini buat tersendiri format 
+                laporannya samakan dengan format laporan transfer gudang.
+
+Ticket #390544
+CASE 1: untuk input purchase order kenapa item CPOWP14 1 dos 24 pieces, di input di purchase order piecenya 28.800 ?
+              untuk 50 dos kuantum 1.200 sdh benar, piecesnya masih salah, tapi di form input do benar keluarnya 50 dos, 1.200 kuantm
+              1.200 pieces.
+
+Ticket #778483
+CASE 1 : cetakan do titipan belum ada nama salesmannya tolong ditambahkan, seperti cetakan do pusat & perwakilan !
+CASE 2 : laporan retur penjualan sudah sesuai permintaan, cuma dari Ibu Imelda piutang ingin tambahan filter seperti laporan 
+               penjualan, ada filter langganan & supermaket, supaya data yang keluar sudah terfilter mana supermaket mana
+               langganan.
+
+Ticket #983336
+untuk ticket diatas yg pernah diminta, tolong dibatalkan pak dikembalikan semula, jadi ticket diatas diminta agar pilihan rubah harga
+yg muncul di harga khusus tampilkan harga khusus saja, ternyata setelah di jalankan tidak bisa berjalan baik karena jika masa harga
+khususnya berakhir, untuk memakai harga umumnya tidak bisa ! jadi tolong kembalikan untuk customer khusus & harga khusus, waktu klik kanan rubah haga tampilkan pilihan harga umumnya juga !
+
+18.08.28.1
+
+
+Ticket #276495
+case 1 :
+Ticket #282071
+di ticket itu case 1: pernah minta perbaikan hasil cetaknya yg blm pas, ini sudah di coba user, masih kurang sedikit jadi pas masuk lembar ke 2 masih di posisi lembar ke 1, jadi yg ada pensil itu batas kertasnya (sobekan kertasnya)
+
+case 2 :
+Ticket #390544
+di ticket diatas, ada minta laporan retur penjualan dangan filter supermarket & langganan, di update pak Imam bilang tidak bisa karena tidak ada flag supermaket & langganannya, mau tanya laporan retur penjualan data asalnya kan ttb, waktu input ttb bukannya ada opsi supermaket / langganan, apa ga bisa di link dari ttb pak untuk munculkan laporannya mana supermarket mana langganan ?
+kalau memang tidak bisa lewat filter, tolong munculkan saja dilaporannya bisa? kolom usernya ganti saja dengan golongan supermaket/ langganan !
+
+Ticket #908332
+CASE 1 : untuk laporan saldo stock di panggil selalu not repsonding, untuk divisi apa saja tgl periode apa saja !
+CASE 2 : sebelumnya sudah buka ticket #441800, maaf saya salah tangkap dari usernya, yg dimau filter atas 1 nama barang, bukan 
+               1 nomor do, karena maunya untuk 1 nama barang saja !
+
+Ticket #148651
+CASE 1 : untuk di Ticket #778483 sudah betulkan nama salesman di do titipan, tapi di bon pesanan titipan nama salesmannya
+               tidak muncul, tolong munculkan !
+CASE 2: setelah update terakhir sy sudah cek untuk outstanding jadi stuffing stock marketing sudah tidak nambah, tapi setelah 
+              update posisi stock marketing banyak yg minus, setelah telp pak Imam ok karena ada stuffing yg gantung, tapi setelah
+              stuffing di closing2..sudah tidak ada lagi, kenapa stuffing bisa minus? bagaimana cara betulinnya ? karena sy cek sudah 
+              tidak ada gantungan stuffing !
+
+Ticket #796955
+Ticket #477281
+ticket di atas case 2 : untuk jawaban case ini kondisinya beda pak, bukan di master pricelist, jadi contoh ada barang yg master barangnya belum pernah di input, jadi di input otomatis kan inputan master barang ini kan tgl berjalan dan tgl harga yg berjalan itu kan ikut di inputan master barang, padahal perubahan harga untuk barang tersebut bisa di bulan mei contohnya, sedangkan harga lama kan sesuai master barang karena baru di input bulan agustus, jadi terbalik muncul waktu input donya..kalau dari ketikan ini masih ga jelas sy bisa telp untuk menjelaskannya.
+
+18.10.01.1
+
+Ticket #616842
+CASE 1 : tolong buatkan laporan selisih stock opname urgent ! untuk laporan ini sudah konfirmasi dengan pak Sieping,
+               jadi laporan perbandingan data stock di komp dengan data stock fisik dari hasil stock opname, dimana data
+               data hasil stock opname yg di input di persediaan saldo awal. contoh laporannya seperti dibawah ini, paling 
+               akhir ada tanda tangan penyelenggara..dll 
+			   
+Ticket #673373
+CASE 1: cetakan retur pembelian tanpa ttb masih belum pas ! cetakan per nota nya bagian bawah ga kecetak, tapi kalau cetak 
+              beberapa, bagian bawahnya tercetak di lembar ke 2, untuk ukuran kertas sama seperti ukuran kertas cetakan retur 
+              pembelian, transfer barang retur .
+CASE 2 : Laporan retur penjualannya tolong bagian kolom usernya diganti dengan keterangan cetak, karena info keterangan cetaknya
+               lebih dibutuhkan daripada keterangan user.
+
+Ticket #645971
+CASE 1 : Tolong laporan do semua opsi untuk kolom usernya diganti tampilkan nama salesman pak.
+CASE 2 : mau tanya untuk dashboard penjualan bisa tidak dibuat auto send ke email ? tiap bulannya ?
+			   
+
+18.10.24.1
+
+Ticket #610973
+CASE 1 : untuk laporan penjualan masih ada filter yg belum berfungsi, jika pilih 1 nama barang ada keluar error, lalu kalau pilih bmb/
+               sales campage, untuk divisi ac datanya ga keluar, padahal sudah setting di master barangnya, untuk divisi lis keluar !
+              lalu minta tambahkan kolom untuk kode customer, ini permintaan GM disini P Paulus, karena ada nama customer yg 
+               sama, jd supaya bisa bedakan katanya !
+
+Ticket #162406
+DO KONTAN -----> TAMPILAN CETAK DO KONTAN -------> DIGANTI NOTA KONTAN
+
+DO TITIPAN  ------> TAMPILAN CETAK DO TITIPAN ---------> DIGANTI NOTA KONTAN
+
+Ticket #767880
+CASE 2 : update terakhir, programnya suka not responding pak, bisa tolong cek !, apakah datanya semakin besar atau bagaimana
+               jadi kalau pas not responding sy restart sql servernya.
+
+
+
+
+CASE 1 : untuk input data stock opname sdh di coba di divisi ac untuk beberapa item, menambah input stock + dari stock komputer
+               dengan fisik, mengurangi stock jika kurang dari stock yg dikomputer 
+               sudah di coba input dengan tanggal yg berbeda dengan adjustment stock hari2.., tapi laporannya keluarnya semuanya 
+               muncul, filternya sudah dipilih sesuai tanggal input stock opname saja padahal yg sy tandain merah2, itu sj yg baru  di 
+               test input, selebihnya hrsnya ga muncul, trus kolinya cm 1 (nah klo ini sy msh blm paham baca laporannya !)
+
+Ticket #883981
+CASE 2 : pak Sieping tanya apakah bisa dibuat jika hapus data dari program di database data terhapusnya masih ada ?
+               kecuali delete dari sql nya langsung.
+
+
+
+CASE 1 : untuk retur pembelian ada tombol hapus di user, padahal di group user sudah uncentang di modul retur
+
+
+18.11.14.1
+
+Ticket #291570
+case 1 :  case ini sama dengan ticket sebelumnya hanya beda di menunya, sebelumnya menu retur pembelian, ini di adjustment
+              jadi hak akses batal sudah diberikan tapi di tranksaksinya tombol batalnya ga aktif, sepertinya codingnya ada yg tertinggal
+              tolong di cek detail lagi di  menu yg lainnya apakah ada yg tertinggal !.
+case 2 : ini di ticket yang sebelumnya bahwa saya ada permintaan kalau input barang baru tanggal inputnya jgn dibuat default ke 
+              2016, ini jawaban P Imam di ticket kita sebelumnya, tadi sy sudah jelaskan ke P Sieping, katanya juga tidak bisa dijadi
+             kan default, karena barang baru yg di input misalnya 6 november 2018, maka tgl pricelist yg dicetak harusnya 6 nov 2018
+             bukan 1 jan 2016, kalau acuannya ke master pricelist yg pegang master barang agak keberatan dengan 2x input, pertama
+             input di master barang lalu input lagi di master pricelist, jadi tolong dibuatkan yg inputan master barang baru tetap dianggap
+             tgl pricelistnya sesuai tgl input barang baru..harap konfirmasi ke P Sieping jika tidak bisa.
+
+			 
+Ticket #512257
+case 1 : case ini sudah ada diticket sebelumnya, hanya jawabannya tidak bisa karena tidak muat lagi, jadi solusinya dari P Imam
+             kira2 apa, dengan harus tetap ada kolom kode customertnya? setelah sy jelaskan ke P Sieping, beliau bilang buka ticket
+             untuk laporan baru saja, jika memang laporan baru tolong formatnya sama hanya mungkin yg dihilangkan 1 kolom untuk
+             pengganti kolom kode customer, jika menurut sy sih tolong di press lagi kolom divisi, no do, qty, atau ubah ukuran kertasnya
+             mungkin print ini bisa pakai printer dot matrik yg besar lq2190 ukuran A3 kertasnya.
+case 2 : untuk case ini, dari manager marketing kita sini P Anton & team, menanyakan (minta sebenarnya) supaya laporan penjualan 
+             & laporan delivery order (kontan) yg di export ke excel, kenapa kolomnya ada yg terhide, ada yg merge, bisa tidak 
+             kolom2nya jgn ada yg terhide, jg jgn ada yg di merge tp 1 kolom sendiri2, karena mereka ambil datanya, langsung masuk ke 
+             pivot mereka, mereka harus rapihin data2nya dulu, jadi makan waktu lagi, untuk mengolah data mereka. jika tidak bisa tolong
+             bantu jelaskan ke mereka kenapa tidak bisanya.
+
+
+18.12.10.1
+
+Ticket #203542
+CASE 1 : untuk group akses di TTB tidak ada pemberian hak akses untuk retur pembelian, kenapa user tsb bisa muncul modul
+               retur pembelian ?
+
+CASE 2 : Laporan rekap penjualan untuk group divisi di kiri laporan minta ditampilkan secara kolom saja, jika tidak muat
+               kolom qty bisa di hilangkan ganti divisi karena rekap itu tidak ada nama barang jd qty nya bisa dipakai untuk 
+               divisi.
+
+Ticket #956726
+CASE 1: untuk inputan adjustment tolong buat sama seperti di modul inputan do, inputan master pricelist, jadi yg di adjustment, jika 
+             user hafal kode barang, biar cepat dia langsung input kode barang & enter jadi tidak perlu pencarian, tapi jika pilih divisi misal
+             nya Lis-II waktu input kode barang di inputan item barang itu bisa input semua divisi item barang, padahal divisi sudah di 
+             pilih Lis-II, harusnya waktu input kode barang lain dia tidak akan muncul.
+CASE 2: untuk inputan master cust di bagian inputan kota, tolong ada pilihan none / tidak ada nya, karena ada cust
+              yang tidak mau ditampilkan kota nya .
+
+Ticket #528912
+CASE 1: untuk tgl pricelist do, ada user complain kenapa tgl price listny keluar ga sama, setelah di cek memang ada item barang
+             yg tgl pricelistnya ga sama, untuk posisi input barang terakhir maka tgl pricelist itu yg tercetak di do, contoh dibawah
+             akhirnya mau delete 2 item barang terakhir, spy tgl pricelistnya yg 23/7-18 , setelah di hilangkan tgl pricelist di cetakan do
+             masih yg tgl 09/11-16, bukanny harusny jd tgl 23/7-18 ?
+CASE 2: untuk log_aktivitas ini, bisa tidak termasuk tranksaksi yg closing do? supaya tau siapa yg closing.
+
+19.01.02.1
+
+Perbaikan Bug Generate SJ Tanpa Harga dan TTB
+
+19.01.21.1
+
+Ticket #554013
+CASE 1 : P Sieping minta laporan selisih penjualan, jadi dikelompokan di laporan penjualan, tetapi  format dari laporan penjualan, 
+               hanya, no do dihilangkan, kolom lainnya geser kekiri sampai di kolom satuan dihilangkan, kolom harga geser, nah 
+               sebelah harga, ditambah harga distributor (harga yg terbaru/ terakhir naik, kolom subtotal di ganti dengan selisih dengan
+               harga selisih * qty, kolom sales juga dihilangkan!
+              kira2 paham tidak dengan ketikannya, jika tidak paham harap konfirmasi ke sy via telp / ke P Sieping langsung.
+CASE 2 :  untuk cetakan do di baris cetakan npwp, bisa tidak jika opsi print pkp tidak tercentang waktu buat do,
+                yang tercetak di do no ktp, jika opsi print pkp tercentang no npwp yg tercetak di do !
+
+
+19.02.28.1
+
+Ticket #378359
+CASE 1 : tolong cetakan ttb garis kolom yg ditandain saja dihilangkan, karena untuk menghemat kerja print head dot matrik
+               agar tidak terlalu presure mencetak garisnya.
+CASE 2 : tolong buatkan cetakan adjusment stock per tranksaksi, untuk membantu user mengecek detail barang adjustment yg 
+               sudah diinput, sudah di beri opsi cetakan secara laporan, tapi user lebih prefer cetakan pertransaksi.
+
+Ticket #609009
+CASE 1: ini ticket sebelumnya yg blm di fix, sy screen cap tanggapan dari chat whatsapp, supaya cetakan di do kalau npwp
+              tidak ada yang tercetak no ktp
+
+
+19.03.25.2
+
+Ticket #804025
+
+CASE 1 : ini case di ticket 378359 yg blm fix, tolong di buatkan cetakan adjusment stock !
+
+CASE 2 : scrol kiri-kanan master cust ga berfungsi !
+
+
+Ticket #290380
+
+CASE 1 : untuk monitoring outstanding..setelah bahas dengan P Sieping, akhirnya minta tolong filternya samakan dengan filter
+
+               laporan penjualan bisa tidak, tolong klo ga paham bisa info P Sieping.
+
+CASE 2: laporan penjualannya tolong tampilankan kolom code corporate !
+
+19.05.07.1
+
+Ticket #462658
+CASE 1: tgl price list di master barang, harusnya waktu di klik edit munculnya otomatis update tgl pricelist & harga terakhir yg ada
+              di master pricelist, karena jika ada klik edit di master barang, muncul tgl pricelistnya tgl berjalan, jika tidak ada perubahan
+              data & tersimpan, tgl pricelist akan menjadi 01/01/0001 jadi input penjualan (do ) jadi error tidak bisa jalan, tapi jika kita
+              tersimpan tgl berjalan, tgl tersebut akan menjadi tgl pricelist terbaru. ini bisa menjadi kacau, setelah dibahas dengan pak 
+              Sieping, menurut dia waktu klik edit di master barang tgl pricelist & harganya harus otomatis terupdate dari master pricelist
+              terakhir. & untuk setting promo tolong tambahkan periode dari tgl s/d tgl, & bisa di simpan tgl periodenya, karena jika 
+              format seperti sekarang ini , contoh jika barang A masuk promo bmb (barang model baru), jika sudah tidak promo maka
+              settingan promonya harus dihilangkan, tapi jika laporannya mau dipanggil lagi maka data barang yang bmb tidak akan 
+              muncul, jadi mesti dibuatkan periode tgl s/d tgl & dan periode tgl tsb tersimpan, supaya dalam laporan bisa dipanggil
+              datanya bisa muncul, dan bisa juga barang tsb bisa promo lagi di kemudian hari, jadi penting untuk periode di setting promo
+CASE 2 : tolong di server backup dibuatkan database trial juga. 
+               untuk id remotenya 
+
+
+Ticket #905506
+CASE 1 : tolong kolom waktu mau input detail barang di penjualan supermarket (perwakilan+pusat), penjualan 
+               langganan(pusat+perwakilan), kolom alias1 diganti kolom nama2 promo yg di setting promo,
+               ini supaya sales/marketing tahu kalau item barang tsb promo apa.
+
+19.07.03.1
+
+Ticket #959697
+
+case 1: minta tolong untuk laporan dsr ada filter promo seperti di laporang penjualan & laporan do, lalu bisa tidak jika pilih promonya
+           
+judul laporannya keluar sesuai promo yg di pilih ?
+
+19.08.06.1
+
+
+
+CASE 1: untuk inputan item barang di purchase order(langganan+super), 
+        
+delivery order(langganan(pusat=perwakilan))+(super(pusat+perwakilan))
+        
+tolong agar jika item barang yg terpilih barang bmb tidak bisa dicampur(gabung) 
+dengan barang non bmb.
+
+CASE 2: untuk laporan penjualan, tolong buat seperti laporan dsr, 
+jika filter kode promo dipilih maka judul header laporan sesuai 
+        
+dengan filter yg dipilih, misalnyanya jika pilih bmb maka judul laporannya laporan penjualan bmb,
+ lalu minta tambahan
+ kolom untuk tanggal do disebelum/sesudah nomor do, 
+fungsinya untuk membantu data analys mengecek data yg diambil 
+        
+dari laporan penjualan filter bmb yang dibuat waktu bukan periode bmb, 
+tapi pengirimannya barangnya di periode tanggal bmb.
+
+19.09.16.1
+
+
+
+Ticket #404530
+
+
+Menu cetak tidak berfungsi. Bisa di cetak melalui menu edit dulu baru cetak tapi hasil cetakan beda sama pilihan user.
+
+
+ 
+
+Ticket #516012
+
+CASE 1 : Harga di master barang berubah ketika ada updatean di master price list. Seharusnya harga di master barang tidak boleh ada perubahan tetap di harga awal.
+Contoh kasus nya harga awal di master barang adalah Rp. 379.000 untuk kode barang RJ M1898
+ada inputan di master price list untuk barang RJ M1898 untuk harga lama 379.000 dan harga barunya 400.000
+
+
+CASE 2 : pada laporan retur penjualan.. retur yang batal seharusnya tidak ikutan terjumlah.
+
+
+
+Ticket #293995
+
+
+CASE : Pemilihan barang BMB dan non BMB tidak terblok dengan langsung mengetik kodenya saja tanpa memakai fitur pencarian barang yang seharusnya di blok saat penginputan DO
+Note : lebih detailnya lihat di gambar
+
+
+
+
+Ticket #781590
+
+CASE 1: Tolong buatkan filter kode promo di laporan retur penjualan opsi bruto,netto & rekap
+
+              untuk kebutuhan menampilkan data2 semua retur atau data retur untuk barang2 bmb (promo)
+
+CASE 2: Untuk data yang ditampilkan di laporan retur penjualan opsi netto, kondisi yg sekarang ini setelah di cek user
+
+
+
+
+19.10.16.1
+
+Ticket #940904
+
+CASE 1: Tolong dibuat agar di adjusment supaya waktu adjust stock yg tidak mencukupi diblok/tidak bisa, jika stock mencukupi baru bisa di adjust.
+
+CASE 2 : Tolong buatkan filter tambahan di lap surat jalan dengan filter customer, seperti di laporan penjualan & do.
+
+
+
+Ticket #500640
+
+CASE 1 : Tolong kolom kd.corp & kd.cust di laporan pembelian diganti dengan no do, karena mau tau pembelian atas no do mana saja
+
+CASE 2: Tolong kolom disc qty dilaporan do detail persentasenya sesuai dengan inputan do, karena di laporan dibulatkan maka nilainy menjadi tidak sesuai.
+
+
+
+Ticket #472433
+
+CASE 1: Tolong cek lagi untuk monitoring do outstanding karena data yg ditampilkan sepertinya msh blm sesuai, karena kalau di view ada yg datanya tidak tampil padahal do tersebut msh blm terkirim.
+
+CASE 2 : Untuk laporan retur bmb yg rekap, nilai yg muncul bukan nilai netto  contoh di bawah yg laporan nilai netto harusnya muncul di laporan retur bmb yg rekap.
+
+
+
+Ticket #793933
+
+CASE 1: tolong tampilan dashboar ada tombol minimizenya, karena kalau mau ngecek total dashboard dengan di laporan ga bisa barengan, jd dashboard harus exit dulu, nanti masuk lagi hrs loading lg. lalu tolong cek kenapa total di dashboard penjualan tidak sama dengan total di laporan penjualan, contoh yg sy ambil bulan sept 2019.
+
+CASE 2 : Laporan penjualan tolong jangan di ikutkan/dihitung yg customer atas nama perwakilan, karena total penjualan/omset yang real itu hanya atas nama langganan/customer termasuk yang di dashboard y pak.
+
+
+19.11.12.1
+
+Ticket #193295
+CASE 1: Dilaporan penjualan memang minta untuk omset an perwakilan jgn ditampilkan, tp ternyata gm marketing sini perlu data
+              omset an perwakilan maspionjkt, setelah bahas dengan P Sieping, untuk menampilkan data an perwakilan maspionjkt
+              dikeluarkan waktu pilih filter lap per customer, jadi waktu dimasukan nama perwakilan msp/perwakilan-me, dll itu datanya
+              tampil keluar.
+CASE 2 : Total nilai pembelian di dasboard dengan di laporan masih tidak cocok. tolong di cek
+
+Ticket #961176
+CASE 1 : Sesuai note yg Pak Seto minta untuk yg tampil di dasboard & setelah sy bahas dengan Pak Sieping, maka ada tampilan
+               yang dirombak.untuk tampilan utama dashboard, menu user aktivity, purchase order tidak perlu & stuffing diganti
+               dengan omset top 10 items terlaris.
+CASE 2 : Untuk menu yg diklik loading waktu load data lumayan lama tolong di persingkat, apakah data yg diload dari awal
+               pertama data mulai tranksaksi jika iy tidak perlu sepertinya per 2 tahun saja supaya load tidak terlalu lama
+
+Ticket #188044
+CASE 1: Untuk data dashboard penjualan yg ditampilkan sesuai note permintaan Pak Seto & sudah sy bahas dengan Pak Sieping
+              untuk filter branch and month itu mungkin per 2 tahun saja tidak perlu dari data awal input, karena loadnya terlalu lama.
+              untuk tampilan 1: di informasi customer jika di klik perbulan di filter by branch and month itu total omset cust perbulan itu
+                                         jika tidak di klik bulan di filter branch apakah total omset yg muncul itu total dari awal data di input ?
+                                         jika iy, sebaiknya per 1 tahun saja, tapi untuk perbandingan divisi dlm 2 tahun itu sisi kiri thn sblmnya
+                                         sisi kanan thn berjalan. dengan tampilan nilai omset per divisi, jgn diagram dan yg tampil baris atas
+                                         nilai omset terbesar.
+                                     2. Setiap kursor yg diarahkan ke nilai omset text tool tipsnya bisa tidak diperbesar 2x yg ada sekarang
+                                         kalau bisa diperbesar 2x.
+                                     3. Untuk diagram balok yg ditampilkan tambah balok diagram atas omset perwakilan maspionjkt.
+                                         dan tampilan diagramnya bisa tidak dibuat 1 batang dalam 4 bagian warna untuk hemat space.
+CASE 2: Untuk dashboar penjualan do & bon pesanan konsepnya sama dengan tampilan dashboard penjualan nota/surat jalan
+              hanya untuk tampilan yg diatas information customer atasnya sebelah kiri do yg sudah dikirim nilainya & sebelah
+              kanan yg blm terkirim nilainnya. untuk textools tips sama perbesar 2x, diagram juga sama.
+
+Ticket #207355
+CASE 1: Untk dashboar sales-namanya ganti omset salesman, untuk konsep hampir sama dengan dashboard penjualan nota
+              hanya filter branch di pendekkan untuk kotak tampilan per filter by customer, dibwahnya by divisi, bwhnya lg infomation
+              salesman. untuk total omset salesman juga masih tidak cocok dengan laporan di penjualan+laporan do kontan.
+              1. data omset salesman di information yg ditampilkan juga jgn data dari awal data diinput tapi total omset tahun berjalan
+                  saja.
+              2. untuk filter by divisi & filter by customer sama seperti dashboard penjualan nota tampilkan perbandingan 2018 & 2019.
+                 lalu jika diklik infomation salesnya per nama, mk yg tampil divisi & customer yg penjualan atas nama sales yg diklik.
+              3. Text tool tipsnya sama diperbesar 2x
+              4. Diagram juga sama seperti dashboard penjualan nota.
+CASE 2: Untuk dashboard stuffing diganti saja, tolong buatkan dashboard top 10 items sales. konsepnya juga sama seperti
+              dashboard penjualan, hanya isinya saja untuk information cust/sales jadi information nama2 item barang top 10 per
+              divisi. untuk tampilan atasnya sama perbandingan 2 tahun item barang tsb & texttooltips jg perbesar 2x,
+              diagram juga sama.
+
+Ticket #913930
+CASE 1: Tolong tampilkan otomatis nama pembuat di cetakan ttb nya pak.
+
+Ticket #484496
+Case 1 : Laporan Penjualan
+Laporan Penjualan tidak menampilkan barang-barang BMB yang dibuat di DO titipan..
+Contoh No DO: BLG(j)000004 dengan Nota  BLG004074
+
+Case 2 : Adjusment Stock
+Ketika megedit adjustment stock yang mengurangi. Jika ada barang yang stock aslinya kurang dari jumlah yang dinput di adjustment stock maka akan muncul di Popup Stock tidak mencukupi padahal mao diedit, bukan mao buat baru..
+Contohnya barang B K050 yg sudah di adjustment mengurangi stocknya sudah 0, ketika mao di edit adjustmentnya lagi dan disave ulang muncul pop up stock tidak mencukupi..
+Jadi otomatis adjusment yg salah tidak bisa diedit jika terjadi kesalahan karena akan muncul popup tersebut.. 
+
+19.11.28.1
+
+Ticket #904375
+
+case 1:  untuk diskon qty diinput admin dengan nominal 16.378 nominalnya menjadi 2.423.944, dimana admin sales mendapat
+            perintah dari P Sieping dibulatkan di nominal diskon qty akhirny dibulatkan menjadi 2.424.000, tapi waktu tarik ke surat
+            jalan/nota nilai yg ketarik tetap 2.423.944, akhirnya jadi selisih, mau di edit ga bisa karena textbox di nota kan disable
+            semua. tolong untuk diskon qty kalau ditarik ke nota sesuai nilai yg ada di do.
+case 2: user ci Imelda ingin ambil data dari program ini dengan filter dibawah cuma sy rasa bisa digabung di laporan penjualan dengan            
+filter yg ada, hanya tambah opsi satu lagi export data sebelah opsi selisih, data yg mau diambil seperti kolom2 dibawah ini &
+           kondisi data yg diambil di note paling bawah. menurut beliau sudah bicarakan dengan P Sieping, dan sy disuruh buatkan 
+           ticket. tanpa perlu ada judul y pak, hanya kolom2 dan berisi data2 yg diinginkan!
+
+
+Ticket #881268
+case 1: Dashboard pembelian totalnya sudah = dengan total laporan pembelian disystem, tapi nilainya # dengan laporan penjualan
+           pusat an perwakilan msp -jakarta (omset jakarta), bukannya harus sama?, untuk lebar kolom diskon di laporan pembelian
+           tolong lebarkan sedikit supaya nilainya tidak turun.
+case 2 : Untuk dashboard penjualan pusat & perwakilan nilai totalnya # dengan total penjualan di laporan penjualan system.
+
+Ticket #658234
+case 1: Untuk dashboard salesman nama yg muncul di list itu hanya salesman saja, jadi ketika klik nama sales, data yg muncul
+            dibawahnya itu untuk divisi yg mereka jual & customer2 yg mereka handle memang sudah bisa refresh muncul datanya
+            tapi untuk data yg muncul sy baru ambil contoh secara acak untuk perbandingan divisi LIS-II tahun berjalan dengan nilai
+            Rp 16.861.975.600 tidak cocok dengan laporan penjualan note detilnya ada di ticket Ticket #881268, untuk omset LIS-II
+            ditahun sebelumnya(2018) dengan nilai Rp 25.083.862.313 juga tidak cocok dengan laporan penjualan LIS-II 2018 dengan
+            nilai Rp 21.049.309.113
+case 2:  Untuk dashboard do pusat & perwakilan pun # dengan laporan do di system, dimana di dashboard Rp 140.047.643.397
+             di laporan do RP 158.885.345.055
+             untuk lebar kolom diskon qty tolong dilebarkan supaya nilainya tidak turun.
+
+Ticket #194744
+case 1: Top item dashboard hanya supermarket perwakilan saja ? bukannya ada langganan juga? begitu juga dengan pusat
+            yg atas nama customer, bukannya harus dihitung jg? untuk qty per item contoh acaknya ice/rice bucket usa 6 ltr
+            di dashboar 5.208 tapi dilaporan 11.592 , untuk total qty keseluruhan juga tidak sama, lalu apakah tida bisa sejajar
+            dengan tahun sebelumnya ?
+
+Ticket #791945
+case 1 : Nota Claim Pembelian tidak sama di Kartu Stock dan  Claim pembelian seharusnya masuk ke PENGELUARAN bukan masuk di PENERIMAAN
+Case 2 : Monitoring Stock untuk beberapa item nilainya ga bulat
+Case 3 : Ada minus Stuffing di barang dengan kode NS99L04001.. Minta tolong Pak Imam buat di cek Minusnya di Stuffing no berapa..

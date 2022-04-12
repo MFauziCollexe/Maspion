@@ -1,0 +1,1872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPenjualan" targetNamespace="http://tempuri.org/DSPenjualan.xsd" xmlns:mstns="http://tempuri.org/DSPenjualan.xsd" xmlns="http://tempuri.org/DSPenjualan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaspionConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaspionConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Maspion.My.MySettings.GlobalReference.Default.MaspionConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DELIVERY_ORDERTableAdapter" GeneratorDataComponentClassName="DELIVERY_ORDERTableAdapter" Name="DELIVERY_ORDER" UserDataComponentName="DELIVERY_ORDERTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT DELIVERY_ORDER.ID_TRANSAKSI, DELIVERY_ORDER.NO_DO, DELIVERY_ORDER.TGL, DELIVERY_ORDER.TGL_PENGAKUAN, DELIVERY_ORDER.TGL_PRICE, DELIVERY_ORDER.DIVISI, DELIVERY_ORDER.JENIS_PPN, DELIVERY_ORDER.KODE_CUSTOMER, DELIVERY_ORDER.KODE_APPROVE, DELIVERY_ORDER.ALAMAT_KIRIM, DELIVERY_ORDER.PEMBAYARAN, DELIVERY_ORDER.TERMS, DELIVERY_ORDER.JATUH_TEMPO, DELIVERY_ORDER.KETERANGAN_CETAK, DELIVERY_ORDER.SUBTOTAL, DELIVERY_ORDER.DPP, DELIVERY_ORDER.PPN, DETAIL_DELIVERY_ORDER.ID_BARANG, DETAIL_DELIVERY_ORDER.KOLI, DETAIL_DELIVERY_ORDER.QUANTITY, DETAIL_DELIVERY_ORDER.SATUAN, DETAIL_DELIVERY_ORDER.HARGA, DETAIL_DELIVERY_ORDER.DISC, DETAIL_DELIVERY_ORDER.DISKON_SATUAN, DETAIL_DELIVERY_ORDER.URUTAN, BARANG.KODE, BARANG.KODE_PABRIK, BARANG.NAMA AS NAMA_BARANG, SBU.NAMA AS NAMA_SBU, CUSTOMER.NAMA AS NAMA_CUSTOMER, CUSTOMER.ALAMAT_KANTOR, CUSTOMER.PROPINSI, CUSTOMER.KOTA, CUSTOMER.KODE_POS, CUSTOMER.NO_NPWP, DETAIL_DELIVERY_ORDER.KONVERSI, DETAIL_DELIVERY_ORDER.PCS, DETAIL_DELIVERY_ORDER.ISI, DELIVERY_ORDER.ID_PO, DELIVERY_ORDER.CABANG, DELIVERY_ORDER.KETERANGAN_INTERNAL, DELIVERY_ORDER.DISC_QTY, DELIVERY_ORDER.DISC_QTY_NOMINAL, DELIVERY_ORDER.DISC_REG, DELIVERY_ORDER.DISC_REG_NOMINAL, DELIVERY_ORDER.DISC_1, DELIVERY_ORDER.DISC_1_NOMINAL, DELIVERY_ORDER.DISC_2, DELIVERY_ORDER.DISC_2_NOMINAL, DELIVERY_ORDER.DISC_3, DELIVERY_ORDER.DISC_3_NOMINAL, DELIVERY_ORDER.CASH_DISC, DELIVERY_ORDER.CASH_DISC_NOMINAL, DELIVERY_ORDER.DISC_QTY1, DELIVERY_ORDER.DISC_QTY_NOMINAL1, DELIVERY_ORDER.PERIODE, DETAIL_CUSTOMER_CABANG.NAMA_CABANG, USERS.NAMA_USER, CUSTOMER.ALAMAT_PKP, CUSTOMER.NAMA_PKP,PT.NAMA ,DELIVERY_ORDER.PRINT_PKP,LINK_CORPORATION_CUSTOMER.KODE_CORPORATION, SALES.NAMA_USER "SALESMAN" FROM DETAIL_CUSTOMER_CABANG RIGHT OUTER JOIN DELIVERY_ORDER INNER JOIN DETAIL_DELIVERY_ORDER ON DELIVERY_ORDER.ID_TRANSAKSI = DETAIL_DELIVERY_ORDER.ID_TRANSAKSI LEFT OUTER JOIN USERS ON DELIVERY_ORDER.CRUSER = USERS.ID_USER ON DETAIL_CUSTOMER_CABANG.ID = DELIVERY_ORDER.KODE_CUSTOMER AND DETAIL_CUSTOMER_CABANG.KODE_CABANG = DELIVERY_ORDER.CABANG LEFT OUTER JOIN CUSTOMER ON DELIVERY_ORDER.KODE_CUSTOMER = CUSTOMER.ID LEFT JOIN LINK_CORPORATION_CUSTOMER ON LINK_CORPORATION_CUSTOMER.ID_CUSTOMER=CUSTOMER.ID LEFT OUTER JOIN BARANG ON DETAIL_DELIVERY_ORDER.ID_BARANG = BARANG.ID LEFT OUTER JOIN LINK_SBU_DIVISI LEFT OUTER JOIN SBU ON LINK_SBU_DIVISI.KODE_SBU = SBU.KODE ON DELIVERY_ORDER.DIVISI = LINK_SBU_DIVISI.KODE_DIVISI LEFT JOIN LINK_PT_SBU ON LINK_SBU_DIVISI.KODE_SBU=LINK_PT_SBU.KODE_SBU LEFT JOIN PT ON LINK_PT_SBU.KODE_PT=PT.KODE LEFT JOIN USERS SALES ON DELIVERY_ORDER.SALES=SALES.ID_USER</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NO_DO" DataSetColumn="NO_DO" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="TGL_PRICE" DataSetColumn="TGL_PRICE" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="JENIS_PPN" DataSetColumn="JENIS_PPN" />
+              <Mapping SourceColumn="KODE_CUSTOMER" DataSetColumn="KODE_CUSTOMER" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="ALAMAT_KIRIM" DataSetColumn="ALAMAT_KIRIM" />
+              <Mapping SourceColumn="PEMBAYARAN" DataSetColumn="PEMBAYARAN" />
+              <Mapping SourceColumn="TERMS" DataSetColumn="TERMS" />
+              <Mapping SourceColumn="JATUH_TEMPO" DataSetColumn="JATUH_TEMPO" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="SUBTOTAL" DataSetColumn="SUBTOTAL" />
+              <Mapping SourceColumn="DPP" DataSetColumn="DPP" />
+              <Mapping SourceColumn="PPN" DataSetColumn="PPN" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="HARGA" DataSetColumn="HARGA" />
+              <Mapping SourceColumn="DISC" DataSetColumn="DISC" />
+              <Mapping SourceColumn="DISKON_SATUAN" DataSetColumn="DISKON_SATUAN" />
+              <Mapping SourceColumn="URUTAN" DataSetColumn="URUTAN" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="KODE_PABRIK" DataSetColumn="KODE_PABRIK" />
+              <Mapping SourceColumn="NAMA_SBU" DataSetColumn="NAMA_SBU" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="PROPINSI" DataSetColumn="PROPINSI" />
+              <Mapping SourceColumn="KOTA" DataSetColumn="KOTA" />
+              <Mapping SourceColumn="KODE_POS" DataSetColumn="KODE_POS" />
+              <Mapping SourceColumn="NO_NPWP" DataSetColumn="NO_NPWP" />
+              <Mapping SourceColumn="NAMA_BARANG" DataSetColumn="NAMA_BARANG" />
+              <Mapping SourceColumn="NAMA_CUSTOMER" DataSetColumn="NAMA_CUSTOMER" />
+              <Mapping SourceColumn="KONVERSI" DataSetColumn="KONVERSI" />
+              <Mapping SourceColumn="PCS" DataSetColumn="PCS" />
+              <Mapping SourceColumn="ISI" DataSetColumn="ISI" />
+              <Mapping SourceColumn="ID_PO" DataSetColumn="ID_PO" />
+              <Mapping SourceColumn="CABANG" DataSetColumn="CABANG" />
+              <Mapping SourceColumn="KETERANGAN_INTERNAL" DataSetColumn="KETERANGAN_INTERNAL" />
+              <Mapping SourceColumn="DISC_QTY" DataSetColumn="DISC_QTY" />
+              <Mapping SourceColumn="DISC_QTY_NOMINAL" DataSetColumn="DISC_QTY_NOMINAL" />
+              <Mapping SourceColumn="DISC_REG" DataSetColumn="DISC_REG" />
+              <Mapping SourceColumn="DISC_REG_NOMINAL" DataSetColumn="DISC_REG_NOMINAL" />
+              <Mapping SourceColumn="DISC_1" DataSetColumn="DISC_1" />
+              <Mapping SourceColumn="DISC_1_NOMINAL" DataSetColumn="DISC_1_NOMINAL" />
+              <Mapping SourceColumn="DISC_2" DataSetColumn="DISC_2" />
+              <Mapping SourceColumn="DISC_2_NOMINAL" DataSetColumn="DISC_2_NOMINAL" />
+              <Mapping SourceColumn="DISC_3" DataSetColumn="DISC_3" />
+              <Mapping SourceColumn="DISC_3_NOMINAL" DataSetColumn="DISC_3_NOMINAL" />
+              <Mapping SourceColumn="CASH_DISC" DataSetColumn="CASH_DISC" />
+              <Mapping SourceColumn="CASH_DISC_NOMINAL" DataSetColumn="CASH_DISC_NOMINAL" />
+              <Mapping SourceColumn="DISC_QTY1" DataSetColumn="DISC_QTY1" />
+              <Mapping SourceColumn="DISC_QTY_NOMINAL1" DataSetColumn="DISC_QTY_NOMINAL1" />
+              <Mapping SourceColumn="PERIODE" DataSetColumn="PERIODE" />
+              <Mapping SourceColumn="NAMA_CABANG" DataSetColumn="NAMA_CABANG" />
+              <Mapping SourceColumn="NAMA_USER" DataSetColumn="NAMA_USER" />
+              <Mapping SourceColumn="ALAMAT_PKP" DataSetColumn="ALAMAT_PKP" />
+              <Mapping SourceColumn="NAMA_PKP" DataSetColumn="NAMA_PKP" />
+              <Mapping SourceColumn="NAMA" DataSetColumn="NAMA" />
+              <Mapping SourceColumn="PRINT_PKP" DataSetColumn="PRINT_PKP" />
+              <Mapping SourceColumn="KODE_CORPORATION" DataSetColumn="KODE_CORPORATION" />
+              <Mapping SourceColumn="SALESMAN" DataSetColumn="SALESMAN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="NOTA_SJTableAdapter" GeneratorDataComponentClassName="NOTA_SJTableAdapter" Name="NOTA_SJ" UserDataComponentName="NOTA_SJTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CUSTOMER.NAMA AS NAMA_CUSTOMER, CUSTOMER.ALAMAT_KANTOR, CUSTOMER.KOTA, DETAIL_CUSTOMER_CABANG.NAMA_CABANG, 
+                         DETAIL_NOTA.ID_BARANG, BARANG.KODE, BARANG.NAMA AS NAMA_BARANG, DETAIL_NOTA.KOLI, DETAIL_NOTA.QUANTITY, DETAIL_NOTA.SATUAN, 
+                         DETAIL_NOTA.HARGA, DETAIL_NOTA.DISKON_SATUAN, DETAIL_NOTA.DISC, NOTA.ID_TRANSAKSI, NOTA.NO_NOTA, NOTA.NO_REF, NOTA.TGL, 
+                         NOTA.TGL_PENGAKUAN, NOTA.ID_STUFFING, NOTA.ID_DO, NOTA.NO_DO, NOTA.TGL_DO, NOTA.DIVISI, NOTA.JENIS_PPN, NOTA.KODE_CUSTOMER, 
+                         NOTA.KODE_APPROVE, NOTA.CABANG, NOTA.ALAMAT_KIRIM, NOTA.GUDANG, NOTA.SJ_TANPA_HARGA, NOTA.TITIP, NOTA.KETERANGAN_CETAK, 
+                         NOTA.KETERANGAN_INTERNAL, NOTA.SUBTOTAL, NOTA.DISC_QTY, NOTA.DISC_QTY_NOMINAL, NOTA.DISC_REG, NOTA.DISC_REG_NOMINAL, NOTA.DISC_1, 
+                         NOTA.DISC_1_NOMINAL, NOTA.DISC_2, NOTA.DISC_2_NOMINAL, NOTA.DISC_3, NOTA.DISC_3_NOMINAL, NOTA.CASH_DISC, NOTA.CASH_DISC_NOMINAL, 
+                         NOTA.DISC_QTY1, NOTA.DISC_QTY_NOMINAL1, NOTA.DPP, NOTA.PPN, NOTA.PERIODE, NOTA.CRUSER, NOTA.CRTIME, NOTA.MDUSER, NOTA.MDTIME, 
+                         NOTA.BATAL, NOTA.BAGIAN, NOTA.KODE_EKSPEDISI, NOTA.NO_TRUK, DETAIL_NOTA.KONVERSI, DETAIL_NOTA.PCS, DETAIL_NOTA.URUTAN, NOTA.PENGEMUDI, 
+                         NOTA.KEPALA_GUDANG, NOTA.CONTROLLER, NOTA.PRINT_PKP, CUSTOMER.NO_NPWP, CUSTOMER.NAMA_PKP, CUSTOMER.ALAMAT_PKP, 
+                         CUSTOMER.KOTA_NPWP, CUSTOMER.KODE_POS_NPWP
+FROM            BARANG RIGHT OUTER JOIN
+                         DETAIL_CUSTOMER_CABANG RIGHT OUTER JOIN
+                         NOTA INNER JOIN
+                         DETAIL_NOTA ON NOTA.ID_TRANSAKSI = DETAIL_NOTA.ID_TRANSAKSI LEFT OUTER JOIN
+                         CUSTOMER ON NOTA.KODE_CUSTOMER = CUSTOMER.ID ON DETAIL_CUSTOMER_CABANG.ID = CUSTOMER.ID AND 
+                         DETAIL_CUSTOMER_CABANG.KODE_CABANG = NOTA.CABANG ON BARANG.ID = DETAIL_NOTA.ID_BARANG</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NO_NOTA" DataSetColumn="NO_NOTA" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="NO_DO" DataSetColumn="NO_DO" />
+              <Mapping SourceColumn="TGL_DO" DataSetColumn="TGL_DO" />
+              <Mapping SourceColumn="NAMA_CUSTOMER" DataSetColumn="NAMA_CUSTOMER" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="KOTA" DataSetColumn="KOTA" />
+              <Mapping SourceColumn="NAMA_CABANG" DataSetColumn="NAMA_CABANG" />
+              <Mapping SourceColumn="ALAMAT_KIRIM" DataSetColumn="ALAMAT_KIRIM" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="NAMA_BARANG" DataSetColumn="NAMA_BARANG" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="HARGA" DataSetColumn="HARGA" />
+              <Mapping SourceColumn="DISKON_SATUAN" DataSetColumn="DISKON_SATUAN" />
+              <Mapping SourceColumn="DISC" DataSetColumn="DISC" />
+              <Mapping SourceColumn="SUBTOTAL" DataSetColumn="SUBTOTAL" />
+              <Mapping SourceColumn="DPP" DataSetColumn="DPP" />
+              <Mapping SourceColumn="PPN" DataSetColumn="PPN" />
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NO_REF" DataSetColumn="NO_REF" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="ID_STUFFING" DataSetColumn="ID_STUFFING" />
+              <Mapping SourceColumn="ID_DO" DataSetColumn="ID_DO" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="JENIS_PPN" DataSetColumn="JENIS_PPN" />
+              <Mapping SourceColumn="KODE_CUSTOMER" DataSetColumn="KODE_CUSTOMER" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="CABANG" DataSetColumn="CABANG" />
+              <Mapping SourceColumn="GUDANG" DataSetColumn="GUDANG" />
+              <Mapping SourceColumn="SJ_TANPA_HARGA" DataSetColumn="SJ_TANPA_HARGA" />
+              <Mapping SourceColumn="TITIP" DataSetColumn="TITIP" />
+              <Mapping SourceColumn="KETERANGAN_INTERNAL" DataSetColumn="KETERANGAN_INTERNAL" />
+              <Mapping SourceColumn="DISC_QTY" DataSetColumn="DISC_QTY" />
+              <Mapping SourceColumn="DISC_QTY_NOMINAL" DataSetColumn="DISC_QTY_NOMINAL" />
+              <Mapping SourceColumn="DISC_REG" DataSetColumn="DISC_REG" />
+              <Mapping SourceColumn="DISC_REG_NOMINAL" DataSetColumn="DISC_REG_NOMINAL" />
+              <Mapping SourceColumn="DISC_1" DataSetColumn="DISC_1" />
+              <Mapping SourceColumn="DISC_1_NOMINAL" DataSetColumn="DISC_1_NOMINAL" />
+              <Mapping SourceColumn="DISC_2" DataSetColumn="DISC_2" />
+              <Mapping SourceColumn="DISC_2_NOMINAL" DataSetColumn="DISC_2_NOMINAL" />
+              <Mapping SourceColumn="DISC_3" DataSetColumn="DISC_3" />
+              <Mapping SourceColumn="DISC_3_NOMINAL" DataSetColumn="DISC_3_NOMINAL" />
+              <Mapping SourceColumn="CASH_DISC" DataSetColumn="CASH_DISC" />
+              <Mapping SourceColumn="CASH_DISC_NOMINAL" DataSetColumn="CASH_DISC_NOMINAL" />
+              <Mapping SourceColumn="DISC_QTY1" DataSetColumn="DISC_QTY1" />
+              <Mapping SourceColumn="DISC_QTY_NOMINAL1" DataSetColumn="DISC_QTY_NOMINAL1" />
+              <Mapping SourceColumn="PERIODE" DataSetColumn="PERIODE" />
+              <Mapping SourceColumn="CRUSER" DataSetColumn="CRUSER" />
+              <Mapping SourceColumn="CRTIME" DataSetColumn="CRTIME" />
+              <Mapping SourceColumn="MDUSER" DataSetColumn="MDUSER" />
+              <Mapping SourceColumn="MDTIME" DataSetColumn="MDTIME" />
+              <Mapping SourceColumn="BATAL" DataSetColumn="BATAL" />
+              <Mapping SourceColumn="BAGIAN" DataSetColumn="BAGIAN" />
+              <Mapping SourceColumn="KODE_EKSPEDISI" DataSetColumn="KODE_EKSPEDISI" />
+              <Mapping SourceColumn="NO_TRUK" DataSetColumn="NO_TRUK" />
+              <Mapping SourceColumn="KONVERSI" DataSetColumn="KONVERSI" />
+              <Mapping SourceColumn="PCS" DataSetColumn="PCS" />
+              <Mapping SourceColumn="URUTAN" DataSetColumn="URUTAN" />
+              <Mapping SourceColumn="PENGEMUDI" DataSetColumn="PENGEMUDI" />
+              <Mapping SourceColumn="KEPALA_GUDANG" DataSetColumn="KEPALA_GUDANG" />
+              <Mapping SourceColumn="CONTROLLER" DataSetColumn="CONTROLLER" />
+              <Mapping SourceColumn="PRINT_PKP" DataSetColumn="PRINT_PKP" />
+              <Mapping SourceColumn="NO_NPWP" DataSetColumn="NO_NPWP" />
+              <Mapping SourceColumn="NAMA_PKP" DataSetColumn="NAMA_PKP" />
+              <Mapping SourceColumn="ALAMAT_PKP" DataSetColumn="ALAMAT_PKP" />
+              <Mapping SourceColumn="KOTA_NPWP" DataSetColumn="KOTA_NPWP" />
+              <Mapping SourceColumn="KODE_POS_NPWP" DataSetColumn="KODE_POS_NPWP" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SJTableAdapter" GeneratorDataComponentClassName="SJTableAdapter" Name="SJ" UserDataComponentName="SJTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SURAT_JALAN.ID_TRANSAKSI, SURAT_JALAN.NO_SJ, SURAT_JALAN.TGL, SURAT_JALAN.TGL_PENGAKUAN, SURAT_JALAN.NO_NOTA, SURAT_JALAN.ID_NOTA, 
+                         SURAT_JALAN.TGL_NOTA, SURAT_JALAN.DIVISI, SURAT_JALAN.KODE_CUSTOMER, SURAT_JALAN.KODE_APPROVE, SURAT_JALAN.ALAMAT_KIRIM, 
+                         SURAT_JALAN.KETERANGAN_CETAK, DETAIL_SURAT_JALAN.ID_BARANG, BARANG.KODE_PABRIK, BARANG.KODE, BARANG.NAMA AS NAMA_BARANG, 
+                         CUSTOMER.NAMA AS NAMA_CUSTOMER, CUSTOMER.ALAMAT_KANTOR, CUSTOMER.KOTA, DETAIL_SURAT_JALAN.QUANTITY, DETAIL_SURAT_JALAN.SATUAN, 
+                         DETAIL_SURAT_JALAN.URUTAN, NOTA.ID_DO, NOTA.NO_DO, NOTA.TGL_DO, DETAIL_SURAT_JALAN.KOLI, NOTA.PENGEMUDI, NOTA.KEPALA_GUDANG, 
+                         NOTA.CONTROLLER
+FROM            NOTA RIGHT OUTER JOIN
+                         SURAT_JALAN INNER JOIN
+                         DETAIL_SURAT_JALAN ON SURAT_JALAN.ID_TRANSAKSI = DETAIL_SURAT_JALAN.ID_TRANSAKSI ON 
+                         NOTA.ID_TRANSAKSI = SURAT_JALAN.ID_NOTA LEFT OUTER JOIN
+                         CUSTOMER ON SURAT_JALAN.KODE_CUSTOMER = CUSTOMER.ID LEFT OUTER JOIN
+                         BARANG ON DETAIL_SURAT_JALAN.ID_BARANG = BARANG.ID</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NO_SJ" DataSetColumn="NO_SJ" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="NO_NOTA" DataSetColumn="NO_NOTA" />
+              <Mapping SourceColumn="ID_NOTA" DataSetColumn="ID_NOTA" />
+              <Mapping SourceColumn="TGL_NOTA" DataSetColumn="TGL_NOTA" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="KODE_CUSTOMER" DataSetColumn="KODE_CUSTOMER" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="ALAMAT_KIRIM" DataSetColumn="ALAMAT_KIRIM" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="KODE_PABRIK" DataSetColumn="KODE_PABRIK" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="NAMA_BARANG" DataSetColumn="NAMA_BARANG" />
+              <Mapping SourceColumn="NAMA_CUSTOMER" DataSetColumn="NAMA_CUSTOMER" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="KOTA" DataSetColumn="KOTA" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="URUTAN" DataSetColumn="URUTAN" />
+              <Mapping SourceColumn="ID_DO" DataSetColumn="ID_DO" />
+              <Mapping SourceColumn="NO_DO" DataSetColumn="NO_DO" />
+              <Mapping SourceColumn="TGL_DO" DataSetColumn="TGL_DO" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="PENGEMUDI" DataSetColumn="PENGEMUDI" />
+              <Mapping SourceColumn="KEPALA_GUDANG" DataSetColumn="KEPALA_GUDANG" />
+              <Mapping SourceColumn="CONTROLLER" DataSetColumn="CONTROLLER" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="STUFFINGTableAdapter" GeneratorDataComponentClassName="STUFFINGTableAdapter" Name="STUFFING" UserDataComponentName="STUFFINGTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        STUFFING.ID_TRANSAKSI, STUFFING.NO_DO, STUFFING.TGL, STUFFING.TGL_PENGAKUAN, STUFFING.DIVISI, STUFFING.KODE_CUSTOMER, 
+                         STUFFING.KODE_APPROVE, STUFFING.ALAMAT_KIRIM, STUFFING.KETERANGAN_CETAK, DETAIL_STUFFING.ID_BARANG, DETAIL_STUFFING.KOLI, 
+                         DETAIL_STUFFING.QUANTITY, DETAIL_STUFFING.SATUAN, DETAIL_STUFFING.URUTAN, BARANG.KODE, BARANG.KODE_PABRIK, 
+                         BARANG.NAMA AS NAMA_BARANG, SBU.NAMA AS NAMA_SBU, CUSTOMER.NAMA AS NAMA_CUSTOMER, CUSTOMER.ALAMAT_KANTOR, CUSTOMER.PROPINSI, 
+                         CUSTOMER.KOTA, CUSTOMER.KODE_POS, CUSTOMER.NO_NPWP, DETAIL_STUFFING.KONVERSI, DETAIL_STUFFING.PCS, DETAIL_STUFFING.ISI, 
+                         STUFFING.CABANG, STUFFING.KETERANGAN_INTERNAL, STUFFING.PERIODE, DETAIL_CUSTOMER_CABANG.NAMA_CABANG, STUFFING.NO_STUFFING, 
+                         STUFFING.ID_DO, STUFFING.TGL_DO, STUFFING.GUDANG
+FROM            CUSTOMER RIGHT OUTER JOIN
+                         STUFFING INNER JOIN
+                         DETAIL_STUFFING ON STUFFING.ID_TRANSAKSI = DETAIL_STUFFING.ID_TRANSAKSI LEFT OUTER JOIN
+                         DETAIL_CUSTOMER_CABANG ON STUFFING.KODE_CUSTOMER = DETAIL_CUSTOMER_CABANG.ID AND 
+                         STUFFING.CABANG = DETAIL_CUSTOMER_CABANG.KODE_CABANG ON CUSTOMER.ID = STUFFING.KODE_CUSTOMER LEFT OUTER JOIN
+                         BARANG ON DETAIL_STUFFING.ID_BARANG = BARANG.ID LEFT OUTER JOIN
+                         LINK_SBU_DIVISI LEFT OUTER JOIN
+                         SBU ON LINK_SBU_DIVISI.KODE_SBU = SBU.KODE ON STUFFING.DIVISI = LINK_SBU_DIVISI.KODE_DIVISI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NO_DO" DataSetColumn="NO_DO" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="KODE_CUSTOMER" DataSetColumn="KODE_CUSTOMER" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="ALAMAT_KIRIM" DataSetColumn="ALAMAT_KIRIM" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="URUTAN" DataSetColumn="URUTAN" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="KODE_PABRIK" DataSetColumn="KODE_PABRIK" />
+              <Mapping SourceColumn="NAMA_BARANG" DataSetColumn="NAMA_BARANG" />
+              <Mapping SourceColumn="NAMA_SBU" DataSetColumn="NAMA_SBU" />
+              <Mapping SourceColumn="NAMA_CUSTOMER" DataSetColumn="NAMA_CUSTOMER" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="PROPINSI" DataSetColumn="PROPINSI" />
+              <Mapping SourceColumn="KOTA" DataSetColumn="KOTA" />
+              <Mapping SourceColumn="KODE_POS" DataSetColumn="KODE_POS" />
+              <Mapping SourceColumn="NO_NPWP" DataSetColumn="NO_NPWP" />
+              <Mapping SourceColumn="KONVERSI" DataSetColumn="KONVERSI" />
+              <Mapping SourceColumn="PCS" DataSetColumn="PCS" />
+              <Mapping SourceColumn="ISI" DataSetColumn="ISI" />
+              <Mapping SourceColumn="CABANG" DataSetColumn="CABANG" />
+              <Mapping SourceColumn="KETERANGAN_INTERNAL" DataSetColumn="KETERANGAN_INTERNAL" />
+              <Mapping SourceColumn="PERIODE" DataSetColumn="PERIODE" />
+              <Mapping SourceColumn="NAMA_CABANG" DataSetColumn="NAMA_CABANG" />
+              <Mapping SourceColumn="NO_STUFFING" DataSetColumn="NO_STUFFING" />
+              <Mapping SourceColumn="ID_DO" DataSetColumn="ID_DO" />
+              <Mapping SourceColumn="TGL_DO" DataSetColumn="TGL_DO" />
+              <Mapping SourceColumn="GUDANG" DataSetColumn="GUDANG" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TTBTableAdapter" GeneratorDataComponentClassName="TTBTableAdapter" Name="TTB" UserDataComponentName="TTBTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TTB.ID_TRANSAKSI, TTB.NO_TTB, TTB.TGL, TTB.TGL_PENGAKUAN, TTB.NO_NOTA, TTB.TGL_NOTA, TTB.DIVISI, TTB.KODE_CUSTOMER, TTB.KODE_APPROVE, 
+                         TTB.ALAMAT, TTB.GUDANG, TTB.KETERANGAN_CETAK, TTB.KETERANGAN_INTERNAL, DETAIL_TTB.ID_BARANG, DETAIL_TTB.ISI, DETAIL_TTB.KOLI, 
+                         DETAIL_TTB.QUANTITY, DETAIL_TTB.SATUAN, DETAIL_TTB.KONVERSI, DETAIL_TTB.PCS, DETAIL_TTB.KETERANGAN, BARANG.KODE, BARANG.KODE_PABRIK, 
+                         BARANG.NAMA, CUSTOMER.NAMA AS NAMA_CUSTOMER, CUSTOMER.ALAMAT_KANTOR, CUSTOMER.PROPINSI, CUSTOMER.KOTA, CUSTOMER.KODE_POS, 
+                         DIVISI.NAMA AS NAMA_DIVISI
+FROM            DIVISI RIGHT OUTER JOIN
+                         TTB INNER JOIN
+                         DETAIL_TTB ON TTB.ID_TRANSAKSI = DETAIL_TTB.ID_TRANSAKSI ON DIVISI.KODE = TTB.DIVISI LEFT OUTER JOIN
+                         CUSTOMER ON TTB.KODE_CUSTOMER = CUSTOMER.ID LEFT OUTER JOIN
+                         BARANG ON DETAIL_TTB.ID_BARANG = BARANG.ID</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NO_TTB" DataSetColumn="NO_TTB" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="NO_NOTA" DataSetColumn="NO_NOTA" />
+              <Mapping SourceColumn="TGL_NOTA" DataSetColumn="TGL_NOTA" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="KODE_CUSTOMER" DataSetColumn="KODE_CUSTOMER" />
+              <Mapping SourceColumn="KODE_APPROVE" DataSetColumn="KODE_APPROVE" />
+              <Mapping SourceColumn="ALAMAT" DataSetColumn="ALAMAT" />
+              <Mapping SourceColumn="GUDANG" DataSetColumn="GUDANG" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="KETERANGAN_INTERNAL" DataSetColumn="KETERANGAN_INTERNAL" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="ISI" DataSetColumn="ISI" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="KONVERSI" DataSetColumn="KONVERSI" />
+              <Mapping SourceColumn="PCS" DataSetColumn="PCS" />
+              <Mapping SourceColumn="KETERANGAN" DataSetColumn="KETERANGAN" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="KODE_PABRIK" DataSetColumn="KODE_PABRIK" />
+              <Mapping SourceColumn="NAMA" DataSetColumn="NAMA" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="PROPINSI" DataSetColumn="PROPINSI" />
+              <Mapping SourceColumn="KOTA" DataSetColumn="KOTA" />
+              <Mapping SourceColumn="KODE_POS" DataSetColumn="KODE_POS" />
+              <Mapping SourceColumn="NAMA_CUSTOMER" DataSetColumn="NAMA_CUSTOMER" />
+              <Mapping SourceColumn="NAMA_DIVISI" DataSetColumn="NAMA_DIVISI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RETUR_PEMBELIANTableAdapter" GeneratorDataComponentClassName="RETUR_PEMBELIANTableAdapter" Name="RETUR_PEMBELIAN" UserDataComponentName="RETUR_PEMBELIANTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        RETUR_PEMBELIAN.ID_TRANSAKSI, RETUR_PEMBELIAN.NO_RETUR, RETUR_PEMBELIAN.TGL, RETUR_PEMBELIAN.TGL_PENGAKUAN, 
+                         RETUR_PEMBELIAN.DIVISI, RETUR_PEMBELIAN.JENIS_PPN, RETUR_PEMBELIAN.GUDANG, RETUR_PEMBELIAN.KETERANGAN_CETAK, 
+                         RETUR_PEMBELIAN.KETERANGAN_INTERNAL, RETUR_PEMBELIAN.SUBTOTAL, RETUR_PEMBELIAN.DISC_QTY, RETUR_PEMBELIAN.DISC_QTY_NOMINAL, 
+                         RETUR_PEMBELIAN.DISC_REG, RETUR_PEMBELIAN.DISC_REG_NOMINAL, RETUR_PEMBELIAN.DISC_1, RETUR_PEMBELIAN.DISC_1_NOMINAL, 
+                         RETUR_PEMBELIAN.DISC_2, RETUR_PEMBELIAN.DISC_2_NOMINAL, RETUR_PEMBELIAN.DISC_3, RETUR_PEMBELIAN.DISC_3_NOMINAL, 
+                         RETUR_PEMBELIAN.CASH_DISC, RETUR_PEMBELIAN.CASH_DISC_NOMINAL, RETUR_PEMBELIAN.DISC_QTY1, RETUR_PEMBELIAN.DISC_QTY_NOMINAL1, 
+                         RETUR_PEMBELIAN.DPP, RETUR_PEMBELIAN.PPN, DETAIL_RETUR_PEMBELIAN.ID_BARANG, DETAIL_RETUR_PEMBELIAN.ISI, 
+                         DETAIL_RETUR_PEMBELIAN.KOLI, DETAIL_RETUR_PEMBELIAN.QUANTITY, DETAIL_RETUR_PEMBELIAN.SATUAN, DETAIL_RETUR_PEMBELIAN.KONVERSI, 
+                         DETAIL_RETUR_PEMBELIAN.PCS, DETAIL_RETUR_PEMBELIAN.HARGA, DETAIL_RETUR_PEMBELIAN.DISC, DETAIL_RETUR_PEMBELIAN.DISKON_SATUAN, 
+                         DETAIL_RETUR_PEMBELIAN.URUTAN, BARANG.KODE, CUSTOMER.NAMA, CUSTOMER.ALAMAT_KANTOR, CUSTOMER.PROPINSI, CUSTOMER.KOTA, 
+                         CUSTOMER.KODE_POS, BARANG.KODE_PABRIK, BARANG.NAMA AS NAMA_BARANG, DIVISI.NAMA AS NAMA_DIVISI, DETAIL_RETUR_PEMBELIAN.NO_TTB, 
+                         DETAIL_RETUR_PEMBELIAN.KODE_PACKING
+FROM            BARANG RIGHT OUTER JOIN
+                         RETUR_PEMBELIAN INNER JOIN
+                         DETAIL_RETUR_PEMBELIAN ON RETUR_PEMBELIAN.ID_TRANSAKSI = DETAIL_RETUR_PEMBELIAN.ID_TRANSAKSI LEFT OUTER JOIN
+                         DIVISI ON RETUR_PEMBELIAN.DIVISI = DIVISI.KODE ON BARANG.ID = DETAIL_RETUR_PEMBELIAN.ID_BARANG CROSS JOIN
+                         PERUSAHAAN INNER JOIN
+                         CUSTOMER ON PERUSAHAAN.CUST_PEMBELIAN = CUSTOMER.ID</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NO_RETUR" DataSetColumn="NO_RETUR" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="JENIS_PPN" DataSetColumn="JENIS_PPN" />
+              <Mapping SourceColumn="GUDANG" DataSetColumn="GUDANG" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="KETERANGAN_INTERNAL" DataSetColumn="KETERANGAN_INTERNAL" />
+              <Mapping SourceColumn="SUBTOTAL" DataSetColumn="SUBTOTAL" />
+              <Mapping SourceColumn="DISC_QTY" DataSetColumn="DISC_QTY" />
+              <Mapping SourceColumn="DISC_QTY_NOMINAL" DataSetColumn="DISC_QTY_NOMINAL" />
+              <Mapping SourceColumn="DISC_REG" DataSetColumn="DISC_REG" />
+              <Mapping SourceColumn="DISC_REG_NOMINAL" DataSetColumn="DISC_REG_NOMINAL" />
+              <Mapping SourceColumn="DISC_1" DataSetColumn="DISC_1" />
+              <Mapping SourceColumn="DISC_1_NOMINAL" DataSetColumn="DISC_1_NOMINAL" />
+              <Mapping SourceColumn="DISC_2" DataSetColumn="DISC_2" />
+              <Mapping SourceColumn="DISC_2_NOMINAL" DataSetColumn="DISC_2_NOMINAL" />
+              <Mapping SourceColumn="DISC_3" DataSetColumn="DISC_3" />
+              <Mapping SourceColumn="DISC_3_NOMINAL" DataSetColumn="DISC_3_NOMINAL" />
+              <Mapping SourceColumn="CASH_DISC" DataSetColumn="CASH_DISC" />
+              <Mapping SourceColumn="CASH_DISC_NOMINAL" DataSetColumn="CASH_DISC_NOMINAL" />
+              <Mapping SourceColumn="DISC_QTY1" DataSetColumn="DISC_QTY1" />
+              <Mapping SourceColumn="DISC_QTY_NOMINAL1" DataSetColumn="DISC_QTY_NOMINAL1" />
+              <Mapping SourceColumn="DPP" DataSetColumn="DPP" />
+              <Mapping SourceColumn="PPN" DataSetColumn="PPN" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="ISI" DataSetColumn="ISI" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="KONVERSI" DataSetColumn="KONVERSI" />
+              <Mapping SourceColumn="PCS" DataSetColumn="PCS" />
+              <Mapping SourceColumn="HARGA" DataSetColumn="HARGA" />
+              <Mapping SourceColumn="DISC" DataSetColumn="DISC" />
+              <Mapping SourceColumn="DISKON_SATUAN" DataSetColumn="DISKON_SATUAN" />
+              <Mapping SourceColumn="URUTAN" DataSetColumn="URUTAN" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="NAMA" DataSetColumn="NAMA" />
+              <Mapping SourceColumn="ALAMAT_KANTOR" DataSetColumn="ALAMAT_KANTOR" />
+              <Mapping SourceColumn="PROPINSI" DataSetColumn="PROPINSI" />
+              <Mapping SourceColumn="KOTA" DataSetColumn="KOTA" />
+              <Mapping SourceColumn="KODE_POS" DataSetColumn="KODE_POS" />
+              <Mapping SourceColumn="KODE_PABRIK" DataSetColumn="KODE_PABRIK" />
+              <Mapping SourceColumn="NAMA_BARANG" DataSetColumn="NAMA_BARANG" />
+              <Mapping SourceColumn="NAMA_DIVISI" DataSetColumn="NAMA_DIVISI" />
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NO_TTB" DataSetColumn="NO_TTB" />
+              <Mapping SourceColumn="KODE_PACKING" DataSetColumn="KODE_PACKING" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TRANSFER_BARANGTableAdapter" GeneratorDataComponentClassName="TRANSFER_BARANGTableAdapter" Name="TRANSFER_BARANG" UserDataComponentName="TRANSFER_BARANGTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaspionConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        TRANSFER_GUDANG.ID_TRANSAKSI, DIVISI.NAMA, TRANSFER_GUDANG.NO_TRANSFER, TRANSFER_GUDANG.TGL, TRANSFER_GUDANG.TGL_PENGAKUAN, TRANSFER_GUDANG.DIVISI, 
+                         G_SUMBER.NAMA_GUDANG, G_TUJUAN.NAMA_GUDANG AS Expr1, TRANSFER_GUDANG.KETERANGAN_CETAK, DETAIL_TRANSFER_GUDANG.ID_BARANG, BARANG.KODE_PABRIK, BARANG.KODE, 
+                         BARANG.NAMA AS NAMA_BARANG, DETAIL_TRANSFER_GUDANG.QUANTITY, DETAIL_TRANSFER_GUDANG.SATUAN, DETAIL_TRANSFER_GUDANG.URUTAN, DETAIL_TRANSFER_GUDANG.KOLI, 
+                         DETAIL_TRANSFER_GUDANG.HARGA, DETAIL_TRANSFER_GUDANG.PCS
+FROM            TRANSFER_GUDANG INNER JOIN
+                         DETAIL_TRANSFER_GUDANG ON TRANSFER_GUDANG.ID_TRANSAKSI = DETAIL_TRANSFER_GUDANG.ID_TRANSAKSI LEFT OUTER JOIN
+                         GUDANG AS G_SUMBER ON TRANSFER_GUDANG.GUDANG_SUMBER = G_SUMBER.KODE LEFT OUTER JOIN
+                         GUDANG AS G_TUJUAN ON TRANSFER_GUDANG.GUDANG_TUJUAN = G_TUJUAN.KODE LEFT OUTER JOIN
+                         BARANG ON DETAIL_TRANSFER_GUDANG.ID_BARANG = BARANG.ID LEFT OUTER JOIN
+                         DIVISI ON DIVISI.KODE = TRANSFER_GUDANG.DIVISI</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_TRANSAKSI" DataSetColumn="ID_TRANSAKSI" />
+              <Mapping SourceColumn="NAMA" DataSetColumn="NAMA" />
+              <Mapping SourceColumn="NO_TRANSFER" DataSetColumn="NO_TRANSFER" />
+              <Mapping SourceColumn="TGL" DataSetColumn="TGL" />
+              <Mapping SourceColumn="TGL_PENGAKUAN" DataSetColumn="TGL_PENGAKUAN" />
+              <Mapping SourceColumn="DIVISI" DataSetColumn="DIVISI" />
+              <Mapping SourceColumn="NAMA_GUDANG" DataSetColumn="NAMA_GUDANG" />
+              <Mapping SourceColumn="KETERANGAN_CETAK" DataSetColumn="KETERANGAN_CETAK" />
+              <Mapping SourceColumn="ID_BARANG" DataSetColumn="ID_BARANG" />
+              <Mapping SourceColumn="KODE_PABRIK" DataSetColumn="KODE_PABRIK" />
+              <Mapping SourceColumn="KODE" DataSetColumn="KODE" />
+              <Mapping SourceColumn="NAMA_BARANG" DataSetColumn="NAMA_BARANG" />
+              <Mapping SourceColumn="QUANTITY" DataSetColumn="QUANTITY" />
+              <Mapping SourceColumn="SATUAN" DataSetColumn="SATUAN" />
+              <Mapping SourceColumn="URUTAN" DataSetColumn="URUTAN" />
+              <Mapping SourceColumn="KOLI" DataSetColumn="KOLI" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="HARGA" DataSetColumn="HARGA" />
+              <Mapping SourceColumn="PCS" DataSetColumn="PCS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPenjualan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPenjualan" msprop:Generator_UserDSName="DSPenjualan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DELIVERY_ORDER" msprop:Generator_TableClassName="DELIVERY_ORDERDataTable" msprop:Generator_TableVarName="tableDELIVERY_ORDER" msprop:Generator_TablePropName="DELIVERY_ORDER" msprop:Generator_RowDeletingName="DELIVERY_ORDERRowDeleting" msprop:Generator_RowChangingName="DELIVERY_ORDERRowChanging" msprop:Generator_RowEvHandlerName="DELIVERY_ORDERRowChangeEventHandler" msprop:Generator_RowDeletedName="DELIVERY_ORDERRowDeleted" msprop:Generator_UserTableName="DELIVERY_ORDER" msprop:Generator_RowChangedName="DELIVERY_ORDERRowChanged" msprop:Generator_RowEvArgName="DELIVERY_ORDERRowChangeEvent" msprop:Generator_RowClassName="DELIVERY_ORDERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_DO" msprop:Generator_ColumnVarNameInTable="columnNO_DO" msprop:Generator_ColumnPropNameInRow="NO_DO" msprop:Generator_ColumnPropNameInTable="NO_DOColumn" msprop:Generator_UserColumnName="NO_DO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PRICE" msprop:Generator_ColumnVarNameInTable="columnTGL_PRICE" msprop:Generator_ColumnPropNameInRow="TGL_PRICE" msprop:Generator_ColumnPropNameInTable="TGL_PRICEColumn" msprop:Generator_UserColumnName="TGL_PRICE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JENIS_PPN" msprop:Generator_ColumnVarNameInTable="columnJENIS_PPN" msprop:Generator_ColumnPropNameInRow="JENIS_PPN" msprop:Generator_ColumnPropNameInTable="JENIS_PPNColumn" msprop:Generator_UserColumnName="JENIS_PPN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnKODE_CUSTOMER" msprop:Generator_ColumnPropNameInRow="KODE_CUSTOMER" msprop:Generator_ColumnPropNameInTable="KODE_CUSTOMERColumn" msprop:Generator_UserColumnName="KODE_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KIRIM" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KIRIM" msprop:Generator_ColumnPropNameInRow="ALAMAT_KIRIM" msprop:Generator_ColumnPropNameInTable="ALAMAT_KIRIMColumn" msprop:Generator_UserColumnName="ALAMAT_KIRIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PEMBAYARAN" msprop:Generator_ColumnVarNameInTable="columnPEMBAYARAN" msprop:Generator_ColumnPropNameInRow="PEMBAYARAN" msprop:Generator_ColumnPropNameInTable="PEMBAYARANColumn" msprop:Generator_UserColumnName="PEMBAYARAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TERMS" msprop:Generator_ColumnVarNameInTable="columnTERMS" msprop:Generator_ColumnPropNameInRow="TERMS" msprop:Generator_ColumnPropNameInTable="TERMSColumn" msprop:Generator_UserColumnName="TERMS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JATUH_TEMPO" msprop:Generator_ColumnVarNameInTable="columnJATUH_TEMPO" msprop:Generator_ColumnPropNameInRow="JATUH_TEMPO" msprop:Generator_ColumnPropNameInTable="JATUH_TEMPOColumn" msprop:Generator_UserColumnName="JATUH_TEMPO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUBTOTAL" msprop:Generator_ColumnVarNameInTable="columnSUBTOTAL" msprop:Generator_ColumnPropNameInRow="SUBTOTAL" msprop:Generator_ColumnPropNameInTable="SUBTOTALColumn" msprop:Generator_UserColumnName="SUBTOTAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DPP" msprop:Generator_ColumnVarNameInTable="columnDPP" msprop:Generator_ColumnPropNameInRow="DPP" msprop:Generator_ColumnPropNameInTable="DPPColumn" msprop:Generator_UserColumnName="DPP" type="xs:double" minOccurs="0" />
+              <xs:element name="PPN" msprop:Generator_ColumnVarNameInTable="columnPPN" msprop:Generator_ColumnPropNameInRow="PPN" msprop:Generator_ColumnPropNameInTable="PPNColumn" msprop:Generator_UserColumnName="PPN" type="xs:double" minOccurs="0" />
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HARGA" msprop:Generator_ColumnVarNameInTable="columnHARGA" msprop:Generator_ColumnPropNameInRow="HARGA" msprop:Generator_ColumnPropNameInTable="HARGAColumn" msprop:Generator_UserColumnName="HARGA" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC" msprop:Generator_ColumnVarNameInTable="columnDISC" msprop:Generator_ColumnPropNameInRow="DISC" msprop:Generator_ColumnPropNameInTable="DISCColumn" msprop:Generator_UserColumnName="DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="DISKON_SATUAN" msprop:Generator_ColumnVarNameInTable="columnDISKON_SATUAN" msprop:Generator_ColumnPropNameInRow="DISKON_SATUAN" msprop:Generator_ColumnPropNameInTable="DISKON_SATUANColumn" msprop:Generator_UserColumnName="DISKON_SATUAN" type="xs:double" minOccurs="0" />
+              <xs:element name="URUTAN" msprop:Generator_ColumnVarNameInTable="columnURUTAN" msprop:Generator_ColumnPropNameInRow="URUTAN" msprop:Generator_ColumnPropNameInTable="URUTANColumn" msprop:Generator_UserColumnName="URUTAN" type="xs:double" minOccurs="0" />
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PABRIK" msprop:Generator_ColumnVarNameInTable="columnKODE_PABRIK" msprop:Generator_ColumnPropNameInRow="KODE_PABRIK" msprop:Generator_ColumnPropNameInTable="KODE_PABRIKColumn" msprop:Generator_UserColumnName="KODE_PABRIK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_SBU" msprop:Generator_ColumnVarNameInTable="columnNAMA_SBU" msprop:Generator_ColumnPropNameInRow="NAMA_SBU" msprop:Generator_ColumnPropNameInTable="NAMA_SBUColumn" msprop:Generator_UserColumnName="NAMA_SBU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROPINSI" msprop:Generator_ColumnVarNameInTable="columnPROPINSI" msprop:Generator_ColumnPropNameInRow="PROPINSI" msprop:Generator_ColumnPropNameInTable="PROPINSIColumn" msprop:Generator_UserColumnName="PROPINSI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA" msprop:Generator_ColumnVarNameInTable="columnKOTA" msprop:Generator_ColumnPropNameInRow="KOTA" msprop:Generator_ColumnPropNameInTable="KOTAColumn" msprop:Generator_UserColumnName="KOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_POS" msprop:Generator_ColumnVarNameInTable="columnKODE_POS" msprop:Generator_ColumnPropNameInRow="KODE_POS" msprop:Generator_ColumnPropNameInTable="KODE_POSColumn" msprop:Generator_UserColumnName="KODE_POS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_NPWP" msprop:Generator_ColumnVarNameInTable="columnNO_NPWP" msprop:Generator_ColumnPropNameInRow="NO_NPWP" msprop:Generator_ColumnPropNameInTable="NO_NPWPColumn" msprop:Generator_UserColumnName="NO_NPWP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnNAMA_CUSTOMER" msprop:Generator_ColumnPropNameInRow="NAMA_CUSTOMER" msprop:Generator_ColumnPropNameInTable="NAMA_CUSTOMERColumn" msprop:Generator_UserColumnName="NAMA_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KONVERSI" msprop:Generator_ColumnVarNameInTable="columnKONVERSI" msprop:Generator_ColumnPropNameInRow="KONVERSI" msprop:Generator_ColumnPropNameInTable="KONVERSIColumn" msprop:Generator_UserColumnName="KONVERSI" type="xs:double" minOccurs="0" />
+              <xs:element name="PCS" msprop:Generator_ColumnVarNameInTable="columnPCS" msprop:Generator_ColumnPropNameInRow="PCS" msprop:Generator_ColumnPropNameInTable="PCSColumn" msprop:Generator_UserColumnName="PCS" type="xs:double" minOccurs="0" />
+              <xs:element name="ISI" msprop:Generator_ColumnVarNameInTable="columnISI" msprop:Generator_ColumnPropNameInRow="ISI" msprop:Generator_ColumnPropNameInTable="ISIColumn" msprop:Generator_UserColumnName="ISI" type="xs:double" minOccurs="0" />
+              <xs:element name="ID_PO" msprop:Generator_ColumnVarNameInTable="columnID_PO" msprop:Generator_ColumnPropNameInRow="ID_PO" msprop:Generator_ColumnPropNameInTable="ID_POColumn" msprop:Generator_UserColumnName="ID_PO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CABANG" msprop:Generator_ColumnVarNameInTable="columnCABANG" msprop:Generator_ColumnPropNameInRow="CABANG" msprop:Generator_ColumnPropNameInTable="CABANGColumn" msprop:Generator_UserColumnName="CABANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_INTERNAL" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInRow="KETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInTable="KETERANGAN_INTERNALColumn" msprop:Generator_UserColumnName="KETERANGAN_INTERNAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISC_QTY" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY" msprop:Generator_ColumnPropNameInRow="DISC_QTY" msprop:Generator_ColumnPropNameInTable="DISC_QTYColumn" msprop:Generator_UserColumnName="DISC_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_QTY_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_QTY_NOMINALColumn" msprop:Generator_UserColumnName="DISC_QTY_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_REG" msprop:Generator_ColumnVarNameInTable="columnDISC_REG" msprop:Generator_ColumnPropNameInRow="DISC_REG" msprop:Generator_ColumnPropNameInTable="DISC_REGColumn" msprop:Generator_UserColumnName="DISC_REG" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_REG_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_REG_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_REG_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_REG_NOMINALColumn" msprop:Generator_UserColumnName="DISC_REG_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_1" msprop:Generator_ColumnVarNameInTable="columnDISC_1" msprop:Generator_ColumnPropNameInRow="DISC_1" msprop:Generator_ColumnPropNameInTable="DISC_1Column" msprop:Generator_UserColumnName="DISC_1" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_1_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_1_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_1_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_1_NOMINALColumn" msprop:Generator_UserColumnName="DISC_1_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_2" msprop:Generator_ColumnVarNameInTable="columnDISC_2" msprop:Generator_ColumnPropNameInRow="DISC_2" msprop:Generator_ColumnPropNameInTable="DISC_2Column" msprop:Generator_UserColumnName="DISC_2" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_2_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_2_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_2_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_2_NOMINALColumn" msprop:Generator_UserColumnName="DISC_2_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_3" msprop:Generator_ColumnVarNameInTable="columnDISC_3" msprop:Generator_ColumnPropNameInRow="DISC_3" msprop:Generator_ColumnPropNameInTable="DISC_3Column" msprop:Generator_UserColumnName="DISC_3" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_3_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_3_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_3_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_3_NOMINALColumn" msprop:Generator_UserColumnName="DISC_3_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="CASH_DISC" msprop:Generator_ColumnVarNameInTable="columnCASH_DISC" msprop:Generator_ColumnPropNameInRow="CASH_DISC" msprop:Generator_ColumnPropNameInTable="CASH_DISCColumn" msprop:Generator_UserColumnName="CASH_DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="CASH_DISC_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnCASH_DISC_NOMINAL" msprop:Generator_ColumnPropNameInRow="CASH_DISC_NOMINAL" msprop:Generator_ColumnPropNameInTable="CASH_DISC_NOMINALColumn" msprop:Generator_UserColumnName="CASH_DISC_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY1" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY1" msprop:Generator_ColumnPropNameInRow="DISC_QTY1" msprop:Generator_ColumnPropNameInTable="DISC_QTY1Column" msprop:Generator_UserColumnName="DISC_QTY1" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY_NOMINAL1" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY_NOMINAL1" msprop:Generator_ColumnPropNameInRow="DISC_QTY_NOMINAL1" msprop:Generator_ColumnPropNameInTable="DISC_QTY_NOMINAL1Column" msprop:Generator_UserColumnName="DISC_QTY_NOMINAL1" type="xs:double" minOccurs="0" />
+              <xs:element name="PERIODE" msprop:Generator_ColumnVarNameInTable="columnPERIODE" msprop:Generator_ColumnPropNameInRow="PERIODE" msprop:Generator_ColumnPropNameInTable="PERIODEColumn" msprop:Generator_UserColumnName="PERIODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CABANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_CABANG" msprop:Generator_ColumnPropNameInRow="NAMA_CABANG" msprop:Generator_ColumnPropNameInTable="NAMA_CABANGColumn" msprop:Generator_UserColumnName="NAMA_CABANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_USER" msprop:Generator_ColumnVarNameInTable="columnNAMA_USER" msprop:Generator_ColumnPropNameInRow="NAMA_USER" msprop:Generator_ColumnPropNameInTable="NAMA_USERColumn" msprop:Generator_UserColumnName="NAMA_USER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_PKP" msprop:Generator_ColumnVarNameInTable="columnALAMAT_PKP" msprop:Generator_ColumnPropNameInRow="ALAMAT_PKP" msprop:Generator_ColumnPropNameInTable="ALAMAT_PKPColumn" msprop:Generator_UserColumnName="ALAMAT_PKP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_PKP" msprop:Generator_ColumnVarNameInTable="columnNAMA_PKP" msprop:Generator_ColumnPropNameInRow="NAMA_PKP" msprop:Generator_ColumnPropNameInTable="NAMA_PKPColumn" msprop:Generator_UserColumnName="NAMA_PKP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA" msprop:Generator_ColumnVarNameInTable="columnNAMA" msprop:Generator_ColumnPropNameInRow="NAMA" msprop:Generator_ColumnPropNameInTable="NAMAColumn" msprop:Generator_UserColumnName="NAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRINT_PKP" msprop:Generator_ColumnVarNameInTable="columnPRINT_PKP" msprop:Generator_ColumnPropNameInRow="PRINT_PKP" msprop:Generator_ColumnPropNameInTable="PRINT_PKPColumn" msprop:Generator_UserColumnName="PRINT_PKP" type="xs:boolean" minOccurs="0" />
+              <xs:element name="KODE_CORPORATION" msprop:Generator_ColumnVarNameInTable="columnKODE_CORPORATION" msprop:Generator_ColumnPropNameInRow="KODE_CORPORATION" msprop:Generator_ColumnPropNameInTable="KODE_CORPORATIONColumn" msprop:Generator_UserColumnName="KODE_CORPORATION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SALESMAN" msprop:Generator_ColumnVarNameInTable="columnSALESMAN" msprop:Generator_ColumnPropNameInRow="SALESMAN" msprop:Generator_ColumnPropNameInTable="SALESMANColumn" msprop:Generator_UserColumnName="SALESMAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NOTA_SJ" msprop:Generator_TableClassName="NOTA_SJDataTable" msprop:Generator_TableVarName="tableNOTA_SJ" msprop:Generator_TablePropName="NOTA_SJ" msprop:Generator_RowDeletingName="NOTA_SJRowDeleting" msprop:Generator_RowChangingName="NOTA_SJRowChanging" msprop:Generator_RowEvHandlerName="NOTA_SJRowChangeEventHandler" msprop:Generator_RowDeletedName="NOTA_SJRowDeleted" msprop:Generator_UserTableName="NOTA_SJ" msprop:Generator_RowChangedName="NOTA_SJRowChanged" msprop:Generator_RowEvArgName="NOTA_SJRowChangeEvent" msprop:Generator_RowClassName="NOTA_SJRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NO_NOTA" msprop:Generator_ColumnVarNameInTable="columnNO_NOTA" msprop:Generator_ColumnPropNameInRow="NO_NOTA" msprop:Generator_ColumnPropNameInTable="NO_NOTAColumn" msprop:Generator_UserColumnName="NO_NOTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NO_DO" msprop:Generator_ColumnVarNameInTable="columnNO_DO" msprop:Generator_ColumnPropNameInRow="NO_DO" msprop:Generator_ColumnPropNameInTable="NO_DOColumn" msprop:Generator_UserColumnName="NO_DO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_DO" msprop:Generator_ColumnVarNameInTable="columnTGL_DO" msprop:Generator_ColumnPropNameInRow="TGL_DO" msprop:Generator_ColumnPropNameInTable="TGL_DOColumn" msprop:Generator_UserColumnName="TGL_DO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NAMA_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnNAMA_CUSTOMER" msprop:Generator_ColumnPropNameInRow="NAMA_CUSTOMER" msprop:Generator_ColumnPropNameInTable="NAMA_CUSTOMERColumn" msprop:Generator_UserColumnName="NAMA_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA" msprop:Generator_ColumnVarNameInTable="columnKOTA" msprop:Generator_ColumnPropNameInRow="KOTA" msprop:Generator_ColumnPropNameInTable="KOTAColumn" msprop:Generator_UserColumnName="KOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CABANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_CABANG" msprop:Generator_ColumnPropNameInRow="NAMA_CABANG" msprop:Generator_ColumnPropNameInTable="NAMA_CABANGColumn" msprop:Generator_UserColumnName="NAMA_CABANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KIRIM" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KIRIM" msprop:Generator_ColumnPropNameInRow="ALAMAT_KIRIM" msprop:Generator_ColumnPropNameInTable="ALAMAT_KIRIMColumn" msprop:Generator_UserColumnName="ALAMAT_KIRIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HARGA" msprop:Generator_ColumnVarNameInTable="columnHARGA" msprop:Generator_ColumnPropNameInRow="HARGA" msprop:Generator_ColumnPropNameInTable="HARGAColumn" msprop:Generator_UserColumnName="HARGA" type="xs:double" minOccurs="0" />
+              <xs:element name="DISKON_SATUAN" msprop:Generator_ColumnVarNameInTable="columnDISKON_SATUAN" msprop:Generator_ColumnPropNameInRow="DISKON_SATUAN" msprop:Generator_ColumnPropNameInTable="DISKON_SATUANColumn" msprop:Generator_UserColumnName="DISKON_SATUAN" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC" msprop:Generator_ColumnVarNameInTable="columnDISC" msprop:Generator_ColumnPropNameInRow="DISC" msprop:Generator_ColumnPropNameInTable="DISCColumn" msprop:Generator_UserColumnName="DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="SUBTOTAL" msprop:Generator_ColumnVarNameInTable="columnSUBTOTAL" msprop:Generator_ColumnPropNameInRow="SUBTOTAL" msprop:Generator_ColumnPropNameInTable="SUBTOTALColumn" msprop:Generator_UserColumnName="SUBTOTAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DPP" msprop:Generator_ColumnVarNameInTable="columnDPP" msprop:Generator_ColumnPropNameInRow="DPP" msprop:Generator_ColumnPropNameInTable="DPPColumn" msprop:Generator_UserColumnName="DPP" type="xs:double" minOccurs="0" />
+              <xs:element name="PPN" msprop:Generator_ColumnVarNameInTable="columnPPN" msprop:Generator_ColumnPropNameInRow="PPN" msprop:Generator_ColumnPropNameInTable="PPNColumn" msprop:Generator_UserColumnName="PPN" type="xs:double" minOccurs="0" />
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_REF" msprop:Generator_ColumnVarNameInTable="columnNO_REF" msprop:Generator_ColumnPropNameInRow="NO_REF" msprop:Generator_ColumnPropNameInTable="NO_REFColumn" msprop:Generator_UserColumnName="NO_REF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID_STUFFING" msprop:Generator_ColumnVarNameInTable="columnID_STUFFING" msprop:Generator_ColumnPropNameInRow="ID_STUFFING" msprop:Generator_ColumnPropNameInTable="ID_STUFFINGColumn" msprop:Generator_UserColumnName="ID_STUFFING" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_DO" msprop:Generator_ColumnVarNameInTable="columnID_DO" msprop:Generator_ColumnPropNameInRow="ID_DO" msprop:Generator_ColumnPropNameInTable="ID_DOColumn" msprop:Generator_UserColumnName="ID_DO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JENIS_PPN" msprop:Generator_ColumnVarNameInTable="columnJENIS_PPN" msprop:Generator_ColumnPropNameInRow="JENIS_PPN" msprop:Generator_ColumnPropNameInTable="JENIS_PPNColumn" msprop:Generator_UserColumnName="JENIS_PPN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnKODE_CUSTOMER" msprop:Generator_ColumnPropNameInRow="KODE_CUSTOMER" msprop:Generator_ColumnPropNameInTable="KODE_CUSTOMERColumn" msprop:Generator_UserColumnName="KODE_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CABANG" msprop:Generator_ColumnVarNameInTable="columnCABANG" msprop:Generator_ColumnPropNameInRow="CABANG" msprop:Generator_ColumnPropNameInTable="CABANGColumn" msprop:Generator_UserColumnName="CABANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GUDANG" msprop:Generator_ColumnVarNameInTable="columnGUDANG" msprop:Generator_ColumnPropNameInRow="GUDANG" msprop:Generator_ColumnPropNameInTable="GUDANGColumn" msprop:Generator_UserColumnName="GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SJ_TANPA_HARGA" msprop:Generator_ColumnVarNameInTable="columnSJ_TANPA_HARGA" msprop:Generator_ColumnPropNameInRow="SJ_TANPA_HARGA" msprop:Generator_ColumnPropNameInTable="SJ_TANPA_HARGAColumn" msprop:Generator_UserColumnName="SJ_TANPA_HARGA" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TITIP" msprop:Generator_ColumnVarNameInTable="columnTITIP" msprop:Generator_ColumnPropNameInRow="TITIP" msprop:Generator_ColumnPropNameInTable="TITIPColumn" msprop:Generator_UserColumnName="TITIP" type="xs:boolean" minOccurs="0" />
+              <xs:element name="KETERANGAN_INTERNAL" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInRow="KETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInTable="KETERANGAN_INTERNALColumn" msprop:Generator_UserColumnName="KETERANGAN_INTERNAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISC_QTY" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY" msprop:Generator_ColumnPropNameInRow="DISC_QTY" msprop:Generator_ColumnPropNameInTable="DISC_QTYColumn" msprop:Generator_UserColumnName="DISC_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_QTY_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_QTY_NOMINALColumn" msprop:Generator_UserColumnName="DISC_QTY_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_REG" msprop:Generator_ColumnVarNameInTable="columnDISC_REG" msprop:Generator_ColumnPropNameInRow="DISC_REG" msprop:Generator_ColumnPropNameInTable="DISC_REGColumn" msprop:Generator_UserColumnName="DISC_REG" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_REG_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_REG_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_REG_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_REG_NOMINALColumn" msprop:Generator_UserColumnName="DISC_REG_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_1" msprop:Generator_ColumnVarNameInTable="columnDISC_1" msprop:Generator_ColumnPropNameInRow="DISC_1" msprop:Generator_ColumnPropNameInTable="DISC_1Column" msprop:Generator_UserColumnName="DISC_1" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_1_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_1_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_1_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_1_NOMINALColumn" msprop:Generator_UserColumnName="DISC_1_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_2" msprop:Generator_ColumnVarNameInTable="columnDISC_2" msprop:Generator_ColumnPropNameInRow="DISC_2" msprop:Generator_ColumnPropNameInTable="DISC_2Column" msprop:Generator_UserColumnName="DISC_2" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_2_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_2_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_2_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_2_NOMINALColumn" msprop:Generator_UserColumnName="DISC_2_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_3" msprop:Generator_ColumnVarNameInTable="columnDISC_3" msprop:Generator_ColumnPropNameInRow="DISC_3" msprop:Generator_ColumnPropNameInTable="DISC_3Column" msprop:Generator_UserColumnName="DISC_3" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_3_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_3_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_3_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_3_NOMINALColumn" msprop:Generator_UserColumnName="DISC_3_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="CASH_DISC" msprop:Generator_ColumnVarNameInTable="columnCASH_DISC" msprop:Generator_ColumnPropNameInRow="CASH_DISC" msprop:Generator_ColumnPropNameInTable="CASH_DISCColumn" msprop:Generator_UserColumnName="CASH_DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="CASH_DISC_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnCASH_DISC_NOMINAL" msprop:Generator_ColumnPropNameInRow="CASH_DISC_NOMINAL" msprop:Generator_ColumnPropNameInTable="CASH_DISC_NOMINALColumn" msprop:Generator_UserColumnName="CASH_DISC_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY1" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY1" msprop:Generator_ColumnPropNameInRow="DISC_QTY1" msprop:Generator_ColumnPropNameInTable="DISC_QTY1Column" msprop:Generator_UserColumnName="DISC_QTY1" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY_NOMINAL1" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY_NOMINAL1" msprop:Generator_ColumnPropNameInRow="DISC_QTY_NOMINAL1" msprop:Generator_ColumnPropNameInTable="DISC_QTY_NOMINAL1Column" msprop:Generator_UserColumnName="DISC_QTY_NOMINAL1" type="xs:double" minOccurs="0" />
+              <xs:element name="PERIODE" msprop:Generator_ColumnVarNameInTable="columnPERIODE" msprop:Generator_ColumnPropNameInRow="PERIODE" msprop:Generator_ColumnPropNameInTable="PERIODEColumn" msprop:Generator_UserColumnName="PERIODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CRUSER" msprop:Generator_ColumnVarNameInTable="columnCRUSER" msprop:Generator_ColumnPropNameInRow="CRUSER" msprop:Generator_ColumnPropNameInTable="CRUSERColumn" msprop:Generator_UserColumnName="CRUSER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CRTIME" msprop:Generator_ColumnVarNameInTable="columnCRTIME" msprop:Generator_ColumnPropNameInRow="CRTIME" msprop:Generator_ColumnPropNameInTable="CRTIMEColumn" msprop:Generator_UserColumnName="CRTIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MDUSER" msprop:Generator_ColumnVarNameInTable="columnMDUSER" msprop:Generator_ColumnPropNameInRow="MDUSER" msprop:Generator_ColumnPropNameInTable="MDUSERColumn" msprop:Generator_UserColumnName="MDUSER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MDTIME" msprop:Generator_ColumnVarNameInTable="columnMDTIME" msprop:Generator_ColumnPropNameInRow="MDTIME" msprop:Generator_ColumnPropNameInTable="MDTIMEColumn" msprop:Generator_UserColumnName="MDTIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BATAL" msprop:Generator_ColumnVarNameInTable="columnBATAL" msprop:Generator_ColumnPropNameInRow="BATAL" msprop:Generator_ColumnPropNameInTable="BATALColumn" msprop:Generator_UserColumnName="BATAL" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BAGIAN" msprop:Generator_ColumnVarNameInTable="columnBAGIAN" msprop:Generator_ColumnPropNameInRow="BAGIAN" msprop:Generator_ColumnPropNameInTable="BAGIANColumn" msprop:Generator_UserColumnName="BAGIAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_EKSPEDISI" msprop:Generator_ColumnVarNameInTable="columnKODE_EKSPEDISI" msprop:Generator_ColumnPropNameInRow="KODE_EKSPEDISI" msprop:Generator_ColumnPropNameInTable="KODE_EKSPEDISIColumn" msprop:Generator_UserColumnName="KODE_EKSPEDISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_TRUK" msprop:Generator_ColumnVarNameInTable="columnNO_TRUK" msprop:Generator_ColumnPropNameInRow="NO_TRUK" msprop:Generator_ColumnPropNameInTable="NO_TRUKColumn" msprop:Generator_UserColumnName="NO_TRUK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KONVERSI" msprop:Generator_ColumnVarNameInTable="columnKONVERSI" msprop:Generator_ColumnPropNameInRow="KONVERSI" msprop:Generator_ColumnPropNameInTable="KONVERSIColumn" msprop:Generator_UserColumnName="KONVERSI" type="xs:double" minOccurs="0" />
+              <xs:element name="PCS" msprop:Generator_ColumnVarNameInTable="columnPCS" msprop:Generator_ColumnPropNameInRow="PCS" msprop:Generator_ColumnPropNameInTable="PCSColumn" msprop:Generator_UserColumnName="PCS" type="xs:double" minOccurs="0" />
+              <xs:element name="URUTAN" msprop:Generator_ColumnVarNameInTable="columnURUTAN" msprop:Generator_ColumnPropNameInRow="URUTAN" msprop:Generator_ColumnPropNameInTable="URUTANColumn" msprop:Generator_UserColumnName="URUTAN" type="xs:double" minOccurs="0" />
+              <xs:element name="PENGEMUDI" msprop:Generator_ColumnVarNameInTable="columnPENGEMUDI" msprop:Generator_ColumnPropNameInRow="PENGEMUDI" msprop:Generator_ColumnPropNameInTable="PENGEMUDIColumn" msprop:Generator_UserColumnName="PENGEMUDI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KEPALA_GUDANG" msprop:Generator_ColumnVarNameInTable="columnKEPALA_GUDANG" msprop:Generator_ColumnPropNameInRow="KEPALA_GUDANG" msprop:Generator_ColumnPropNameInTable="KEPALA_GUDANGColumn" msprop:Generator_UserColumnName="KEPALA_GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONTROLLER" msprop:Generator_ColumnVarNameInTable="columnCONTROLLER" msprop:Generator_ColumnPropNameInRow="CONTROLLER" msprop:Generator_ColumnPropNameInTable="CONTROLLERColumn" msprop:Generator_UserColumnName="CONTROLLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRINT_PKP" msprop:Generator_ColumnVarNameInTable="columnPRINT_PKP" msprop:Generator_ColumnPropNameInRow="PRINT_PKP" msprop:Generator_ColumnPropNameInTable="PRINT_PKPColumn" msprop:Generator_UserColumnName="PRINT_PKP" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NO_NPWP" msprop:Generator_ColumnVarNameInTable="columnNO_NPWP" msprop:Generator_ColumnPropNameInRow="NO_NPWP" msprop:Generator_ColumnPropNameInTable="NO_NPWPColumn" msprop:Generator_UserColumnName="NO_NPWP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_PKP" msprop:Generator_ColumnVarNameInTable="columnNAMA_PKP" msprop:Generator_ColumnPropNameInRow="NAMA_PKP" msprop:Generator_ColumnPropNameInTable="NAMA_PKPColumn" msprop:Generator_UserColumnName="NAMA_PKP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_PKP" msprop:Generator_ColumnVarNameInTable="columnALAMAT_PKP" msprop:Generator_ColumnPropNameInRow="ALAMAT_PKP" msprop:Generator_ColumnPropNameInTable="ALAMAT_PKPColumn" msprop:Generator_UserColumnName="ALAMAT_PKP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA_NPWP" msprop:Generator_ColumnVarNameInTable="columnKOTA_NPWP" msprop:Generator_ColumnPropNameInRow="KOTA_NPWP" msprop:Generator_ColumnPropNameInTable="KOTA_NPWPColumn" msprop:Generator_UserColumnName="KOTA_NPWP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_POS_NPWP" msprop:Generator_ColumnVarNameInTable="columnKODE_POS_NPWP" msprop:Generator_ColumnPropNameInRow="KODE_POS_NPWP" msprop:Generator_ColumnPropNameInTable="KODE_POS_NPWPColumn" msprop:Generator_UserColumnName="KODE_POS_NPWP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SJ" msprop:Generator_TableClassName="SJDataTable" msprop:Generator_TableVarName="tableSJ" msprop:Generator_TablePropName="SJ" msprop:Generator_RowDeletingName="SJRowDeleting" msprop:Generator_RowChangingName="SJRowChanging" msprop:Generator_RowEvHandlerName="SJRowChangeEventHandler" msprop:Generator_RowDeletedName="SJRowDeleted" msprop:Generator_UserTableName="SJ" msprop:Generator_RowChangedName="SJRowChanged" msprop:Generator_RowEvArgName="SJRowChangeEvent" msprop:Generator_RowClassName="SJRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_SJ" msprop:Generator_ColumnVarNameInTable="columnNO_SJ" msprop:Generator_ColumnPropNameInRow="NO_SJ" msprop:Generator_ColumnPropNameInTable="NO_SJColumn" msprop:Generator_UserColumnName="NO_SJ">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NO_NOTA" msprop:Generator_ColumnVarNameInTable="columnNO_NOTA" msprop:Generator_ColumnPropNameInRow="NO_NOTA" msprop:Generator_ColumnPropNameInTable="NO_NOTAColumn" msprop:Generator_UserColumnName="NO_NOTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_NOTA" msprop:Generator_ColumnVarNameInTable="columnID_NOTA" msprop:Generator_ColumnPropNameInRow="ID_NOTA" msprop:Generator_ColumnPropNameInTable="ID_NOTAColumn" msprop:Generator_UserColumnName="ID_NOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_NOTA" msprop:Generator_ColumnVarNameInTable="columnTGL_NOTA" msprop:Generator_ColumnPropNameInRow="TGL_NOTA" msprop:Generator_ColumnPropNameInTable="TGL_NOTAColumn" msprop:Generator_UserColumnName="TGL_NOTA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnKODE_CUSTOMER" msprop:Generator_ColumnPropNameInRow="KODE_CUSTOMER" msprop:Generator_ColumnPropNameInTable="KODE_CUSTOMERColumn" msprop:Generator_UserColumnName="KODE_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KIRIM" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KIRIM" msprop:Generator_ColumnPropNameInRow="ALAMAT_KIRIM" msprop:Generator_ColumnPropNameInTable="ALAMAT_KIRIMColumn" msprop:Generator_UserColumnName="ALAMAT_KIRIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PABRIK" msprop:Generator_ColumnVarNameInTable="columnKODE_PABRIK" msprop:Generator_ColumnPropNameInRow="KODE_PABRIK" msprop:Generator_ColumnPropNameInTable="KODE_PABRIKColumn" msprop:Generator_UserColumnName="KODE_PABRIK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnNAMA_CUSTOMER" msprop:Generator_ColumnPropNameInRow="NAMA_CUSTOMER" msprop:Generator_ColumnPropNameInTable="NAMA_CUSTOMERColumn" msprop:Generator_UserColumnName="NAMA_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA" msprop:Generator_ColumnVarNameInTable="columnKOTA" msprop:Generator_ColumnPropNameInRow="KOTA" msprop:Generator_ColumnPropNameInTable="KOTAColumn" msprop:Generator_UserColumnName="KOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUTAN" msprop:Generator_ColumnVarNameInTable="columnURUTAN" msprop:Generator_ColumnPropNameInRow="URUTAN" msprop:Generator_ColumnPropNameInTable="URUTANColumn" msprop:Generator_UserColumnName="URUTAN" type="xs:double" minOccurs="0" />
+              <xs:element name="ID_DO" msprop:Generator_ColumnVarNameInTable="columnID_DO" msprop:Generator_ColumnPropNameInRow="ID_DO" msprop:Generator_ColumnPropNameInTable="ID_DOColumn" msprop:Generator_UserColumnName="ID_DO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_DO" msprop:Generator_ColumnVarNameInTable="columnNO_DO" msprop:Generator_ColumnPropNameInRow="NO_DO" msprop:Generator_ColumnPropNameInTable="NO_DOColumn" msprop:Generator_UserColumnName="NO_DO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_DO" msprop:Generator_ColumnVarNameInTable="columnTGL_DO" msprop:Generator_ColumnPropNameInRow="TGL_DO" msprop:Generator_ColumnPropNameInTable="TGL_DOColumn" msprop:Generator_UserColumnName="TGL_DO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="PENGEMUDI" msprop:Generator_ColumnVarNameInTable="columnPENGEMUDI" msprop:Generator_ColumnPropNameInRow="PENGEMUDI" msprop:Generator_ColumnPropNameInTable="PENGEMUDIColumn" msprop:Generator_UserColumnName="PENGEMUDI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KEPALA_GUDANG" msprop:Generator_ColumnVarNameInTable="columnKEPALA_GUDANG" msprop:Generator_ColumnPropNameInRow="KEPALA_GUDANG" msprop:Generator_ColumnPropNameInTable="KEPALA_GUDANGColumn" msprop:Generator_UserColumnName="KEPALA_GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONTROLLER" msprop:Generator_ColumnVarNameInTable="columnCONTROLLER" msprop:Generator_ColumnPropNameInRow="CONTROLLER" msprop:Generator_ColumnPropNameInTable="CONTROLLERColumn" msprop:Generator_UserColumnName="CONTROLLER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="STUFFING" msprop:Generator_TableClassName="STUFFINGDataTable" msprop:Generator_TableVarName="tableSTUFFING" msprop:Generator_TablePropName="STUFFING" msprop:Generator_RowDeletingName="STUFFINGRowDeleting" msprop:Generator_RowChangingName="STUFFINGRowChanging" msprop:Generator_RowEvHandlerName="STUFFINGRowChangeEventHandler" msprop:Generator_RowDeletedName="STUFFINGRowDeleted" msprop:Generator_UserTableName="STUFFING" msprop:Generator_RowChangedName="STUFFINGRowChanged" msprop:Generator_RowEvArgName="STUFFINGRowChangeEvent" msprop:Generator_RowClassName="STUFFINGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_DO" msprop:Generator_ColumnVarNameInTable="columnNO_DO" msprop:Generator_ColumnPropNameInRow="NO_DO" msprop:Generator_ColumnPropNameInTable="NO_DOColumn" msprop:Generator_UserColumnName="NO_DO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnKODE_CUSTOMER" msprop:Generator_ColumnPropNameInRow="KODE_CUSTOMER" msprop:Generator_ColumnPropNameInTable="KODE_CUSTOMERColumn" msprop:Generator_UserColumnName="KODE_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KIRIM" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KIRIM" msprop:Generator_ColumnPropNameInRow="ALAMAT_KIRIM" msprop:Generator_ColumnPropNameInTable="ALAMAT_KIRIMColumn" msprop:Generator_UserColumnName="ALAMAT_KIRIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUTAN" msprop:Generator_ColumnVarNameInTable="columnURUTAN" msprop:Generator_ColumnPropNameInRow="URUTAN" msprop:Generator_ColumnPropNameInTable="URUTANColumn" msprop:Generator_UserColumnName="URUTAN" type="xs:double" minOccurs="0" />
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PABRIK" msprop:Generator_ColumnVarNameInTable="columnKODE_PABRIK" msprop:Generator_ColumnPropNameInRow="KODE_PABRIK" msprop:Generator_ColumnPropNameInTable="KODE_PABRIKColumn" msprop:Generator_UserColumnName="KODE_PABRIK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_SBU" msprop:Generator_ColumnVarNameInTable="columnNAMA_SBU" msprop:Generator_ColumnPropNameInRow="NAMA_SBU" msprop:Generator_ColumnPropNameInTable="NAMA_SBUColumn" msprop:Generator_UserColumnName="NAMA_SBU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnNAMA_CUSTOMER" msprop:Generator_ColumnPropNameInRow="NAMA_CUSTOMER" msprop:Generator_ColumnPropNameInTable="NAMA_CUSTOMERColumn" msprop:Generator_UserColumnName="NAMA_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROPINSI" msprop:Generator_ColumnVarNameInTable="columnPROPINSI" msprop:Generator_ColumnPropNameInRow="PROPINSI" msprop:Generator_ColumnPropNameInTable="PROPINSIColumn" msprop:Generator_UserColumnName="PROPINSI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA" msprop:Generator_ColumnVarNameInTable="columnKOTA" msprop:Generator_ColumnPropNameInRow="KOTA" msprop:Generator_ColumnPropNameInTable="KOTAColumn" msprop:Generator_UserColumnName="KOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_POS" msprop:Generator_ColumnVarNameInTable="columnKODE_POS" msprop:Generator_ColumnPropNameInRow="KODE_POS" msprop:Generator_ColumnPropNameInTable="KODE_POSColumn" msprop:Generator_UserColumnName="KODE_POS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_NPWP" msprop:Generator_ColumnVarNameInTable="columnNO_NPWP" msprop:Generator_ColumnPropNameInRow="NO_NPWP" msprop:Generator_ColumnPropNameInTable="NO_NPWPColumn" msprop:Generator_UserColumnName="NO_NPWP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KONVERSI" msprop:Generator_ColumnVarNameInTable="columnKONVERSI" msprop:Generator_ColumnPropNameInRow="KONVERSI" msprop:Generator_ColumnPropNameInTable="KONVERSIColumn" msprop:Generator_UserColumnName="KONVERSI" type="xs:double" minOccurs="0" />
+              <xs:element name="PCS" msprop:Generator_ColumnVarNameInTable="columnPCS" msprop:Generator_ColumnPropNameInRow="PCS" msprop:Generator_ColumnPropNameInTable="PCSColumn" msprop:Generator_UserColumnName="PCS" type="xs:double" minOccurs="0" />
+              <xs:element name="ISI" msprop:Generator_ColumnVarNameInTable="columnISI" msprop:Generator_ColumnPropNameInRow="ISI" msprop:Generator_ColumnPropNameInTable="ISIColumn" msprop:Generator_UserColumnName="ISI" type="xs:double" minOccurs="0" />
+              <xs:element name="CABANG" msprop:Generator_ColumnVarNameInTable="columnCABANG" msprop:Generator_ColumnPropNameInRow="CABANG" msprop:Generator_ColumnPropNameInTable="CABANGColumn" msprop:Generator_UserColumnName="CABANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_INTERNAL" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInRow="KETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInTable="KETERANGAN_INTERNALColumn" msprop:Generator_UserColumnName="KETERANGAN_INTERNAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PERIODE" msprop:Generator_ColumnVarNameInTable="columnPERIODE" msprop:Generator_ColumnPropNameInRow="PERIODE" msprop:Generator_ColumnPropNameInTable="PERIODEColumn" msprop:Generator_UserColumnName="PERIODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CABANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_CABANG" msprop:Generator_ColumnPropNameInRow="NAMA_CABANG" msprop:Generator_ColumnPropNameInTable="NAMA_CABANGColumn" msprop:Generator_UserColumnName="NAMA_CABANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_STUFFING" msprop:Generator_ColumnVarNameInTable="columnNO_STUFFING" msprop:Generator_ColumnPropNameInRow="NO_STUFFING" msprop:Generator_ColumnPropNameInTable="NO_STUFFINGColumn" msprop:Generator_UserColumnName="NO_STUFFING">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_DO" msprop:Generator_ColumnVarNameInTable="columnID_DO" msprop:Generator_ColumnPropNameInRow="ID_DO" msprop:Generator_ColumnPropNameInTable="ID_DOColumn" msprop:Generator_UserColumnName="ID_DO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_DO" msprop:Generator_ColumnVarNameInTable="columnTGL_DO" msprop:Generator_ColumnPropNameInRow="TGL_DO" msprop:Generator_ColumnPropNameInTable="TGL_DOColumn" msprop:Generator_UserColumnName="TGL_DO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GUDANG" msprop:Generator_ColumnVarNameInTable="columnGUDANG" msprop:Generator_ColumnPropNameInRow="GUDANG" msprop:Generator_ColumnPropNameInTable="GUDANGColumn" msprop:Generator_UserColumnName="GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TTB" msprop:Generator_TableClassName="TTBDataTable" msprop:Generator_TableVarName="tableTTB" msprop:Generator_TablePropName="TTB" msprop:Generator_RowDeletingName="TTBRowDeleting" msprop:Generator_RowChangingName="TTBRowChanging" msprop:Generator_RowEvHandlerName="TTBRowChangeEventHandler" msprop:Generator_RowDeletedName="TTBRowDeleted" msprop:Generator_UserTableName="TTB" msprop:Generator_RowChangedName="TTBRowChanged" msprop:Generator_RowEvArgName="TTBRowChangeEvent" msprop:Generator_RowClassName="TTBRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_TTB" msprop:Generator_ColumnVarNameInTable="columnNO_TTB" msprop:Generator_ColumnPropNameInRow="NO_TTB" msprop:Generator_ColumnPropNameInTable="NO_TTBColumn" msprop:Generator_UserColumnName="NO_TTB">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NO_NOTA" msprop:Generator_ColumnVarNameInTable="columnNO_NOTA" msprop:Generator_ColumnPropNameInRow="NO_NOTA" msprop:Generator_ColumnPropNameInTable="NO_NOTAColumn" msprop:Generator_UserColumnName="NO_NOTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL_NOTA" msprop:Generator_ColumnVarNameInTable="columnTGL_NOTA" msprop:Generator_ColumnPropNameInRow="TGL_NOTA" msprop:Generator_ColumnPropNameInTable="TGL_NOTAColumn" msprop:Generator_UserColumnName="TGL_NOTA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnKODE_CUSTOMER" msprop:Generator_ColumnPropNameInRow="KODE_CUSTOMER" msprop:Generator_ColumnPropNameInTable="KODE_CUSTOMERColumn" msprop:Generator_UserColumnName="KODE_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_APPROVE" msprop:Generator_ColumnVarNameInTable="columnKODE_APPROVE" msprop:Generator_ColumnPropNameInRow="KODE_APPROVE" msprop:Generator_ColumnPropNameInTable="KODE_APPROVEColumn" msprop:Generator_UserColumnName="KODE_APPROVE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT" msprop:Generator_ColumnVarNameInTable="columnALAMAT" msprop:Generator_ColumnPropNameInRow="ALAMAT" msprop:Generator_ColumnPropNameInTable="ALAMATColumn" msprop:Generator_UserColumnName="ALAMAT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GUDANG" msprop:Generator_ColumnVarNameInTable="columnGUDANG" msprop:Generator_ColumnPropNameInRow="GUDANG" msprop:Generator_ColumnPropNameInTable="GUDANGColumn" msprop:Generator_UserColumnName="GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_INTERNAL" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInRow="KETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInTable="KETERANGAN_INTERNALColumn" msprop:Generator_UserColumnName="KETERANGAN_INTERNAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISI" msprop:Generator_ColumnVarNameInTable="columnISI" msprop:Generator_ColumnPropNameInRow="ISI" msprop:Generator_ColumnPropNameInTable="ISIColumn" msprop:Generator_UserColumnName="ISI" type="xs:double" minOccurs="0" />
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KONVERSI" msprop:Generator_ColumnVarNameInTable="columnKONVERSI" msprop:Generator_ColumnPropNameInRow="KONVERSI" msprop:Generator_ColumnPropNameInTable="KONVERSIColumn" msprop:Generator_UserColumnName="KONVERSI" type="xs:double" minOccurs="0" />
+              <xs:element name="PCS" msprop:Generator_ColumnVarNameInTable="columnPCS" msprop:Generator_ColumnPropNameInRow="PCS" msprop:Generator_ColumnPropNameInTable="PCSColumn" msprop:Generator_UserColumnName="PCS" type="xs:double" minOccurs="0" />
+              <xs:element name="KETERANGAN" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN" msprop:Generator_ColumnPropNameInRow="KETERANGAN" msprop:Generator_ColumnPropNameInTable="KETERANGANColumn" msprop:Generator_UserColumnName="KETERANGAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PABRIK" msprop:Generator_ColumnVarNameInTable="columnKODE_PABRIK" msprop:Generator_ColumnPropNameInRow="KODE_PABRIK" msprop:Generator_ColumnPropNameInTable="KODE_PABRIKColumn" msprop:Generator_UserColumnName="KODE_PABRIK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA" msprop:Generator_ColumnVarNameInTable="columnNAMA" msprop:Generator_ColumnPropNameInRow="NAMA" msprop:Generator_ColumnPropNameInTable="NAMAColumn" msprop:Generator_UserColumnName="NAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROPINSI" msprop:Generator_ColumnVarNameInTable="columnPROPINSI" msprop:Generator_ColumnPropNameInRow="PROPINSI" msprop:Generator_ColumnPropNameInTable="PROPINSIColumn" msprop:Generator_UserColumnName="PROPINSI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA" msprop:Generator_ColumnVarNameInTable="columnKOTA" msprop:Generator_ColumnPropNameInRow="KOTA" msprop:Generator_ColumnPropNameInTable="KOTAColumn" msprop:Generator_UserColumnName="KOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_POS" msprop:Generator_ColumnVarNameInTable="columnKODE_POS" msprop:Generator_ColumnPropNameInRow="KODE_POS" msprop:Generator_ColumnPropNameInTable="KODE_POSColumn" msprop:Generator_UserColumnName="KODE_POS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_CUSTOMER" msprop:Generator_ColumnVarNameInTable="columnNAMA_CUSTOMER" msprop:Generator_ColumnPropNameInRow="NAMA_CUSTOMER" msprop:Generator_ColumnPropNameInTable="NAMA_CUSTOMERColumn" msprop:Generator_UserColumnName="NAMA_CUSTOMER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_DIVISI" msprop:Generator_ColumnVarNameInTable="columnNAMA_DIVISI" msprop:Generator_ColumnPropNameInRow="NAMA_DIVISI" msprop:Generator_ColumnPropNameInTable="NAMA_DIVISIColumn" msprop:Generator_UserColumnName="NAMA_DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RETUR_PEMBELIAN" msprop:Generator_TableClassName="RETUR_PEMBELIANDataTable" msprop:Generator_TableVarName="tableRETUR_PEMBELIAN" msprop:Generator_TablePropName="RETUR_PEMBELIAN" msprop:Generator_RowDeletingName="RETUR_PEMBELIANRowDeleting" msprop:Generator_RowChangingName="RETUR_PEMBELIANRowChanging" msprop:Generator_RowEvHandlerName="RETUR_PEMBELIANRowChangeEventHandler" msprop:Generator_RowDeletedName="RETUR_PEMBELIANRowDeleted" msprop:Generator_UserTableName="RETUR_PEMBELIAN" msprop:Generator_RowChangedName="RETUR_PEMBELIANRowChanged" msprop:Generator_RowEvArgName="RETUR_PEMBELIANRowChangeEvent" msprop:Generator_RowClassName="RETUR_PEMBELIANRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NO_RETUR" msprop:Generator_ColumnVarNameInTable="columnNO_RETUR" msprop:Generator_ColumnPropNameInRow="NO_RETUR" msprop:Generator_ColumnPropNameInTable="NO_RETURColumn" msprop:Generator_UserColumnName="NO_RETUR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JENIS_PPN" msprop:Generator_ColumnVarNameInTable="columnJENIS_PPN" msprop:Generator_ColumnPropNameInRow="JENIS_PPN" msprop:Generator_ColumnPropNameInTable="JENIS_PPNColumn" msprop:Generator_UserColumnName="JENIS_PPN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GUDANG" msprop:Generator_ColumnVarNameInTable="columnGUDANG" msprop:Generator_ColumnPropNameInRow="GUDANG" msprop:Generator_ColumnPropNameInTable="GUDANGColumn" msprop:Generator_UserColumnName="GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_INTERNAL" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInRow="KETERANGAN_INTERNAL" msprop:Generator_ColumnPropNameInTable="KETERANGAN_INTERNALColumn" msprop:Generator_UserColumnName="KETERANGAN_INTERNAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUBTOTAL" msprop:Generator_ColumnVarNameInTable="columnSUBTOTAL" msprop:Generator_ColumnPropNameInRow="SUBTOTAL" msprop:Generator_ColumnPropNameInTable="SUBTOTALColumn" msprop:Generator_UserColumnName="SUBTOTAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY" msprop:Generator_ColumnPropNameInRow="DISC_QTY" msprop:Generator_ColumnPropNameInTable="DISC_QTYColumn" msprop:Generator_UserColumnName="DISC_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_QTY_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_QTY_NOMINALColumn" msprop:Generator_UserColumnName="DISC_QTY_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_REG" msprop:Generator_ColumnVarNameInTable="columnDISC_REG" msprop:Generator_ColumnPropNameInRow="DISC_REG" msprop:Generator_ColumnPropNameInTable="DISC_REGColumn" msprop:Generator_UserColumnName="DISC_REG" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_REG_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_REG_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_REG_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_REG_NOMINALColumn" msprop:Generator_UserColumnName="DISC_REG_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_1" msprop:Generator_ColumnVarNameInTable="columnDISC_1" msprop:Generator_ColumnPropNameInRow="DISC_1" msprop:Generator_ColumnPropNameInTable="DISC_1Column" msprop:Generator_UserColumnName="DISC_1" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_1_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_1_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_1_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_1_NOMINALColumn" msprop:Generator_UserColumnName="DISC_1_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_2" msprop:Generator_ColumnVarNameInTable="columnDISC_2" msprop:Generator_ColumnPropNameInRow="DISC_2" msprop:Generator_ColumnPropNameInTable="DISC_2Column" msprop:Generator_UserColumnName="DISC_2" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_2_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_2_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_2_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_2_NOMINALColumn" msprop:Generator_UserColumnName="DISC_2_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_3" msprop:Generator_ColumnVarNameInTable="columnDISC_3" msprop:Generator_ColumnPropNameInRow="DISC_3" msprop:Generator_ColumnPropNameInTable="DISC_3Column" msprop:Generator_UserColumnName="DISC_3" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_3_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnDISC_3_NOMINAL" msprop:Generator_ColumnPropNameInRow="DISC_3_NOMINAL" msprop:Generator_ColumnPropNameInTable="DISC_3_NOMINALColumn" msprop:Generator_UserColumnName="DISC_3_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="CASH_DISC" msprop:Generator_ColumnVarNameInTable="columnCASH_DISC" msprop:Generator_ColumnPropNameInRow="CASH_DISC" msprop:Generator_ColumnPropNameInTable="CASH_DISCColumn" msprop:Generator_UserColumnName="CASH_DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="CASH_DISC_NOMINAL" msprop:Generator_ColumnVarNameInTable="columnCASH_DISC_NOMINAL" msprop:Generator_ColumnPropNameInRow="CASH_DISC_NOMINAL" msprop:Generator_ColumnPropNameInTable="CASH_DISC_NOMINALColumn" msprop:Generator_UserColumnName="CASH_DISC_NOMINAL" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY1" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY1" msprop:Generator_ColumnPropNameInRow="DISC_QTY1" msprop:Generator_ColumnPropNameInTable="DISC_QTY1Column" msprop:Generator_UserColumnName="DISC_QTY1" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC_QTY_NOMINAL1" msprop:Generator_ColumnVarNameInTable="columnDISC_QTY_NOMINAL1" msprop:Generator_ColumnPropNameInRow="DISC_QTY_NOMINAL1" msprop:Generator_ColumnPropNameInTable="DISC_QTY_NOMINAL1Column" msprop:Generator_UserColumnName="DISC_QTY_NOMINAL1" type="xs:double" minOccurs="0" />
+              <xs:element name="DPP" msprop:Generator_ColumnVarNameInTable="columnDPP" msprop:Generator_ColumnPropNameInRow="DPP" msprop:Generator_ColumnPropNameInTable="DPPColumn" msprop:Generator_UserColumnName="DPP" type="xs:double" minOccurs="0" />
+              <xs:element name="PPN" msprop:Generator_ColumnVarNameInTable="columnPPN" msprop:Generator_ColumnPropNameInRow="PPN" msprop:Generator_ColumnPropNameInTable="PPNColumn" msprop:Generator_UserColumnName="PPN" type="xs:double" minOccurs="0" />
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ISI" msprop:Generator_ColumnVarNameInTable="columnISI" msprop:Generator_ColumnPropNameInRow="ISI" msprop:Generator_ColumnPropNameInTable="ISIColumn" msprop:Generator_UserColumnName="ISI" type="xs:double" minOccurs="0" />
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KONVERSI" msprop:Generator_ColumnVarNameInTable="columnKONVERSI" msprop:Generator_ColumnPropNameInRow="KONVERSI" msprop:Generator_ColumnPropNameInTable="KONVERSIColumn" msprop:Generator_UserColumnName="KONVERSI" type="xs:double" minOccurs="0" />
+              <xs:element name="PCS" msprop:Generator_ColumnVarNameInTable="columnPCS" msprop:Generator_ColumnPropNameInRow="PCS" msprop:Generator_ColumnPropNameInTable="PCSColumn" msprop:Generator_UserColumnName="PCS" type="xs:double" minOccurs="0" />
+              <xs:element name="HARGA" msprop:Generator_ColumnVarNameInTable="columnHARGA" msprop:Generator_ColumnPropNameInRow="HARGA" msprop:Generator_ColumnPropNameInTable="HARGAColumn" msprop:Generator_UserColumnName="HARGA" type="xs:double" minOccurs="0" />
+              <xs:element name="DISC" msprop:Generator_ColumnVarNameInTable="columnDISC" msprop:Generator_ColumnPropNameInRow="DISC" msprop:Generator_ColumnPropNameInTable="DISCColumn" msprop:Generator_UserColumnName="DISC" type="xs:double" minOccurs="0" />
+              <xs:element name="DISKON_SATUAN" msprop:Generator_ColumnVarNameInTable="columnDISKON_SATUAN" msprop:Generator_ColumnPropNameInRow="DISKON_SATUAN" msprop:Generator_ColumnPropNameInTable="DISKON_SATUANColumn" msprop:Generator_UserColumnName="DISKON_SATUAN" type="xs:double" minOccurs="0" />
+              <xs:element name="URUTAN" msprop:Generator_ColumnVarNameInTable="columnURUTAN" msprop:Generator_ColumnPropNameInRow="URUTAN" msprop:Generator_ColumnPropNameInTable="URUTANColumn" msprop:Generator_UserColumnName="URUTAN" type="xs:double" minOccurs="0" />
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA" msprop:Generator_ColumnVarNameInTable="columnNAMA" msprop:Generator_ColumnPropNameInRow="NAMA" msprop:Generator_ColumnPropNameInTable="NAMAColumn" msprop:Generator_UserColumnName="NAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_KANTOR" msprop:Generator_ColumnVarNameInTable="columnALAMAT_KANTOR" msprop:Generator_ColumnPropNameInRow="ALAMAT_KANTOR" msprop:Generator_ColumnPropNameInTable="ALAMAT_KANTORColumn" msprop:Generator_UserColumnName="ALAMAT_KANTOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROPINSI" msprop:Generator_ColumnVarNameInTable="columnPROPINSI" msprop:Generator_ColumnPropNameInRow="PROPINSI" msprop:Generator_ColumnPropNameInTable="PROPINSIColumn" msprop:Generator_UserColumnName="PROPINSI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOTA" msprop:Generator_ColumnVarNameInTable="columnKOTA" msprop:Generator_ColumnPropNameInRow="KOTA" msprop:Generator_ColumnPropNameInTable="KOTAColumn" msprop:Generator_UserColumnName="KOTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_POS" msprop:Generator_ColumnVarNameInTable="columnKODE_POS" msprop:Generator_ColumnPropNameInRow="KODE_POS" msprop:Generator_ColumnPropNameInTable="KODE_POSColumn" msprop:Generator_UserColumnName="KODE_POS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PABRIK" msprop:Generator_ColumnVarNameInTable="columnKODE_PABRIK" msprop:Generator_ColumnPropNameInRow="KODE_PABRIK" msprop:Generator_ColumnPropNameInTable="KODE_PABRIKColumn" msprop:Generator_UserColumnName="KODE_PABRIK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_DIVISI" msprop:Generator_ColumnVarNameInTable="columnNAMA_DIVISI" msprop:Generator_ColumnPropNameInRow="NAMA_DIVISI" msprop:Generator_ColumnPropNameInTable="NAMA_DIVISIColumn" msprop:Generator_UserColumnName="NAMA_DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_TTB" msprop:Generator_ColumnVarNameInTable="columnNO_TTB" msprop:Generator_ColumnPropNameInRow="NO_TTB" msprop:Generator_ColumnPropNameInTable="NO_TTBColumn" msprop:Generator_UserColumnName="NO_TTB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PACKING" msprop:Generator_ColumnVarNameInTable="columnKODE_PACKING" msprop:Generator_ColumnPropNameInRow="KODE_PACKING" msprop:Generator_ColumnPropNameInTable="KODE_PACKINGColumn" msprop:Generator_UserColumnName="KODE_PACKING" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TRANSFER_BARANG" msprop:Generator_TableClassName="TRANSFER_BARANGDataTable" msprop:Generator_TableVarName="tableTRANSFER_BARANG" msprop:Generator_TablePropName="TRANSFER_BARANG" msprop:Generator_RowDeletingName="TRANSFER_BARANGRowDeleting" msprop:Generator_RowChangingName="TRANSFER_BARANGRowChanging" msprop:Generator_RowEvHandlerName="TRANSFER_BARANGRowChangeEventHandler" msprop:Generator_RowDeletedName="TRANSFER_BARANGRowDeleted" msprop:Generator_UserTableName="TRANSFER_BARANG" msprop:Generator_RowChangedName="TRANSFER_BARANGRowChanged" msprop:Generator_RowEvArgName="TRANSFER_BARANGRowChangeEvent" msprop:Generator_RowClassName="TRANSFER_BARANGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TRANSAKSI" msprop:Generator_ColumnVarNameInTable="columnID_TRANSAKSI" msprop:Generator_ColumnPropNameInRow="ID_TRANSAKSI" msprop:Generator_ColumnPropNameInTable="ID_TRANSAKSIColumn" msprop:Generator_UserColumnName="ID_TRANSAKSI">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA" msprop:Generator_ColumnVarNameInTable="columnNAMA" msprop:Generator_ColumnPropNameInRow="NAMA" msprop:Generator_ColumnPropNameInTable="NAMAColumn" msprop:Generator_UserColumnName="NAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_TRANSFER" msprop:Generator_ColumnVarNameInTable="columnNO_TRANSFER" msprop:Generator_ColumnPropNameInRow="NO_TRANSFER" msprop:Generator_ColumnPropNameInTable="NO_TRANSFERColumn" msprop:Generator_UserColumnName="NO_TRANSFER">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TGL" msprop:Generator_ColumnVarNameInTable="columnTGL" msprop:Generator_ColumnPropNameInRow="TGL" msprop:Generator_ColumnPropNameInTable="TGLColumn" msprop:Generator_UserColumnName="TGL" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TGL_PENGAKUAN" msprop:Generator_ColumnVarNameInTable="columnTGL_PENGAKUAN" msprop:Generator_ColumnPropNameInRow="TGL_PENGAKUAN" msprop:Generator_ColumnPropNameInTable="TGL_PENGAKUANColumn" msprop:Generator_UserColumnName="TGL_PENGAKUAN" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DIVISI" msprop:Generator_ColumnVarNameInTable="columnDIVISI" msprop:Generator_ColumnPropNameInRow="DIVISI" msprop:Generator_ColumnPropNameInTable="DIVISIColumn" msprop:Generator_UserColumnName="DIVISI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_GUDANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_GUDANG" msprop:Generator_ColumnPropNameInRow="NAMA_GUDANG" msprop:Generator_ColumnPropNameInTable="NAMA_GUDANGColumn" msprop:Generator_UserColumnName="NAMA_GUDANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KETERANGAN_CETAK" msprop:Generator_ColumnVarNameInTable="columnKETERANGAN_CETAK" msprop:Generator_ColumnPropNameInRow="KETERANGAN_CETAK" msprop:Generator_ColumnPropNameInTable="KETERANGAN_CETAKColumn" msprop:Generator_UserColumnName="KETERANGAN_CETAK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_BARANG" msprop:Generator_ColumnVarNameInTable="columnID_BARANG" msprop:Generator_ColumnPropNameInRow="ID_BARANG" msprop:Generator_ColumnPropNameInTable="ID_BARANGColumn" msprop:Generator_UserColumnName="ID_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE_PABRIK" msprop:Generator_ColumnVarNameInTable="columnKODE_PABRIK" msprop:Generator_ColumnPropNameInRow="KODE_PABRIK" msprop:Generator_ColumnPropNameInTable="KODE_PABRIKColumn" msprop:Generator_UserColumnName="KODE_PABRIK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KODE" msprop:Generator_ColumnVarNameInTable="columnKODE" msprop:Generator_ColumnPropNameInRow="KODE" msprop:Generator_ColumnPropNameInTable="KODEColumn" msprop:Generator_UserColumnName="KODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_BARANG" msprop:Generator_ColumnVarNameInTable="columnNAMA_BARANG" msprop:Generator_ColumnPropNameInRow="NAMA_BARANG" msprop:Generator_ColumnPropNameInTable="NAMA_BARANGColumn" msprop:Generator_UserColumnName="NAMA_BARANG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:double" minOccurs="0" />
+              <xs:element name="SATUAN" msprop:Generator_ColumnVarNameInTable="columnSATUAN" msprop:Generator_ColumnPropNameInRow="SATUAN" msprop:Generator_ColumnPropNameInTable="SATUANColumn" msprop:Generator_UserColumnName="SATUAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUTAN" msprop:Generator_ColumnVarNameInTable="columnURUTAN" msprop:Generator_ColumnPropNameInRow="URUTAN" msprop:Generator_ColumnPropNameInTable="URUTANColumn" msprop:Generator_UserColumnName="URUTAN" type="xs:double" minOccurs="0" />
+              <xs:element name="KOLI" msprop:Generator_ColumnVarNameInTable="columnKOLI" msprop:Generator_ColumnPropNameInRow="KOLI" msprop:Generator_ColumnPropNameInTable="KOLIColumn" msprop:Generator_UserColumnName="KOLI" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HARGA" msprop:Generator_ColumnVarNameInTable="columnHARGA" msprop:Generator_ColumnPropNameInRow="HARGA" msprop:Generator_ColumnPropNameInTable="HARGAColumn" msprop:Generator_UserColumnName="HARGA" type="xs:double" minOccurs="0" />
+              <xs:element name="PCS" msprop:Generator_ColumnVarNameInTable="columnPCS" msprop:Generator_ColumnPropNameInRow="PCS" msprop:Generator_ColumnPropNameInTable="PCSColumn" msprop:Generator_UserColumnName="PCS" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TRANSFER_BARANG" />
+      <xs:field xpath="mstns:ID_TRANSAKSI" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
