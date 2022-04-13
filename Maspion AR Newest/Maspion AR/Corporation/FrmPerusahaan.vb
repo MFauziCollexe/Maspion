@@ -16,7 +16,7 @@
                 _Toolbar1_Button3.PerformClick()
         End Select
     End Sub
-
+    ''tes
     Private Sub FrmDivisi_Load(sender As Object, e As System.EventArgs) Handles Me.Load
         LoadData.GetData("SELECT [NAMA] ,[INITIAL] ,[ALAMAT] ,[KOTA] ,[TELP] ,[FAX] ,[REKENING] ,[NPWP] ,[TGL_PENGUKUAN] ,[CUST_PEMBELIAN], EMAIL_OTP, OTP_AKTIF FROM PERUSAHAAN")
         LoadData.SetData({TxtNamaPerusahaan, TxtInisialPerusahaan, TxtAlamat, TxtKota, TxtTelepon, TxtFax, TxtRekening, TxtNPWP, DTPengukuhan, TxtIDCustomer, TxtEmailOTP, ChkOTP})
