@@ -480,7 +480,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabPage1.Controls.Add(Me.LabelControl9)
         Me.XtraTabPage1.Controls.Add(Me.TxtFax)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(952, 379)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(948, 384)
         Me.XtraTabPage1.Text = "Setup"
         '
         'ChkOTP
@@ -546,7 +546,7 @@ Partial Class FrmPerusahaan
         '
         Me.XtraTabPage2.Controls.Add(Me.LayoutControl1)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(954, 390)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(948, 384)
         Me.XtraTabPage2.Text = "Utility"
         '
         'LayoutControl1
@@ -557,7 +557,7 @@ Partial Class FrmPerusahaan
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(954, 390)
+        Me.LayoutControl1.Size = New System.Drawing.Size(948, 384)
         Me.LayoutControl1.TabIndex = 23
         Me.LayoutControl1.Text = "LayoutControl1"
         '
@@ -566,7 +566,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabControl2.Location = New System.Drawing.Point(12, 36)
         Me.XtraTabControl2.Name = "XtraTabControl2"
         Me.XtraTabControl2.SelectedTabPage = Me.XtraTabPage3
-        Me.XtraTabControl2.Size = New System.Drawing.Size(930, 342)
+        Me.XtraTabControl2.Size = New System.Drawing.Size(924, 336)
         Me.XtraTabControl2.TabIndex = 14
         Me.XtraTabControl2.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage3, Me.XtraTabPage4, Me.XtraTabPage5, Me.XtraTabPage6, Me.XtraTabPage7})
         '
@@ -576,7 +576,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabPage3.Controls.Add(Me.TBDO)
         Me.XtraTabPage3.Controls.Add(Me.Label1)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(928, 309)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(918, 308)
         Me.XtraTabPage3.Text = "Setting No. DO"
         '
         'BtnLoadDO
@@ -594,7 +594,7 @@ Partial Class FrmPerusahaan
         Me.TBDO.MainView = Me.GridView1
         Me.TBDO.Name = "TBDO"
         Me.TBDO.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RBEdit})
-        Me.TBDO.Size = New System.Drawing.Size(928, 276)
+        Me.TBDO.Size = New System.Drawing.Size(918, 275)
         Me.TBDO.TabIndex = 12
         Me.TBDO.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -623,7 +623,7 @@ Partial Class FrmPerusahaan
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(928, 33)
+        Me.Label1.Size = New System.Drawing.Size(918, 33)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Ubah Nomor DO"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -634,7 +634,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabPage4.Controls.Add(Me.TBNotaSJ)
         Me.XtraTabPage4.Controls.Add(Me.Label2)
         Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(924, 314)
+        Me.XtraTabPage4.Size = New System.Drawing.Size(918, 308)
         Me.XtraTabPage4.Text = "Setting No. Nota/SJ"
         '
         'BtnLoadNota
@@ -652,7 +652,7 @@ Partial Class FrmPerusahaan
         Me.TBNotaSJ.MainView = Me.GridView2
         Me.TBNotaSJ.Name = "TBNotaSJ"
         Me.TBNotaSJ.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RBeditNotaSJ})
-        Me.TBNotaSJ.Size = New System.Drawing.Size(924, 281)
+        Me.TBNotaSJ.Size = New System.Drawing.Size(918, 275)
         Me.TBNotaSJ.TabIndex = 16
         Me.TBNotaSJ.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -681,7 +681,7 @@ Partial Class FrmPerusahaan
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(924, 33)
+        Me.Label2.Size = New System.Drawing.Size(918, 33)
         Me.Label2.TabIndex = 15
         Me.Label2.Text = "Ubah Nomor Nota/SJ"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -692,7 +692,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabPage5.Controls.Add(Me.TBBonTitipan)
         Me.XtraTabPage5.Controls.Add(Me.Label3)
         Me.XtraTabPage5.Name = "XtraTabPage5"
-        Me.XtraTabPage5.Size = New System.Drawing.Size(924, 314)
+        Me.XtraTabPage5.Size = New System.Drawing.Size(918, 308)
         Me.XtraTabPage5.Text = "Setting Bon Pesanan Titipan"
         '
         'BtnLoadTitipan
@@ -710,7 +710,7 @@ Partial Class FrmPerusahaan
         Me.TBBonTitipan.MainView = Me.GridView3
         Me.TBBonTitipan.Name = "TBBonTitipan"
         Me.TBBonTitipan.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepoBon})
-        Me.TBBonTitipan.Size = New System.Drawing.Size(924, 281)
+        Me.TBBonTitipan.Size = New System.Drawing.Size(918, 275)
         Me.TBBonTitipan.TabIndex = 18
         Me.TBBonTitipan.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
         '
@@ -739,7 +739,7 @@ Partial Class FrmPerusahaan
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(0, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(924, 33)
+        Me.Label3.Size = New System.Drawing.Size(918, 33)
         Me.Label3.TabIndex = 17
         Me.Label3.Text = "Ubah Nomor Bon Pesanan Titipan"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -750,7 +750,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabPage6.Controls.Add(Me.BtnLoadReturPenjualan)
         Me.XtraTabPage6.Controls.Add(Me.Label4)
         Me.XtraTabPage6.Name = "XtraTabPage6"
-        Me.XtraTabPage6.Size = New System.Drawing.Size(924, 314)
+        Me.XtraTabPage6.Size = New System.Drawing.Size(918, 308)
         Me.XtraTabPage6.Text = "Setting No. Retur Penjualan"
         '
         'TBReturPenjualan
@@ -760,7 +760,7 @@ Partial Class FrmPerusahaan
         Me.TBReturPenjualan.MainView = Me.GridView4
         Me.TBReturPenjualan.Name = "TBReturPenjualan"
         Me.TBReturPenjualan.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepoReturPenjualan})
-        Me.TBReturPenjualan.Size = New System.Drawing.Size(924, 281)
+        Me.TBReturPenjualan.Size = New System.Drawing.Size(918, 275)
         Me.TBReturPenjualan.TabIndex = 22
         Me.TBReturPenjualan.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView4})
         '
@@ -797,7 +797,7 @@ Partial Class FrmPerusahaan
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(0, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(924, 33)
+        Me.Label4.Size = New System.Drawing.Size(918, 33)
         Me.Label4.TabIndex = 20
         Me.Label4.Text = "Ubah Nomor Retur Penjualan"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -808,7 +808,7 @@ Partial Class FrmPerusahaan
         Me.XtraTabPage7.Controls.Add(Me.BtnLoadReturPembelian)
         Me.XtraTabPage7.Controls.Add(Me.Label5)
         Me.XtraTabPage7.Name = "XtraTabPage7"
-        Me.XtraTabPage7.Size = New System.Drawing.Size(924, 314)
+        Me.XtraTabPage7.Size = New System.Drawing.Size(918, 308)
         Me.XtraTabPage7.Text = "Setting No. Retur Pembelian"
         '
         'TBReturPembelian
@@ -818,7 +818,7 @@ Partial Class FrmPerusahaan
         Me.TBReturPembelian.MainView = Me.GridView5
         Me.TBReturPembelian.Name = "TBReturPembelian"
         Me.TBReturPembelian.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepoReturPembelian})
-        Me.TBReturPembelian.Size = New System.Drawing.Size(924, 281)
+        Me.TBReturPembelian.Size = New System.Drawing.Size(918, 275)
         Me.TBReturPembelian.TabIndex = 23
         Me.TBReturPembelian.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView5})
         '
@@ -855,7 +855,7 @@ Partial Class FrmPerusahaan
         Me.Label5.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(0, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(924, 33)
+        Me.Label5.Size = New System.Drawing.Size(918, 33)
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Ubah Nomor Retur Pembelian"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -879,7 +879,7 @@ Partial Class FrmPerusahaan
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem2, Me.EmptySpaceItem1})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(954, 390)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(948, 384)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem1
@@ -901,7 +901,7 @@ Partial Class FrmPerusahaan
         Me.LayoutControlItem2.CustomizationFormText = "LayoutControlItem2"
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 24)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(934, 346)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(928, 340)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
@@ -911,7 +911,7 @@ Partial Class FrmPerusahaan
         Me.EmptySpaceItem1.CustomizationFormText = "EmptySpaceItem1"
         Me.EmptySpaceItem1.Location = New System.Drawing.Point(276, 0)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(658, 24)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(652, 24)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'RepositoryItemButtonEdit1

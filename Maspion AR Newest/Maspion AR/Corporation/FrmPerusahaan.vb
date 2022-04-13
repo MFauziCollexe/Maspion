@@ -5,7 +5,7 @@
     Private Sub _Toolbar1_Button3_Click(sender As System.Object, e As System.EventArgs) Handles _Toolbar1_Button3.Click
         Me.Dispose()
     End Sub
-
+    ''tes
     Private Sub FrmDivisi_KeyUp(sender As Object, e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyUp
         Dim KeyCode As Integer = e.KeyCode
         Dim Shift As Integer = e.KeyData \ &H10000
